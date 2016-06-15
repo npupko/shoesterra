@@ -1,0 +1,36 @@
+p#notice = notice
+
+p
+  strong Brand:
+  = @product.brand
+p
+  strong Price:
+  = @product.price
+p
+  strong Min size:
+  = @product.min_size
+p
+  strong Max size:
+  = @product.max_size
+p
+  strong Season:
+  = @product.season
+p
+  strong Sex:
+  = @product.sex
+p
+  strong Top matereal:
+  = @product.top_matereal
+p
+  strong Pad matereal:
+  = @product.pad_matereal
+p
+  strong Sole matereal:
+  = @product.sole_matereal
+p
+  strong Type:
+  = @product.type
+
+= link_to 'Edit', edit_product_path(@product)
+'|
+= link_to 'Back', products_path

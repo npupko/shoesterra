@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  brand: MyString
+  price: 9.99
+  min_size: 1
+  max_size: 1
+  season: MyString
+  sex: MyString
+  top_matereal: MyString
+  pad_matereal: MyString
+  sole_matereal: MyString
+  type: 
+
+two:
+  brand: MyString
+  price: 9.99
+  min_size: 1
+  max_size: 1
+  season: MyString
+  sex: MyString
+  top_matereal: MyString
+  pad_matereal: MyString
+  sole_matereal: MyString
+  type: 

@@ -1,0 +1,39 @@
+h1 Listing products
+
+table
+  thead
+    tr
+      th Brand
+      th Price
+      th Min size
+      th Max size
+      th Season
+      th Sex
+      th Top matereal
+      th Pad matereal
+      th Sole matereal
+      th Type
+      th
+      th
+      th
+
+  tbody
+    - @products.each do |product|
+      tr
+        td = product.brand
+        td = product.price
+        td = product.min_size
+        td = product.max_size
+        td = product.season
+        td = product.sex
+        td = product.top_matereal
+        td = product.pad_matereal
+        td = product.sole_matereal
+        td = product.type
+        td = link_to 'Show', product
+        td = link_to 'Edit', edit_product_path(product)
+        td = link_to 'Destroy', product, data: { confirm: 'Are you sure?' }, method: :delete
+
+br
+
+= link_to 'New Product', new_product_path
