@@ -4,6 +4,7 @@ class ProductsController < ApplicationController
   # GET /products
   # GET /products.json
   def index
+    authenticate_user!
     @products = Product.all
   end
 
@@ -14,18 +15,19 @@ class ProductsController < ApplicationController
 
   # GET /products/new
   def new
+    authenticate_user!
     @product = Product.new
   end
 
   # GET /products/1/edit
   def edit
+    authenticate_user!
   end
 
   # POST /products
   # POST /products.json
   def create
     @product = Product.new(product_params)
-
     respond_to do |format|
       if @product.save
         format.html { redirect_to @product, notice: 'Product was successfully created.' }
@@ -54,6 +56,7 @@ class ProductsController < ApplicationController
   # DELETE /products/1
   # DELETE /products/1.json
   def destroy
+    authenticate_user!
     @product.destroy
     respond_to do |format|
       format.html { redirect_to products_url, notice: 'Product was successfully destroyed.' }
