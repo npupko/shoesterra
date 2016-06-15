@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160615171910) do
+ActiveRecord::Schema.define(version: 20160615202423) do
 
   create_table "products", force: :cascade do |t|
     t.string   "brand"
@@ -23,9 +23,33 @@ ActiveRecord::Schema.define(version: 20160615171910) do
     t.string   "top_matereal"
     t.string   "pad_matereal"
     t.string   "sole_matereal"
-    t.string   "type"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.string   "shoe_type"
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
+    t.string   "main_image_file_name"
+    t.string   "main_image_content_type"
+    t.integer  "main_image_file_size"
+    t.datetime "main_image_updated_at"
+    t.string   "first_image_file_name"
+    t.string   "first_image_content_type"
+    t.integer  "first_image_file_size"
+    t.datetime "first_image_updated_at"
+    t.string   "second_image_file_name"
+    t.string   "second_image_content_type"
+    t.integer  "second_image_file_size"
+    t.datetime "second_image_updated_at"
+    t.string   "third_image_file_name"
+    t.string   "third_image_content_type"
+    t.integer  "third_image_file_size"
+    t.datetime "third_image_updated_at"
+    t.string   "fourth_image_file_name"
+    t.string   "fourth_image_content_type"
+    t.integer  "fourth_image_file_size"
+    t.datetime "fourth_image_updated_at"
+    t.string   "fifth_image_file_name"
+    t.string   "fifth_image_content_type"
+    t.integer  "fifth_image_file_size"
+    t.datetime "fifth_image_updated_at"
   end
 
   create_table "users", force: :cascade do |t|
