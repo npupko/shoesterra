@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  get 'static_pages/home'
+  get '/home' => 'static_pages#home'
 
-  get 'static_pages/catalog'
+  get '/catalog' => 'static_pages#catalog'
 
-  get 'static_pages/about'
+  get '/about' => 'static_pages#about'
 
-  get 'static_pages/contacts'
+  get '/contacts' => 'static_pages#contacts'
 
   resources :products
   devise_for :users
