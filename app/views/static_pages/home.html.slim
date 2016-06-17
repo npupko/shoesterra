@@ -8,17 +8,17 @@ div id="carousel-example-generic" class="carousel slide" data-ride="carousel" st
   div class="carousel-inner" role="listbox"
     div class="item active"
       = image_tag("banner2.jpg")
-      div class="carousel-caption"
+      .carousel-caption
         h1 НОВАЯ КОЛЛЕКЦИЯ ВЕСНА / ЛЕТО 2016
 
     div class="item"
       = image_tag("banner3.jpg")
-      div class="carousel-caption"
+      .carousel-caption
         h1 ЛЕТНЯЯ РАСПРОДАЖА 2016 СКИДКИ 20%
 
     div class="item"
       = image_tag("banner1.jpg")
-      div class="carousel-caption"
+      .carousel-caption
         h1 CAPRICE ВЕСНА / ЛЕТО 2016
 
   /!Controls
@@ -30,21 +30,11 @@ div id="carousel-example-generic" class="carousel slide" data-ride="carousel" st
     span class="sr-only" Next
 
 .container-fluid
-  .row
-    h2.gradient Популярные модели
+  h2.gradient Популярные модели
 
   .row
-    .col-md-3 .col-md-3
-    .col-md-3 .col-md-3
-    .col-md-3 .col-md-3
-    .col-md-3 .col-md-3
-
-  .row
-    .col-md-3 .col-md-3
-    .col-md-3 .col-md-3
-    .col-md-3 .col-md-3
-    .col-md-3 .col-md-3
-
-- @products.each do |product|
-  .col-md-3
-    = image_tag @product.main_image.url
+    - @products.each do |product|
+      .popular.col-md-3.col-sm-4
+        = link_to image_tag(product.main_image.url(:medium)), product
+        h3.price
+          = number_to_currency(product.price, unit: "руб.", separator: ",", delimiter: "", format: "%n %u")

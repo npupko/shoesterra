@@ -12,11 +12,13 @@
  *
  */
 $screen-sm-min: 900px;
-$screen-md-min: 1000px;
+$screen-md-min: 1060px;
 $screen-lg-min: 1200px;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "products";
+@import "static_pages";
 
 @font-face {
   font-family: 'Neris-Light';
@@ -26,6 +28,9 @@ $screen-lg-min: 1200px;
 //========================================================================================================================
 /* Small devices (tablets, 900px and up) */
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  h2 {
+    margin-bottom: 20px;
+  }
 .navbar-default .navbar-nav > .active > a {
   border-radius: 5px;
   }
@@ -33,6 +38,9 @@ $screen-lg-min: 1200px;
 
 /* Medium devices (desktops, 1000px and up) */
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  h2 {
+    margin-bottom: 20px;
+  }
   //Закругленные углы у меню
   .navbar-default .navbar-nav > .active > a {
   border-radius: 5px;
@@ -52,6 +60,9 @@ $screen-lg-min: 1200px;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: $screen-lg-min) {
+  h2 {
+    margin-bottom: 20px;
+  }
   //Королевские отступы на больших экранах
   .container-fluid {
   padding-left: 80px;
@@ -119,9 +130,19 @@ body {
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
-.col-md-3 {
+//Для верстки
+/*.col-md-3 {
   border: 1px solid;
+}*/
+
+.footer {
+  margin-top: 20px;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #f7f7f7;
 }
