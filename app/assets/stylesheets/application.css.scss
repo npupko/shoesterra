@@ -11,41 +11,89 @@
  * file per style scope.
  *
  */
+$screen-sm-min: 900px;
+$screen-md-min: 1000px;
+$screen-lg-min: 1200px;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
 @font-face {
   font-family: 'Neris-Light';
   src: url('Neris/Neris-Light.otf');
 }
 
-@font-face {
-    font-family: 'nerislight';
-    src: asset-url('Neris-Light-webfont.eot');
-    src: asset-url('Neris-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         asset-url('Neris-Light-webfont.woff') format('woff'),
-         asset-url('Neris-Light-webfont.ttf') format('truetype'),
-         asset-url('Neris-Light-webfont.svg#nerislight') format('svg');
-    font-weight: normal;
-    font-style: normal;
+//========================================================================================================================
+/* Small devices (tablets, 900px and up) */
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+.navbar-default .navbar-nav > .active > a {
+  border-radius: 5px;
+  }
+}
 
+/* Medium devices (desktops, 1000px and up) */
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  //Закругленные углы у меню
+  .navbar-default .navbar-nav > .active > a {
+  border-radius: 5px;
+  }
+  //Выравнивает надпись по левому краю
+  .carousel-caption {
+    left: 60px;
+    bottom: 10%;
+    right: auto;
+    text-align: left;
+    //Прямоугольник на всякий пожарный
+    /*padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    right: 50%;*/
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+  //Королевские отступы на больших экранах
+  .container-fluid {
+  padding-left: 80px;
+  padding-right: 80px;
+  }
+  //Закругленные углы у меню
+  .navbar-default .navbar-nav > .active > a {
+  border-radius: 5px;
+  }
+  //Выравнивает надпись по левому краю
+  .carousel-caption {
+    left: 80px;
+    bottom: 10%;
+    right: auto;
+    text-align: left;
+    //Прямоугольник на всякий пожарный
+    /*padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    right: 50%;*/
+  }
+}
+//========================================================================================================================
+
+body {
+  font-family: 'Neris-Light';
 }
 
 .navbar {
   min-height: 100px;
   background-color: #fff;
+  margin-bottom: 0;
 }
 
+//Шаманство с выравниваниями
 .navbar-default .container-fluid {
   padding-top: 23px;
 }
 
+//Размер текста в меню
 .navbar-default .navbar-nav > li > a {
   color: #c21659;
   font-size: 20px;
-}
-
-body {
-  font-family: 'Neris-Light';
 }
 
 .navbar-brand {
@@ -55,7 +103,25 @@ body {
   padding-right: 0px;
 }
 
+//Стрелочки Carousel от экрана
+.carousel-control {
+  width: 6%;
+}
 
-.navbar-default .navbar-nav > .active > a {
-  border-radius: 5px;
+//Выключаю непрозрачность при наведении Carousel
+.carousel-control.left, .carousel-control.right {
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.gradient {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 30px;
+}
+
+.col-md-3 {
+  border: 1px solid;
 }
