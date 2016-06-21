@@ -4,6 +4,10 @@ class StaticPagesController < ApplicationController
   end
 
   def catalog
+    @query = Product.search do
+      fulltext params[:search]
+    end
+    @products = @query.results
   end
 
   def about
