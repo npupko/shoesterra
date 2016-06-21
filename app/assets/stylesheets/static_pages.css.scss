@@ -32,7 +32,18 @@ h2 {
   margin-bottom: 30px;
 }
 
+ul.sidebar {
+  list-style-type: none;
+    padding-left: 0;
+}
 
+.col-lg-2.sidebar {
+  border-right: 1px solid #e7e7e7;
+  border-left: 1px solid #e7e7e7;
+  min-height:100%;
+  bottom: 0;
+  background-color: #f5f5f5;
+}
 
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
   .col-sm-3 {

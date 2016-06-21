@@ -5,30 +5,60 @@
 /
 /- @products.each do |product|
 /  = link_to product.brand, product
-
-.row
-  .col-lg-2
-    ul
-      li
-        a href="#"  Dashboard
-      li
-        a href="#"  Shortcuts
-      li
-        a href="#"  Overview
-      li
-        a href="#"  Events
-      li
-        a href="#"  About
-      li
-        a href="#"  Services
-      li
-        a href="#"  Contact
-  .col-lg-10
-    = form_tag catalog_path, :method => 'get' do
-      = text_field_tag :search, params[:search]
-      = submit_tag "Search", :name => nil
-    h1 Simple Sidebar
-    p This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.
-    - @products.each do |product|
-      br
-      = link_to product.brand, product
+.container-fluid
+  .row
+    .col-lg-2.sidebar
+      ul.sidebar
+        li
+          h4 Параметры поиска:
+          = form_tag catalog_path, :method => 'get' do
+            = radio_button_tag(:sex, "Мужская обувь")
+            = label_tag(:sex, "Мужская обувь")
+            br
+            = radio_button_tag(:sex, "Женская обувь")
+            = label_tag(:sex, "Женская обувь")
+            br
+            /=label_tag(:brand ,"Производитель:")
+            /= select(Product , :brand, Product.all.collect {|p| [ p.brand ] }, {prompt: 'Любой'})
+            /= select_tag(:brand, options_for_select([['Gabriele'], ['S.Oliver']]))
+            br
+            |Размер
+            br
+            = label_tag(:min_size, "От")
+            = text_field_tag :min_size, params[:min_size]
+            br
+            = submit_tag "Search", :name => nil
+    .col-lg-10
+      h1 Simple Sidebar
+      p This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.
+      = form_tag catalog_path, :method => 'get' do
+        = text_field_tag :search, params[:search]
+        = text_field_tag :price, params[:price]
+        = text_field_tag :brand, params[:brand]
+        = submit_tag "Search", :name => nil
+      table class="table table-striped"
+        thead
+          tr
+            th Производитель
+            th Цена
+            th Мин. размер
+            th Макс. размер
+            th Сезон
+            th Пол
+            th Материал верха
+            th Подкладка
+            th Подошва
+            th Тип обуви
+        tbody
+          - @products.each do |product|
+            tr
+              td = product.brand
+              td = product.price
+              td = product.min_size
+              td = product.max_size
+              td = product.season
+              td = product.sex
+              td = product.top_matereal
+              td = product.pad_matereal
+              td = product.sole_matereal
+              td = product.shoe_type
