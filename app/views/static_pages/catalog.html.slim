@@ -5,7 +5,6 @@
 /
 /- @products.each do |product|
 /  = link_to product.brand, product
-
 .container-fluid
   .row
     .col-lg-2.sidebar
@@ -24,11 +23,52 @@
             /= select_tag(:brand, options_for_select([['Gabriele'], ['S.Oliver']]))
             p
               = label_tag(:size, "Производитель:")
-              = select_tag :brand, options_for_select([['Выберите бренд', nil], 'Gabriele', 'S.Oliver'])
+              = select_tag :brand, options_for_select([['Выберите бренд', nil], 'Gabriele', 'S.Oliver']), class: "catalog_select"
             p
               = label_tag(:size, "Размер:")
               br
-              = select_tag :size, options_for_select([['Выберите размер', nil], '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48'])
+              = select_tag :size, options_for_select([['Выберите размер', nil], '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48']), class: "catalog_select"
+            p
+              = label_tag(:season, "Сезон:")
+              = select_tag :season, options_for_select([['Выберите сезон', nil], 'Весна/Осень', 'Зима', 'Лето']), class: "catalog_select"
+            p
+              = label_tag(:shoe_type, "Тип обуви:")
+            p
+              = check_box_tag :shoe_type1, "Сапоги"
+              = label_tag(:shoe_type1, "Сапоги")
+            p
+              = check_box_tag :shoe_type2, "Ботинки"
+              = label_tag(:shoe_type2, "Ботинки")
+            p
+              = check_box_tag :shoe_type3, "Туфли"
+              = label_tag(:shoe_type3, "Туфли")
+            p
+              = check_box_tag :shoe_type4, "Сабо"
+              = label_tag(:shoe_type4, "Сабо")
+            p
+              = check_box_tag :shoe_type5, "Сандалии"
+              = label_tag(:shoe_type5, "Сандалии")
+            p
+              = check_box_tag :shoe_type6, "Босоножки"
+              = label_tag(:shoe_type6, "Босоножки")
+            p
+              = check_box_tag :shoe_type7, "Мокасины"
+              = label_tag(:shoe_type7, "Мокасины")
+            p
+              = check_box_tag :shoe_type8, "Кроссовки"
+              = label_tag(:shoe_type8, "Кроссовки")
+            p
+              = check_box_tag :shoe_type9, "Кеды"
+              = label_tag(:shoe_type9, "Кеды")
+            p
+              = check_box_tag :shoe_type10, "Тапки"
+              = label_tag(:shoe_type10, "Тапки")
+            p
+              = check_box_tag :shoe_type11, "Угги"
+              = label_tag(:shoe_type11, "Угги")
+            p
+              = check_box_tag :shoe_type12, "Слипоны"
+              = label_tag(:shoe_type12, "Слипоны")
             /p
               = label_tag(:min_price, "Цена:")
               = label_tag(:min_price, "От")
@@ -59,8 +99,7 @@
           tr
             th Производитель
             th Цена
-            th Мин. размер
-            th Макс. размер
+            th 35-ый размер
             th Сезон
             th Пол
             th Материал верха
@@ -72,11 +111,15 @@
             tr
               td = product.brand
               td = product.price
-              td = product.min_size
-              td = product.max_size
+              td = product.size_35
               td = product.season
               td = product.sex
               td = product.top_matereal
               td = product.pad_matereal
               td = product.sole_matereal
               td = product.shoe_type
+= params[:shoe_type]
+br
+= @true_shoe_type
+br
+= @compact_shoe_type

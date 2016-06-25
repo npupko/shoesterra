@@ -6,13 +6,26 @@ class Product < ActiveRecord::Base
     text :brand
     string :brand
     float :price
-    integer :min_size
-    integer :max_size
     string :season
     string :sex
     string :top_matereal
     string :pad_matereal
     string :sole_matereal
     string :shoe_type
+    boolean :size_34
+    boolean :size_35
+    boolean :size_36
+    boolean :size_37
+    boolean :size_38
+    boolean :size_39
+    boolean :size_40
+    boolean :size_41
+    boolean :size_42
+    boolean :size_43
+    boolean :size_44
+    boolean :size_45
+    boolean :size_46
+    boolean :size_47
+    boolean :size_48
 end
 end

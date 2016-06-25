@@ -11,13 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160615202423) do
+ActiveRecord::Schema.define(version: 20160625195630) do
+
+  create_table "brands", force: :cascade do |t|
+    t.string   "brand"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "products", force: :cascade do |t|
     t.string   "brand"
     t.decimal  "price"
-    t.integer  "min_size"
-    t.integer  "max_size"
     t.string   "season"
     t.string   "sex"
     t.string   "top_matereal"
@@ -50,6 +54,21 @@ ActiveRecord::Schema.define(version: 20160615202423) do
     t.string   "fifth_image_content_type"
     t.integer  "fifth_image_file_size"
     t.datetime "fifth_image_updated_at"
+    t.boolean  "size_34"
+    t.boolean  "size_35"
+    t.boolean  "size_36"
+    t.boolean  "size_37"
+    t.boolean  "size_38"
+    t.boolean  "size_39"
+    t.boolean  "size_40"
+    t.boolean  "size_41"
+    t.boolean  "size_42"
+    t.boolean  "size_43"
+    t.boolean  "size_44"
+    t.boolean  "size_45"
+    t.boolean  "size_46"
+    t.boolean  "size_47"
+    t.boolean  "size_48"
   end
 
   create_table "users", force: :cascade do |t|
