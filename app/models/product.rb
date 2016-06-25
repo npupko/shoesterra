@@ -4,6 +4,7 @@ class Product < ActiveRecord::Base
   validates_attachment_content_type :main_image, content_type: /\Aimage\/.*\Z/
   searchable do
     text :brand
+    string :brand
     float :price
     integer :min_size
     integer :max_size

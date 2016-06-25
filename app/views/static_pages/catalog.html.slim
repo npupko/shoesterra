@@ -5,6 +5,7 @@
 /
 /- @products.each do |product|
 /  = link_to product.brand, product
+
 .container-fluid
   .row
     .col-lg-2.sidebar
@@ -12,30 +13,47 @@
         li
           h4 Параметры поиска:
           = form_tag catalog_path, :method => 'get' do
-            = radio_button_tag(:sex, "Мужская обувь")
-            = label_tag(:sex, "Мужская обувь")
-            br
-            = radio_button_tag(:sex, "Женская обувь")
-            = label_tag(:sex, "Женская обувь")
-            br
+            p
+              = radio_button_tag :sex, "Мужская обувь"
+              = label_tag :sex, "Мужская обувь"
+              br
+              = radio_button_tag :sex, "Женская обувь"
+              = label_tag :sex, "Женская обувь"
             /=label_tag(:brand ,"Производитель:")
             /= select(Product , :brand, Product.all.collect {|p| [ p.brand ] }, {prompt: 'Любой'})
             /= select_tag(:brand, options_for_select([['Gabriele'], ['S.Oliver']]))
-            br
-            |Размер
-            br
-            = label_tag(:min_size, "От")
-            = text_field_tag :min_size, params[:min_size]
-            br
-            = submit_tag "Search", :name => nil
+            p
+              = label_tag(:size, "Производитель:")
+              = select_tag :brand, options_for_select([['Выберите бренд', nil], 'Gabriele', 'S.Oliver'])
+            p
+              = label_tag(:size, "Размер:")
+              br
+              = select_tag :size, options_for_select([['Выберите размер', nil], '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48'])
+            /p
+              = label_tag(:min_price, "Цена:")
+              = label_tag(:min_price, "От")
+              = number_field_tag :min_price, params[:min_price]
+              = label_tag(:max_price, "До")
+              = text_field_tag :max_price, params[:max_price], value: 200
+
+            p
+              =label_tag(:price, "Цена:")
+              br
+              |От
+              =text_field_tag :min_price, params[:min_price], readonly: true, id: "amount_min"
+              | до
+              =text_field_tag :max_price, params[:min_price], readonly: true, id: "amount_max"
+              | руб.
+              /input type="text" id="amount" style="border:0; color:#c21659; font-weight:bold;"
+              #slider
+            p
+              center
+                = submit_tag "Search", :name => nil
     .col-lg-10
       h1 Simple Sidebar
       p This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.
       = form_tag catalog_path, :method => 'get' do
         = text_field_tag :search, params[:search]
-        = text_field_tag :price, params[:price]
-        = text_field_tag :brand, params[:brand]
-        = submit_tag "Search", :name => nil
       table class="table table-striped"
         thead
           tr

@@ -42,7 +42,49 @@ ul.sidebar {
   border-left: 1px solid #e7e7e7;
   min-height:100%;
   bottom: 0;
-  background-color: #f5f5f5;
+  /*background-color: #f5f5f5;*/
+}
+
+.ui-slider .ui-slider-handle {
+  background-color: #E8E8E8;
+  background-image: none;
+  cursor: pointer;
+}
+
+#amount_max, #amount_min {
+  border:0;
+  color:#c21659;
+  font-weight:bold;
+  width: 20%;
+  text-align: center;
+}
+
+#search {
+  padding: 5px 10px;
+  color: #666666;
+  border: 2px solid #cccccc;
+  border-radius: 20px;
+  background-color: #EDEDED;
+}
+
+select {
+  padding: 5px 10px;
+  color: #666666;
+  border: 1px solid #cccccc;
+  border-radius: 12px;
+  background-color: #fff;
+  width: 100%;
+}
+
+label {
+  color: #777;
+  font-size: 16px;
+}
+
+input[type=radio], input[type=checkbox] {
+  margin-right: 8px;      
+  width: 15px;  
+  height: 15px; 
 }
 
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {

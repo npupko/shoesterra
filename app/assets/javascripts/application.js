@@ -14,4 +14,24 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
+//= require jquery-ui/slider
 //= require_tree .
+
+$(function() {
+    $( "#slider" ).slider({
+      range: true,
+      min: 0,
+      max: 400,
+      values: [ 50, 300 ],
+      slide: function( event, ui ) {
+        $( "#amount_min" ).val(ui.values[ 0 ]);
+        $( "#amount_max" ).val(ui.values[ 1 ]);
+      }
+    });
+    $( "#amount_min" ).val($( "#slider" ).slider( "values", 0 ));
+    $( "#amount_max" ).val($( "#slider" ).slider( "values", 1 ));
+  });
+
+
+//$( "#amount" ).val($( "#slider" ).slider( "values", 0 ) + "$" +
+//      " - " + $( "#slider" ).slider( "values", 1 ) + "$");

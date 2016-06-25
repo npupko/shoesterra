@@ -10,6 +10,8 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+
+ *= require jquery-ui/slider
  */
 $screen-sm-min: 900px;
 $screen-md-min: 1060px;
@@ -19,6 +21,7 @@ $screen-lg-min: 1200px;
 @import "bootstrap";
 @import "products";
 @import "static_pages";
+@import "jquery-ui";
 
 @font-face {
   font-family: 'Neris-Light';

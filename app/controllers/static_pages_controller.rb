@@ -8,11 +8,17 @@ class StaticPagesController < ApplicationController
       fulltext params[:search]
       facet(:sex)
       facet(:price)
+      facet(:brand)
       facet(:min_size)
       facet(:max_size)
       with(:sex, params[:sex]) if params[:sex].present?
+      with(:brand, params[:brand]) if params[:brand].present?
       with(:price, params[:price]) if params[:price].present?
-      with(:min_size, greater_than(params[:min_size])) if params[:min_size].present?
+      range = (params[:min_price].to_i)..(params[:max_price].to_i)
+      with(:price, range) if params[:min_price].present? || params[:max_price].present?
+      #with(:size, params[:size]) if params[:size].present?
+      #with(params[:size]).include?(:min_size..:max_size) if params[:size].present?
+      with(params[:size]).between(:min_size..:max_size) if params[:size].present?
     end
     @products = @query.results
   end

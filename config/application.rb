@@ -24,5 +24,6 @@ module Shoesterra
     config.active_record.raise_in_transactional_callbacks = true
     config.assets.enabled = true
     config.assets.paths << Rails.root.join("app", "assets", "fonts")
+    Sunspot.config.solr.url = 'http://localhost:8983/solr'
   end
 end
