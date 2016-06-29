@@ -5,7 +5,7 @@
 /
 /- @products.each do |product|
 /  = link_to product.brand, product
-.container-fluid
+.container-fluid.catalog
   .row
     .col-lg-2.sidebar
       ul.sidebar
@@ -90,34 +90,26 @@
               center
                 = submit_tag "Search", :name => nil
     .col-lg-10
-      h1 Simple Sidebar
-      p This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.
       = form_tag catalog_path, :method => 'get' do
         = text_field_tag :search, params[:search]
-      table class="table table-striped"
-        thead
-          tr
-            th Производитель
-            th Цена
-            th 35-ый размер
-            th Сезон
-            th Пол
-            th Материал верха
-            th Подкладка
-            th Подошва
-            th Тип обуви
-        tbody
-          - @products.each do |product|
-            tr
-              td = product.brand
-              td = product.price
-              td = product.size_35
-              td = product.season
-              td = product.sex
-              td = product.top_matereal
-              td = product.pad_matereal
-              td = product.sole_matereal
-              td = product.shoe_type
+      - @products.each do |product|
+            .popular.col-md-3.col-sm-3
+              .popular_block
+                - if product.discount_status
+                  .discount.hidden-xs %
+                = link_to image_tag(product.main_image.url(:catalog)), product
+              - if product.discount_status
+                h3.price#new_price
+                  .old_price
+                    #old_price
+                      = number_to_currency(product.price, unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
+                    #sale
+                      = "#{product.discount_status}%"
+                    br
+                      = number_to_currency((product.price/100 * (100 - product.discount_status)), unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
+              - else
+                h3.price.nodiscount
+                  = number_to_currency(product.price, unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
 = params[:shoe_type]
 br
 = @true_shoe_type

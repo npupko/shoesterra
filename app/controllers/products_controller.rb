@@ -44,7 +44,7 @@ class ProductsController < ApplicationController
   def update
     respond_to do |format|
       if @product.update(product_params)
-        format.html { redirect_to @product, notice: 'Product was successfully updated.' }
+        format.html { redirect_to products_path, notice: 'Product was successfully updated.' }
         format.json { render :show, status: :ok, location: @product }
       else
         format.html { render :edit }
@@ -72,6 +72,6 @@ class ProductsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def product_params
-      params.require(:product).permit(:shoe_type1, :shoe_type2, :shoe_type3, :shoe_type4, :shoe_type5, :shoe_type6, :shoe_type7, :shoe_type8, :shoe_type9, :shoe_type10, :shoe_type11, :shoe_type12, :brand, :price, :season, :sex, :top_matereal, :pad_matereal, :sole_matereal, :shoe_type, :main_image, :size_34, :size_35, :size_36, :size_37, :size_38, :size_39, :size_40, :size_41, :size_42, :size_43, :size_44, :size_45, :size_46, :size_47, :size_48)
+      params.require(:product).permit(:discount_status, :popular_status, :shoe_type1, :shoe_type2, :shoe_type3, :shoe_type4, :shoe_type5, :shoe_type6, :shoe_type7, :shoe_type8, :shoe_type9, :shoe_type10, :shoe_type11, :shoe_type12, :brand, :price, :season, :sex, :top_matereal, :pad_matereal, :sole_matereal, :shoe_type, :main_image, :size_34, :size_35, :size_36, :size_37, :size_38, :size_39, :size_40, :size_41, :size_42, :size_43, :size_44, :size_45, :size_46, :size_47, :size_48)
     end
 end

@@ -11,6 +11,14 @@ p#notice = notice
         = @product.price
     tr
       th
+        strong Скидка:
+        = @product.discount_status
+    tr
+      th
+        strong Популярное:
+        = @product.popular_status
+    tr
+      th
         strong 34:
         = @product.size_34
     tr

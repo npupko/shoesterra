@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160625195630) do
+ActiveRecord::Schema.define(version: 20160629161655) do
 
   create_table "brands", force: :cascade do |t|
     t.string   "brand"
@@ -69,6 +69,8 @@ ActiveRecord::Schema.define(version: 20160625195630) do
     t.boolean  "size_46"
     t.boolean  "size_47"
     t.boolean  "size_48"
+    t.integer  "discount_status"
+    t.boolean  "popular_status"
   end
 
   create_table "users", force: :cascade do |t|

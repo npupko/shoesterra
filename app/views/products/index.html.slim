@@ -5,7 +5,8 @@ table class="table table-striped"
       tr
         th Производитель
         th Цена
-        th 35 размер
+        th Статус скидки
+        th Популярное?
         th Сезон
         th Пол
         th Материал верха
@@ -19,7 +20,8 @@ table class="table table-striped"
         tr
           td = product.brand
           td = product.price
-          td = product.size_35
+          td = product.discount_status
+          td = product.popular_status
           td = product.season
           td = product.sex
           td = product.top_matereal

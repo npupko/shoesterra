@@ -23,7 +23,11 @@ h2 {
     }
   }
   h3 {
+    margin-top: 10px;
     margin-bottom: 30px;
+  }
+  .nodiscount {
+    margin-bottom: 0;
   }
 }
 
@@ -62,9 +66,10 @@ ul.sidebar {
 #search {
   padding: 5px 10px;
   color: #666666;
-  border: 2px solid #cccccc;
+  border: 1px solid #cccccc;
   border-radius: 20px;
   background-color: #EDEDED;
+  margin: 30px auto;
 }
 
 .catalog_select {
@@ -76,6 +81,10 @@ ul.sidebar {
   width: 100%;
 }
 
+.hidden {
+  display: none;
+}
+
 label {
   color: #777;
   font-size: 16px;
@@ -85,6 +94,45 @@ input[type=radio], input[type=checkbox] {
   margin-right: 8px;      
   width: 15px;  
   height: 15px; 
+}
+
+.popular_block {
+  margin: auto;
+  width: 250px;
+  height: 160px;
+.discount {
+  position: absolute;
+  background-color: red;
+  top: -8px;
+  left: 8px;
+  width: 45px;
+  height: 40px;
+  z-index: 100;
+  font-size: 25px;
+  color: white;
+  vertical-align: middle;
+  }
+}
+
+#old_price {
+  display: inline-block;
+  text-decoration: line-through;
+  color: #999;
+  font-size: 14px;
+}
+
+#new_price {
+    margin-bottom: 0;
+}
+
+#sale {
+  display: inline-block;
+  font-weight: bold;
+  color: #fff;
+  background: #da251d;
+  padding: 2px 4px 2px 0;
+  margin-left: 5px;
+  font-size: 16px;
 }
 
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {

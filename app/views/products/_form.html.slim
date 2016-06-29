@@ -58,6 +58,12 @@
     = f.label :size_48
     = f.select :size_48, options_for_select([['Есть', true], ['Нету', false]])
   .field
+    = f.label :discount_status
+    = f.number_field :discount_status
+  .field
+    = f.label :popular_status
+    = f.select :popular_status, options_for_select([['Да', true], ['Нет', false]])
+  .field
     = f.label :season
     = f.text_field :season
   .field

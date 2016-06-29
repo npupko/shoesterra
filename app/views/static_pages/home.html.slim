@@ -30,11 +30,24 @@ div id="carousel-example-generic" class="carousel slide" data-ride="carousel" st
     span class="sr-only" Next
 
 .container-fluid
-  h2.gradient Популярные модели
-
   .row
-    - @products.each do |product|
+  h2.gradient Популярные модели
+  - @products.find_all do |product|
+    - if product.popular_status
       .popular.col-md-3.col-sm-4
-        = link_to image_tag(product.main_image.url(:medium)), product
-        h3.price
-          = number_to_currency(product.price, unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
+        .popular_block
+          - if product.discount_status
+            .discount.hidden-xs %
+          = link_to image_tag(product.main_image.url(:medium)), product
+        - if product.discount_status
+          h3.price#new_price
+            .old_price
+              #old_price
+                = number_to_currency(product.price, unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
+              #sale
+                = "#{product.discount_status}%"
+              br
+                = number_to_currency((product.price/100 * (100 - product.discount_status)), unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
+        - else
+          h3.price
+            = number_to_currency(product.price, unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
