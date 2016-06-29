@@ -20,7 +20,7 @@ class StaticPagesController < ApplicationController
                        params[:shoe_type11], 
                        params[:shoe_type12]]
     compact_shoe_type = true_shoe_type.compact
-    @query = Product.search do
+    @search = Product.search do
       fulltext params[:search]
       facet(:sex)
       facet(:price)
@@ -80,8 +80,9 @@ class StaticPagesController < ApplicationController
       with(:season, params[:season]) if params[:season].present?
       with(:shoe_type).any_of(compact_shoe_type)
       #with(params[:size]).between(:min_size..:max_size) if params[:size].present?
+      paginate(page: params[:page], per_page: 8)
     end
-    @products = @query.results
+    @products = @search.results
   end
 
   def about

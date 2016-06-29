@@ -17,6 +17,9 @@ gem 'paperclip'
 gem 'sunspot_rails'
 gem 'progress_bar'
 gem 'jquery-ui-rails'
+gem 'will_paginate'
+gem 'will_paginate-bootstrap'
+gem 'will-paginate-i18n'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

@@ -1,0 +1,19 @@
+- @products.each do |product|
+  .popular.col-md-3.col-sm-3
+    .popular_block
+      - if product.discount_status
+        .discount.hidden-xs %
+      = link_to image_tag(product.main_image.url(:catalog)), product
+    - if product.discount_status
+      h3.price#new_price
+        .old_price
+          #old_price
+            = number_to_currency(product.price, unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
+          #sale
+            = "#{product.discount_status}%"
+          br
+            = number_to_currency((product.price/100 * (100 - product.discount_status)), unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
+    - else
+      h3.price.nodiscount
+        = number_to_currency(product.price, unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
+

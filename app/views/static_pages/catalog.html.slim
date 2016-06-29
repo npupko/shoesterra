@@ -7,11 +7,11 @@
 /  = link_to product.brand, product
 .container-fluid.catalog
   .row
-    .col-lg-2.sidebar
+    .col-md-2.sidebar
       ul.sidebar
         li
           h4 Параметры поиска:
-          = form_tag catalog_path, :method => 'get' do
+          = form_tag catalog_path, :method => 'get', :remote => 'true', :id => "products_search" do
             p
               = radio_button_tag :sex, "Мужская обувь"
               = label_tag :sex, "Мужская обувь"
@@ -75,7 +75,21 @@
               = number_field_tag :min_price, params[:min_price]
               = label_tag(:max_price, "До")
               = text_field_tag :max_price, params[:max_price], value: 200
-
+            javascript:
+              $(function() {
+                $( "#slider" ).slider({
+                  range: true,
+                  min: 0,
+                  max: 400,
+                  values: [ 50, 300 ],
+                  slide: function( event, ui ) {
+                    $( "#amount_min" ).val(ui.values[ 0 ]);
+                    $( "#amount_max" ).val(ui.values[ 1 ]);
+                  }
+                });
+                $( "#amount_min" ).val($( "#slider" ).slider( "values", 0 ));
+                $( "#amount_max" ).val($( "#slider" ).slider( "values", 1 ));
+              });
             p
               =label_tag(:price, "Цена:")
               br
@@ -88,30 +102,13 @@
               #slider
             p
               center
-                = submit_tag "Search", :name => nil
-    .col-lg-10
-      = form_tag catalog_path, :method => 'get' do
-        = text_field_tag :search, params[:search]
-      - @products.each do |product|
-            .popular.col-md-3.col-sm-3
-              .popular_block
-                - if product.discount_status
-                  .discount.hidden-xs %
-                = link_to image_tag(product.main_image.url(:catalog)), product
-              - if product.discount_status
-                h3.price#new_price
-                  .old_price
-                    #old_price
-                      = number_to_currency(product.price, unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
-                    #sale
-                      = "#{product.discount_status}%"
-                    br
-                      = number_to_currency((product.price/100 * (100 - product.discount_status)), unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
-              - else
-                h3.price.nodiscount
-                  = number_to_currency(product.price, unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
-= params[:shoe_type]
-br
-= @true_shoe_type
-br
-= @compact_shoe_type
+                = submit_tag "Подобрать", :name => nil, :id => 'submit_button'
+    .col-md-10
+      .row.search-row
+        .col-md-4  
+          = form_tag catalog_path, :method => 'get' do
+            = text_field_tag :search, params[:search]
+      .row
+        .col-md-12#products
+          = render 'products'
+
