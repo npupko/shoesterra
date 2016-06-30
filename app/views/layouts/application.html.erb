@@ -36,6 +36,33 @@
 <%= yield %>
 
 <footer class="footer">
+  <div class="container-fluid">
+    <div class="col-md-3 footer-column"><h3>Логотип</h3></div>
+    <div class="col-md-3 footer-column">
+      <h3>Меню</h3>
+      <ul>
+        <li><%= link_to "Главная", root_path %></li>
+        <li><%= link_to "Каталог", catalog_path %></li>
+        <li><%= link_to "Клиенту", about_path %></li>
+        <li><%= link_to "Контакты", contacts_path %></li>
+      </ul>
+    </div>
+    <div class="col-md-3 footer-column">
+      <h3>Телефоны</h3>
+      <ul>
+        <li>+375 (29) 123 45 67</li>
+        <li>+375 (29) 123 45 67</li>
+      </ul>
+    </div>
+    <div class="col-md-3 footer-column">
+      <h3>Контакты</h3>
+      <ul>
+        <li>г. Минск ул. Уличная</li>
+        <li>E-mail: random4405@gmail.com</li>
+      </ul>
+    </div>
+    </div> 
+  </div>
 </footer>
 </body>
 </html>

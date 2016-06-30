@@ -81,7 +81,7 @@
                   range: true,
                   min: 0,
                   max: 400,
-                  values: [ 50, 300 ],
+                  values: [ 50, 350 ],
                   slide: function( event, ui ) {
                     $( "#amount_min" ).val(ui.values[ 0 ]);
                     $( "#amount_max" ).val(ui.values[ 1 ]);
@@ -103,12 +103,22 @@
             p
               center
                 = submit_tag "Подобрать", :name => nil, :id => 'submit_button'
+                br
+                br
+                br
+                br
+                br
+                br
+                br
+                br
+                br
     .col-md-10
       .row.search-row
-        .col-md-4  
-          = form_tag catalog_path, :method => 'get' do
-            = text_field_tag :search, params[:search]
+        .col-md-4
+          .right-inner-addon
+            i class="glyphicon glyphicon-search"
+            = form_tag catalog_path, :method => 'get' do
+              = text_field_tag :search, params[:search], :class => 'form-control',:placeholder => "Поиск"
       .row
         .col-md-12#products
           = render 'products'
-

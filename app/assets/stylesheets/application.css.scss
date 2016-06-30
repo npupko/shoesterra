@@ -144,10 +144,28 @@ body {
 }*/
 
 .footer {
-  margin-top: 20px;
   bottom: 0;
   width: 100%;
-  height: 100px;
+  height: 180px;
   background-color: #f7f7f7;
   border-top: 1px solid #e7e7e7;
+  a {
+    color: #777; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+   }
+   a:visited {
+    color: #777; /* Цвет посещённой ссылки */
+   } 
+   a:hover {
+    color: #777; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+   }
+  .footer-column {
+    text-align: left;
+    color: #777;
+    ul { 
+      list-style-type: none;
+      padding-left: 0;
+    }
+  }
 }

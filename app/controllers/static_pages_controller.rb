@@ -80,7 +80,7 @@ class StaticPagesController < ApplicationController
       with(:season, params[:season]) if params[:season].present?
       with(:shoe_type).any_of(compact_shoe_type)
       #with(params[:size]).between(:min_size..:max_size) if params[:size].present?
-      paginate(page: params[:page], per_page: 8)
+      paginate(page: params[:page], per_page: 16)
     end
     @products = @search.results
   end

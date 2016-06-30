@@ -18,3 +18,4 @@
 //= require_tree .
 
 //$("#products_div").html(<%= escape_javascript(render('@products')) %>);
+

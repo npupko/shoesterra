@@ -17,8 +17,9 @@
       h3.price.nodiscount
         = number_to_currency(product.price, unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
 - if @search.total == 0
-            = "По вашему запросу ничего не найдено"
+  .col-md-12
+    = "По вашему запросу ничего не найдено"
 .row
   .col-md-12     
-    center 
+    center
       = will_paginate @products, renderer: BootstrapPagination::Rails
