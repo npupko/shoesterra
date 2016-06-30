@@ -13,9 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require lightbox
 //= require bootstrap-sprockets
 //= require jquery-ui/slider
 //= require_tree .
 
 //$("#products_div").html(<%= escape_javascript(render('@products')) %>);
-

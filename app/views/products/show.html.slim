@@ -1,111 +1,126 @@
 p#notice = notice
-.container
-  table class="table table-striped"
-    tr
-      th
-        strong Brand:
-        = @product.brand
-    tr
-      th
-        strong Price:
-        = @product.price
-    tr
-      th
-        strong Скидка:
-        = @product.discount_status
-    tr
-      th
-        strong Популярное:
-        = @product.popular_status
-    tr
-      th
-        strong 34:
-        = @product.size_34
-    tr
-      th
-        strong 35:
-        = @product.size_35
-    tr
-      th
-        strong 36:
-        = @product.size_36
-    tr
-      th
-        strong 37:
-        = @product.size_37
-    tr
-      th
-        strong 38:
-        = @product.size_38
-    tr
-      th
-        strong 39:
-        = @product.size_39
-    tr
-      th
-        strong 40:
-        = @product.size_40
-    tr
-      th
-        strong 41:
-        = @product.size_41
-    tr
-      th
-        strong 42:
-        = @product.size_42
-    tr
-      th
-        strong 43:
-        = @product.size_43
-    tr
-      th
-        strong 44:
-        = @product.size_44
-    tr
-      th
-        strong 45:
-        = @product.size_45
-    tr
-      th
-        strong 46:
-        = @product.size_46
-    tr
-      th
-        strong 47:
-        = @product.size_47
-    tr
-      th
-        strong 48:
-        = @product.size_48
-
-    tr
-      th
-        strong Season:
-        = @product.season
-    tr
-      th
-        strong Sex:
-        = @product.sex
-    tr
-      th
-        strong Top matereal:
-        = @product.top_matereal
-    tr
-      th
-        strong Pad matereal:
-        = @product.pad_matereal
-    tr
-      th
-        strong Sole matereal:
-        = @product.sole_matereal
-    tr
-      th
-        strong Type:
+.container-fluid
+  .row
+    .col-md-12
+      h1.gradient 
         = @product.shoe_type
-    tr
-      th
-        strong Image:
-        = image_tag @product.main_image.url(:medium)
+        |  
+        = @product.brand
+      hr
+  .row
+    .col-md-2
+      = link_to image_tag(@product.main_image.url(:thumb)), @product.main_image.url(:medium), "data-lightbox":"image-1"
+    .col-md-2
+      = link_to image_tag(@product.first_image.url(:thumb)), @product.first_image.url(:large), "data-lightbox":"image-1"
+    .col-md-2
+      = link_to image_tag(@product.second_image.url(:thumb)), @product.second_image.url(:large), "data-lightbox":"image-1"
+    .col-md-5
+      table class="table table-striped"
+        tr
+          th
+            strong Brand:
+            = @product.brand
+        tr
+          th
+            strong Price:
+            = @product.price
+        tr
+          th
+            strong Скидка:
+            = @product.discount_status
+        tr
+          th
+            strong Популярное:
+            = @product.popular_status
+        tr
+          th
+            strong 34:
+            = @product.size_34
+        tr
+          th
+            strong 35:
+            = @product.size_35
+        tr
+          th
+            strong 36:
+            = @product.size_36
+        tr
+          th
+            strong 37:
+            = @product.size_37
+        tr
+          th
+            strong 38:
+            = @product.size_38
+        tr
+          th
+            strong 39:
+            = @product.size_39
+        tr
+          th
+            strong 40:
+            = @product.size_40
+        tr
+          th
+            strong 41:
+            = @product.size_41
+        tr
+          th
+            strong 42:
+            = @product.size_42
+        tr
+          th
+            strong 43:
+            = @product.size_43
+        tr
+          th
+            strong 44:
+            = @product.size_44
+        tr
+          th
+            strong 45:
+            = @product.size_45
+        tr
+          th
+            strong 46:
+            = @product.size_46
+        tr
+          th
+            strong 47:
+            = @product.size_47
+        tr
+          th
+            strong 48:
+            = @product.size_48
+
+        tr
+          th
+            strong Season:
+            = @product.season
+        tr
+          th
+            strong Sex:
+            = @product.sex
+        tr
+          th
+            strong Top matereal:
+            = @product.top_matereal
+        tr
+          th
+            strong Pad matereal:
+            = @product.pad_matereal
+        tr
+          th
+            strong Sole matereal:
+            = @product.sole_matereal
+        tr
+          th
+            strong Type:
+            = @product.shoe_type
+        tr
+          th
+            strong Image:
+            = image_tag @product.main_image.url(:medium)
 
   = link_to 'Edit', edit_product_path(@product)
   '|
