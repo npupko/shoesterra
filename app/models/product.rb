@@ -1,5 +1,5 @@
 class Product < ActiveRecord::Base
-  has_attached_file :main_image, styles: { medium: "250x160>", thumb: "100x100>", catalog: "198x223>" },
+  has_attached_file :main_image, styles: {large: "900x600>", medium: "250x160>", thumb: "100x100>", catalog: "198x223>" },
                   default_url: "/images/:style/missing.png"
   has_attached_file :first_image, styles: {large: "900x600>", medium: "250x160>", thumb: "100x100>" },
                   default_url: "/images/:style/missing.png"

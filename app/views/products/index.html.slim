@@ -18,7 +18,7 @@ table class="table table-striped"
     tbody
       - @products.each do |product|
         tr
-          td = product.brand
+          td = link_to product.brand, product
           td = product.price
           td = product.discount_status
           td = product.popular_status

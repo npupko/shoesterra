@@ -11,6 +11,11 @@ class ProductsController < ApplicationController
   # GET /products/1
   # GET /products/1.json
   def show
+    search = Product.search do
+      with(:sex, Product.find(params[:id]).sex)
+      with(:brand, Product.find(params[:id]).brand)
+    end
+    @similar = search.results
   end
 
   # GET /products/new
@@ -44,7 +49,7 @@ class ProductsController < ApplicationController
   def update
     respond_to do |format|
       if @product.update(product_params)
-        format.html { redirect_to products_path, notice: 'Product was successfully updated.' }
+        format.html { redirect_to @product, notice: 'Product was successfully updated.' }
         format.json { render :show, status: :ok, location: @product }
       else
         format.html { render :edit }

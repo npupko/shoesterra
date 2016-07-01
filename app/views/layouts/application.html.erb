@@ -7,6 +7,25 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<script>
+  $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+<% if user_signed_in? %>
+<div class="container admin-panel">
+  <div class="row">
+    <span class="label label-primary"><%= link_to "Изменить каталог", products_path %></span>
+    <span class="label label-success"><%= link_to "Добавить товар", new_product_path %></span>
+  <div class="pull-right">
+    Вы вошли как: <%= current_user.email %>
+  <span class="label label-danger" data-toggle="tooltip" data-placement="bottom" data-container="body" title="Выйти"><%= link_to "", destroy_user_session_path, method: :delete, class: "glyphicon glyphicon-off" %></span>
+  &nbsp;                                                                                     
+  </div>
+  </div>
+</div>
+
+<% end %>
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">

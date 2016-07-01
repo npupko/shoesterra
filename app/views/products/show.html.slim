@@ -1,127 +1,145 @@
 p#notice = notice
 .container-fluid
   .row
-    .col-md-12
+    .col-md-12.col-sm-12
       h1.gradient 
         = @product.shoe_type
         |  
         = @product.brand
-      hr
+        hr
   .row
-    .col-md-2
-      = link_to image_tag(@product.main_image.url(:thumb)), @product.main_image.url(:medium), "data-lightbox":"image-1"
-    .col-md-2
-      = link_to image_tag(@product.first_image.url(:thumb)), @product.first_image.url(:large), "data-lightbox":"image-1"
-    .col-md-2
-      = link_to image_tag(@product.second_image.url(:thumb)), @product.second_image.url(:large), "data-lightbox":"image-1"
-    .col-md-5
+    .col-md-6.col-sm-6.popular
+      = link_to image_tag(@product.main_image.url(:large), :size => "360x240"), @product.main_image.url(:large), "data-lightbox":"image-1"
+    .col-md-6.col-sm-6
       table class="table table-striped"
+        /tr
+          th
+            strong Старая цена: 
+            span#old_price = "(#{number_to_currency(@product.price, unit: "руб.", separator: ",", delimiter: "", format: "%n %u")})"
         tr
           th
-            strong Brand:
-            = @product.brand
+            strong Цена: 
+            - if @product.discount_status
+              = number_to_currency((@product.price/100 * (100 - @product.discount_status)), unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
+              span#sale = "-#{@product.discount_status}%"
+            - else 
+              = number_to_currency(@product.price, unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
+            - if user_signed_in?
+              = link_to 'Изменить', edit_product_path(@product), class: 'btn btn-default btn-sm pull-right'
         tr
           th
-            strong Price:
-            = @product.price
-        tr
-          th
-            strong Скидка:
-            = @product.discount_status
-        tr
-          th
-            strong Популярное:
-            = @product.popular_status
-        tr
-          th
-            strong 34:
-            = @product.size_34
-        tr
-          th
-            strong 35:
-            = @product.size_35
-        tr
-          th
-            strong 36:
-            = @product.size_36
-        tr
-          th
-            strong 37:
-            = @product.size_37
-        tr
-          th
-            strong 38:
-            = @product.size_38
-        tr
-          th
-            strong 39:
-            = @product.size_39
-        tr
-          th
-            strong 40:
-            = @product.size_40
-        tr
-          th
-            strong 41:
-            = @product.size_41
-        tr
-          th
-            strong 42:
-            = @product.size_42
-        tr
-          th
-            strong 43:
-            = @product.size_43
-        tr
-          th
-            strong 44:
-            = @product.size_44
-        tr
-          th
-            strong 45:
-            = @product.size_45
-        tr
-          th
-            strong 46:
-            = @product.size_46
-        tr
-          th
-            strong 47:
-            = @product.size_47
-        tr
-          th
-            strong 48:
-            = @product.size_48
-
-        tr
-          th
-            strong Season:
+            strong Сезон: 
             = @product.season
         tr
           th
-            strong Sex:
+            strong Пол: 
             = @product.sex
         tr
           th
-            strong Top matereal:
+            strong Материал верха: 
             = @product.top_matereal
         tr
           th
-            strong Pad matereal:
+            strong Подкладка: 
             = @product.pad_matereal
         tr
           th
-            strong Sole matereal:
+            strong Подошва: 
             = @product.sole_matereal
         tr
           th
-            strong Type:
+            strong Тип обуви: 
             = @product.shoe_type
         tr
           th
-            strong Image:
-            = image_tag @product.main_image.url(:medium)
+            strong Размеры: 
+            span[class="label #{ @product.size_34 ? 'label label-success' : 'label-danger'}"] 34
+            |  
+            span[class="label #{ @product.size_35 ? 'label label-success' : 'label-danger'}"] 35
+            |  
+            span[class="label #{ @product.size_36 ? 'label label-success' : 'label-danger'}"] 36
+            |  
+            span[class="label #{ @product.size_37 ? 'label label-success' : 'label-danger'}"] 37
+            |  
+            span[class="label #{ @product.size_38 ? 'label label-success' : 'label-danger'}"] 38
+            |  
+            span[class="label #{ @product.size_39 ? 'label label-success' : 'label-danger'}"] 39
+            |  
+            span[class="label #{ @product.size_40 ? 'label label-success' : 'label-danger'}"] 40
+            |  
+            span[class="label #{ @product.size_41 ? 'label label-success' : 'label-danger'}"] 41
+            |  
+            span[class="label #{ @product.size_42 ? 'label label-success' : 'label-danger'}"] 42
+            |  
+            span[class="label #{ @product.size_43 ? 'label label-success' : 'label-danger'}"] 43
+            |  
+            span[class="label #{ @product.size_44 ? 'label label-success' : 'label-danger'}"] 44
+            |  
+            span[class="label #{ @product.size_45 ? 'label label-success' : 'label-danger'}"] 45
+            |  
+            span[class="label #{ @product.size_46 ? 'label label-success' : 'label-danger'}"] 46
+            |  
+            span[class="label #{ @product.size_47 ? 'label label-success' : 'label-danger'}"] 47
+            |  
+            span[class="label #{ @product.size_48 ? 'label label-success' : 'label-danger'}"] 48
+  .row.popular
+    .col-sm-2.col-sm-offset-1
+      = link_to image_tag(@product.first_image.url(:large), :size => "150x90"), @product.first_image.url(:large), "data-lightbox":"image-1"
+    .clearfix.visible-xs-block
+      br
+    .col-sm-2
+      = link_to image_tag(@product.second_image.url(:large), :size => "150x90"), @product.second_image.url(:large), "data-lightbox":"image-1"
+    .clearfix.visible-xs-block
+      br
+    .col-sm-2
+      = link_to image_tag(@product.third_image.url(:large), :size => "150x90"), @product.third_image.url(:large), "data-lightbox":"image-1"
+    .clearfix.visible-xs-block
+      br
+    .col-sm-2
+      = link_to image_tag(@product.fourth_image.url(:large), :size => "150x90"), @product.fourth_image.url(:large), "data-lightbox":"image-1"
+    .clearfix.visible-xs-block
+      br
+    .col-sm-2
+      = link_to image_tag(@product.fourth_image.url(:large), :size => "150x90"), @product.fourth_image.url(:large), "data-lightbox":"image-1"
+  .row
+    .col-md-12.col-sm-12
+      hr
+      h1.gradient Похожая продукция
+      = render 'similar'
+    /- @similar.each do |product|
+      .popular.col-md-3.col-sm-3
+        .popular_block
+          - if product.discount_status
+            .discount.hidden-xs %
+          = link_to image_tag(product.main_image.url(:catalog)), product
+        - if product.discount_status
+          h3.price#new_price
+            .old_price
+              #old_price
+                = number_to_currency(product.price, unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
+              #sale
+                = "#{product.discount_status}%"
+              br
+                = number_to_currency((product.price/100 * (100 - product.discount_status)), unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
+        - else
+          h3.price.nodiscount
+            = number_to_currency(product.price, unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
 
-  = link_to 'Edit', edit_product_path(@product)
+
+
+br
+br
+
+input.buttonSend onclick="window.history.back();" type="button" value="Вернуться"
+
+
+/  = link_to 'Edit', edit_product_path(@product)
   '|
   = link_to 'Back', products_path
+/sdsadad
+  asdadasd
+  asdasdasd
+  asdasdasd
+  asdasdasd
+  asdasdasd
+  asdasdas

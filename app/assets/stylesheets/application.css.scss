@@ -94,10 +94,25 @@ body {
   font-family: 'Neris-Light';
 }
 
+::selection {
+background: #ffb7b7; /* Safari */
+}
+::-moz-selection {
+background: #ffb7b7; /* Firefox */
+}
+
 .navbar {
   min-height: 100px;
   background-color: #fff;
   margin-bottom: 0;
+}
+
+.admin-panel {
+  height: 25px;
+  a {
+    color: white;
+    text-decoration: none;
+  }
 }
 
 //Шаманство с выравниваниями
