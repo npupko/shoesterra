@@ -12,6 +12,9 @@ select {
   width: 10%;
 }
 
-.popular_block.similar{
+.popular_block.similar {
   height: 130px !important;
+  .discount {
+    left: 31px;
+  }
 }

@@ -99,17 +99,25 @@ input[type=radio], input[type=checkbox] {
   margin: auto;
   width: 250px;
   height: 160px;
-.discount {
-  position: absolute;
-  background-color: red;
-  top: -8px;
-  left: 8px;
-  width: 45px;
-  height: 40px;
-  z-index: 100;
-  font-size: 25px;
-  color: white;
-  vertical-align: middle;
+  .discount {
+    position: absolute;
+    z-index: 100;
+    background-color: red;
+    line-height: 1;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    color: white;
+    vertical-align: middle;
+  }
+  .new {
+    display: inline-block;
+    background-color: lime;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    color: white;
+    vertical-align: middle;
   }
 }
 
