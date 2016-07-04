@@ -1,102 +1,133 @@
-= form_for @product do |f|
-  - if @product.errors.any?
-    #error_explanation
-      h2 = "#{pluralize(@product.errors.count, "error")} prohibited this product from being saved:"
-      ul
-        - @product.errors.full_messages.each do |message|
-          li = message
+.panel.panel-default.form
+  .panel-body
+    = form_for @product do |f|
+      - if @product.errors.any?
+        #error_explanation
+          h2 = "#{pluralize(@product.errors.count, "error")} prohibited this product from being saved:"
+          ul
+            - @product.errors.full_messages.each do |message|
+              li = message
 
-  .field
-    = f.label :brand
-    = f.text_field :brand
-  .field
-    = f.label :price
-    = f.text_field :price
-  .field
-    = f.label :size_34
-    = f.check_box :size_34
-  .field
-    = f.label :size_35
-    = f.check_box :size_35
-  .field
-    = f.label :size_36
-    = f.check_box :size_36
-  .field
-    = f.label :size_37
-    = f.check_box :size_37
-  .field
-    = f.label :size_38
-    = f.check_box :size_38
-  .field
-    = f.label :size_39
-    = f.check_box :size_39
-  .field
-    = f.label :size_40
-    = f.check_box :size_40
-  .field
-    = f.label :size_41
-    = f.check_box :size_41
-  .field
-    = f.label :size_42
-    = f.check_box :size_42
-  .field
-    = f.label :size_43
-    = f.check_box :size_43
-  .field
-    = f.label :size_44
-    = f.check_box :size_44
-  .field
-    = f.label :size_45
-    = f.check_box :size_45
-  .field
-    = f.label :size_46
-    = f.check_box :size_46
-  .field
-    = f.label :size_47
-    = f.check_box :size_47
-  .field
-    = f.label :size_48
-    = f.check_box :size_48
-  .field
-    = f.label :discount_status
-    = f.number_field :discount_status
-  .field
-    = f.label :popular_status
-    = f.select :popular_status, options_for_select([['Да', true], ['Нет', false]])
-  .field
-    = f.label :season
-    = f.text_field :season
-  .field
-    = f.label :sex
-    = f.text_field :sex
-  .field
-    = f.label :top_matereal
-    = f.text_field :top_matereal
-  .field
-    = f.label :pad_matereal
-    = f.text_field :pad_matereal
-  .field
-    = f.label :sole_matereal
-    = f.text_field :sole_matereal
-  .field
-    = f.label :shoe_type
-    = f.text_field :shoe_type
-  .field
-    = f.label :main_image
-    = f.file_field :main_image
-  .field
-    = f.label :first_image
-    = f.file_field :first_image
-  .field
-    = f.label :second_image
-    = f.file_field :second_image
-  .field
-    = f.label :third_image
-    = f.file_field :third_image
-  .field
-    = f.label :fourth_image
-    = f.file_field :fourth_image
-  .field
-    = f.label :fifth_image
-    = f.file_field :fifth_image
-  .actions = f.submit
+      .field.form-group
+        = f.label "Производитель:"
+        = f.text_field :brand, class: "form-control"
+        = f.label "Цена:"
+        = f.text_field :price, class: "form-control"
+      .field.form-group
+        = f.label "Скидка (%):"
+        = f.number_field :discount_status, class: "form-control"
+
+      .field.form-group
+        = f.label "Добавить в популярное:"
+        = f.check_box :popular_status
+      .field.form-group
+        = f.label "Сезон:"
+        = f.text_field :season, class: "form-control"
+        = f.label "Пол:"
+        = f.text_field :sex, class: "form-control"
+      .field.form-group
+        = f.label "Материал верха:"
+        = f.text_field :top_matereal, class: "form-control"
+      .field.form-group
+        = f.label "Подкладка:"
+        = f.text_field :pad_matereal, class: "form-control"
+      .field.form-group
+        = f.label "Подошва:"
+        = f.text_field :sole_matereal, class: "form-control"
+      .field.form-group
+        = f.label "Тип обуви:"
+        = f.text_field :shoe_type, class: "form-control"
+      .field.form-group
+        = f.label "Фронтальное изображение:"
+        = f.file_field :main_image, class: "form-control"
+      .field.form-group
+        = f.label "1"
+        = f.file_field :first_image, class: "form-control"
+      .field.form-group
+        = f.label "2"
+        = f.file_field :second_image, class: "form-control"
+      .field.form-group
+        = f.label "3"
+        = f.file_field :third_image, class: "form-control"
+      .field.form-group
+        = f.label "4"
+        = f.file_field :fourth_image, class: "form-control"
+      .field.form-group
+        = f.label "5"
+        = f.file_field :fifth_image, class: "form-control"
+
+
+      javascript:
+        function checkAll(obj) {
+          'use strict';
+          // Получаем NodeList дочерних элементов input формы: 
+          var items = obj.form.getElementsByTagName("input"), 
+              len, i;
+          // Здесь, увы цикл по элементам формы:
+          for (i = 0, len = items.length; i < len; i += 1) {
+            // Если текущий элемент является чекбоксом...
+            if (items.item(i).type && items.item(i).type === "checkbox") {
+              // Дальше логика простая: если checkbox "Выбрать всё" - отмечен            
+              if (obj.checked) {
+                // Отмечаем все чекбоксы...
+                items.item(i).checked = true;
+              } else {
+                // Иначе снимаем отметки со всех чекбоксов:
+                items.item(i).checked = false;
+              }       
+            }
+          }
+        }
+
+      .field.form-group
+        = f.label "Размеры в наличии:"
+      label Выделить все:
+      input type="checkbox" value="all" onclick="checkAll(this)"
+
+      table.table.table-bordered
+        thead
+          tr
+            th 34
+            th 35
+            th 36
+            th 37
+            th 38
+        tbody
+          tr
+            td = f.check_box :size_34
+            td = f.check_box :size_35
+            td = f.check_box :size_36
+            td = f.check_box :size_37
+            td = f.check_box :size_38 
+      table.table.table-bordered
+        thead
+          tr
+            th 39
+            th 40
+            th 41
+            th 42
+            th 43 
+        tbody
+          tr
+            td = f.check_box :size_39
+            td = f.check_box :size_40
+            td = f.check_box :size_41 
+            td = f.check_box :size_42 
+            td = f.check_box :size_43
+      table.table.table-bordered
+        thead
+          tr
+            th 44
+            th 45
+            th 46
+            th 47
+            th 48
+        tbody
+          tr
+            td = f.check_box :size_44
+            td = f.check_box :size_45
+            td = f.check_box :size_46
+            td = f.check_box :size_47
+            td = f.check_box :size_48
+
+      .actions = f.submit

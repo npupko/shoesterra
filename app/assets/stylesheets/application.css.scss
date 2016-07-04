@@ -29,9 +29,34 @@ $screen-lg-min: 1200px;
   src: url('Neris/Neris-Light.otf');
 }
 
+.navbar-brand {
+  img {
+    height: 100%;
+  }
+}
+
+.preview-img {
+  width: 100%;
+  height: 100%;
+}
+
+h1.gradient {
+    font-size: 29px;
+}
+
 //========================================================================================================================
 /* Small devices (tablets, 900px and up) */
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  .preview-img {
+    width: 360px;
+    height: 240px;
+  }
+  .navbar-brand {
+    img {
+      height: 140%;
+    }
+    padding-top: 0;
+  }
   h2 {
     margin-bottom: 20px;
   }
@@ -42,6 +67,16 @@ $screen-lg-min: 1200px;
 
 /* Medium devices (desktops, 1000px and up) */
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  .preview-img {
+    width: 360px;
+    height: 240px;
+  }
+  .navbar-brand {
+    img {
+      height: 140%;
+    }
+    padding-top: 0;
+  }
   h2 {
     margin-bottom: 20px;
   }
@@ -64,6 +99,16 @@ $screen-lg-min: 1200px;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: $screen-lg-min) {
+  .preview-img {
+    width: 360px;
+    height: 240px;
+  }
+  .navbar-brand {
+    img {
+      height: 140%;
+    }
+    padding-top: 0;
+  }
   h2 {
     margin-bottom: 20px;
   }
@@ -90,6 +135,25 @@ $screen-lg-min: 1200px;
 }
 //========================================================================================================================
 
+.form {
+  width: 400px;
+  margin: auto;
+  #brand {
+    width: 150px;
+    display: inline-block;
+  }
+  label {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  th, td {
+    color: #777;
+    font-size: 16px;
+    text-align: center;
+    padding: auto;
+  }
+}
+
 body {
   font-family: 'Neris-Light';
 }
@@ -105,10 +169,11 @@ background: #ffb7b7; /* Firefox */
   min-height: 100px;
   background-color: #fff;
   margin-bottom: 0;
+  border-radius: 0;
 }
 
 .admin-panel {
-  height: 25px;
+  height: 26px;
   a {
     color: white;
     text-decoration: none;
@@ -126,11 +191,13 @@ background: #ffb7b7; /* Firefox */
   font-size: 20px;
 }
 
-.navbar-brand {
-  height: 70px;
-  padding-bottom: 0px;
-  padding-top: 0px;
-  padding-right: 0px;
+.carousel-caption {
+  h1 {
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
 }
 
 //Стрелочки Carousel от экрана
@@ -163,7 +230,7 @@ background: #ffb7b7; /* Firefox */
 .footer {
   bottom: 0;
   width: 100%;
-  height: 180px;
+  /*height: 180px;*/
   background-color: #f7f7f7;
   border-top: 1px solid #e7e7e7;
   a {

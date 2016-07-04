@@ -23,7 +23,9 @@
             /= select_tag(:brand, options_for_select([['Gabriele'], ['S.Oliver']]))
             p
               = label_tag(:size, "Производитель:")
-              = select_tag :brand, options_for_select([['Выберите бренд', nil], 'Gabriele', 'S.Oliver']), class: "catalog_select"
+              /= select_tag :brand, options_for_select([['Выберите бренд', nil], 'Gabriele', 'S.Oliver']), class: "catalog_select"
+              = select_tag :brand, options_for_select(@arr), class: "catalog_select", prompt: "Выберите бренд"
+
             p
               = label_tag(:size, "Размер:")
               br

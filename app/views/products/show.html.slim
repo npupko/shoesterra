@@ -7,8 +7,8 @@
         = @product.brand
         hr
   .row
-    .col-md-6.col-sm-6.popular
-      = link_to image_tag(@product.main_image.url(:large), :size => "360x240"), @product.main_image.url(:large), "data-lightbox":"image-1"
+    .col-md-6.col-sm-6.col-xs-12.popular
+      = link_to image_tag(@product.main_image.url(:large), class: "preview-img"), @product.main_image.url(:large), "data-lightbox":"image-1"
     .col-md-6.col-sm-6
       table class="table table-striped"
         /tr

@@ -1,12 +1,16 @@
 class StaticPagesController < ApplicationController
   def home
     @products = Product.all
+    @carousels = Carousel.all
   end
 
   def catalog
-    #(1..12).each do |i|
-    #  @true_shoe_type.1
-    #end
+    @prod = Product.all
+    @arr = []
+    @prod.each do |p|
+      @arr[@arr.size] = p.brand
+    end
+    @arr = @arr.uniq
     true_shoe_type = [params[:shoe_type1], 
                        params[:shoe_type2],
                        params[:shoe_type3],

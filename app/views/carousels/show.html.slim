@@ -1,0 +1,12 @@
+p#notice = notice
+
+p
+  strong Name:
+  = @carousel.name
+p
+  strong Link:
+  = @carousel.link
+
+= link_to 'Edit', edit_carousel_path(@carousel)
+'|
+= link_to 'Back', carousels_path

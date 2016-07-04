@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  
   get '/home' => 'static_pages#home'
 
   get '/catalog' => 'static_pages#catalog'
@@ -7,6 +8,7 @@ Rails.application.routes.draw do
 
   get '/contacts' => 'static_pages#contacts'
 
+  resources :carousels
   resources :products
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.

@@ -11,12 +11,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160629161655) do
+ActiveRecord::Schema.define(version: 20160702152051) do
 
   create_table "brands", force: :cascade do |t|
     t.string   "brand"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "carousels", force: :cascade do |t|
+    t.string   "name"
+    t.string   "link"
+    t.datetime "created_at",                  null: false
+    t.datetime "updated_at",                  null: false
+    t.string   "carousel_image_file_name"
+    t.string   "carousel_image_content_type"
+    t.integer  "carousel_image_file_size"
+    t.datetime "carousel_image_updated_at"
   end
 
   create_table "products", force: :cascade do |t|
