@@ -52,11 +52,27 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><%= nav_link "Главная", root_path %></li>
-        <li><%= nav_link "Каталог", catalog_path %></li>
-        <li><%= nav_link "Клиенту", about_path %></li>
-        <li><%= nav_link "Контакты", contacts_path %></li>
+      <ul class="nav navbar-nav navbar-right" id="nav">
+        <%= content_tag :li, class: current_class?(root_path) do %>
+          <%= link_to "Главная", root_path %>
+        <% end %>
+        <%= content_tag :li, class: current_class?(catalog_path) do %>
+          <%= active_link_to "Каталог", catalog_path %>
+          <ul>
+            <li><%= link_to "Женская обувь", catalog_path(:sex => "Женская обувь") %></li>
+            <li><%= link_to "Мужская обувь", catalog_path(:sex => "Мужская обувь") %></li>
+          </ul>
+        <% end %>
+        <%= content_tag :li, class: current_class?(about_path) do %>
+          <%= link_to "Клиенту", about_path %>
+          <ul>
+            <li><%= link_to "Новости"%></li>
+            <li><%= link_to "Акции"%></li>
+          </ul>
+        <% end %>
+        <%= content_tag :li, class: current_class?(contacts_path) do %>
+          <%= link_to "Контакты", contacts_path %>
+        <% end %>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

@@ -5,6 +5,8 @@
         = @product.shoe_type
         |  
         = @product.brand
+        |  
+        = @product.vendor
         hr
   .row
     .col-md-6.col-sm-6.col-xs-12.popular
@@ -129,16 +131,4 @@
 br
 br
 
-input.buttonSend onclick="window.history.back();" type="button" value="Вернуться"
-
-
-/  = link_to 'Edit', edit_product_path(@product)
-  '|
-  = link_to 'Back', products_path
-/sdsadad
-  asdadasd
-  asdasdasd
-  asdasdasd
-  asdasdasd
-  asdasdasd
-  asdasdas
+/input.buttonSend onclick="window.history.back();" type="button" value="Вернуться"

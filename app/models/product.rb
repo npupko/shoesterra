@@ -15,6 +15,7 @@ class Product < ActiveRecord::Base
   validates_attachment_content_type :main_image, content_type: /\Aimage\/.*\Z/
   searchable do
     text :brand
+    text :vendor
     string :brand
     float :price
     string :season
@@ -38,5 +39,9 @@ class Product < ActiveRecord::Base
     boolean :size_46
     boolean :size_47
     boolean :size_48
-end
+  end
+
+  def to_param
+    "#{id} #{shoe_type} #{brand} #{vendor}".parameterize
+  end
 end

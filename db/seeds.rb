@@ -10,6 +10,7 @@ image_path = "#{Rails.root}/app/assets/images/image.png"
 image_file = File.new(image_path)
 
 Product.create(:id => 1,
+               :vendor => rand(10000...99999),
                :brand => 'Peter Kaiser',
                :price => '125.4',
                :discount_status => '10',
@@ -38,6 +39,7 @@ Product.create(:id => 1,
                :size_48 => true)
 
 Product.create(:id => 2,
+               :vendor => rand(10000...99999),
                :brand => 'Gabriele',
                :price => '110.0',
                :discount_status => '15',
@@ -66,6 +68,7 @@ Product.create(:id => 2,
                :size_48 => true)
 
 Product.create(:id => 3,
+               :vendor => rand(10000...99999),
                :brand => 'Jane Klain',
                :price => '100.1',
                :discount_status => '30',
@@ -94,6 +97,7 @@ Product.create(:id => 3,
                :size_48 => true)
 
 Product.create(:id => 4,
+               :vendor => rand(10000...99999),
                :brand => 'S.Oliver',
                :price => '123.4',
                :discount_status => '',
@@ -122,6 +126,7 @@ Product.create(:id => 4,
                :size_48 => true)
 
 Product.create(:id => 5,
+               :vendor => rand(10000...99999),
                :brand => 'Peter Kaiser',
                :price => '99.5',
                :discount_status => '',
@@ -150,6 +155,7 @@ Product.create(:id => 5,
                :size_48 => true)
 
 Product.create(:id => 6,
+               :vendor => rand(10000...99999),
                :brand => 'Gabriele',
                :price => '45.2',
                :discount_status => '',
@@ -177,6 +183,7 @@ Product.create(:id => 6,
                :size_47 => true,
                :size_48 => true)
 Product.create(:id => 7,
+               :vendor => rand(10000...99999),
                :brand => 'Jane Klain',
                :price => '140.8',
                :discount_status => '',
@@ -205,6 +212,7 @@ Product.create(:id => 7,
                :size_48 => true)
 
 Product.create(:id => 8,
+               :vendor => rand(10000...99999),
                :brand => 'S.Oliver',
                :price => '160.5',
                :discount_status => '',
@@ -233,6 +241,7 @@ Product.create(:id => 8,
                :size_48 => true)
 
 Product.create(:id => 9,
+               :vendor => rand(10000...99999),
                :brand => 'S.Oliver',
                :price => '111.5',
                :discount_status => '',
@@ -261,6 +270,7 @@ Product.create(:id => 9,
                :size_48 => true)
 
 Product.create(:id => 10,
+               :vendor => rand(10000...99999),
                :brand => 'Jane Klain',
                :price => '130.8',
                :discount_status => '',
@@ -289,6 +299,7 @@ Product.create(:id => 10,
                :size_48 => true)
 
 Product.create(:id => 11,
+               :vendor => rand(10000...99999),
                :brand => 'Peter Kaiser',
                :price => '125.4',
                :discount_status => '10',
@@ -317,6 +328,7 @@ Product.create(:id => 11,
                :size_48 => true)
 
 Product.create(:id => 12,
+               :vendor => rand(10000...99999),
                :brand => 'Gabriele',
                :price => '110.0',
                :discount_status => '15',
@@ -345,6 +357,7 @@ Product.create(:id => 12,
                :size_48 => true)
 
 Product.create(:id => 13,
+               :vendor => rand(10000...99999),
                :brand => 'Jane Klain',
                :price => '100.1',
                :discount_status => '30',
@@ -373,6 +386,7 @@ Product.create(:id => 13,
                :size_48 => true)
 
 Product.create(:id => 14,
+               :vendor => rand(10000...99999),
                :brand => 'S.Oliver',
                :price => '123.4',
                :discount_status => '',
@@ -401,6 +415,7 @@ Product.create(:id => 14,
                :size_48 => true)
 
 Product.create(:id => 15,
+               :vendor => rand(10000...99999),
                :brand => 'Peter Kaiser',
                :price => '99.5',
                :discount_status => '',
@@ -429,6 +444,7 @@ Product.create(:id => 15,
                :size_48 => true)
 
 Product.create(:id => 16,
+               :vendor => rand(10000...99999),
                :brand => 'Gabriele',
                :price => '45.2',
                :discount_status => '',
@@ -456,6 +472,7 @@ Product.create(:id => 16,
                :size_47 => true,
                :size_48 => true)
 Product.create(:id => 17,
+               :vendor => rand(10000...99999),
                :brand => 'Jane Klain',
                :price => '140.8',
                :discount_status => '',
@@ -484,6 +501,7 @@ Product.create(:id => 17,
                :size_48 => true)
 
 Product.create(:id => 18,
+               :vendor => rand(10000...99999),
                :brand => 'S.Oliver',
                :price => '160.5',
                :discount_status => '',
@@ -512,6 +530,7 @@ Product.create(:id => 18,
                :size_48 => true)
 
 Product.create(:id => 19,
+               :vendor => rand(10000...99999),
                :brand => 'S.Oliver',
                :price => '111.5',
                :discount_status => '',
@@ -540,6 +559,7 @@ Product.create(:id => 19,
                :size_48 => true)
 
 Product.create(:id => 20,
+               :vendor => rand(10000...99999),
                :brand => 'Jane Klain',
                :price => '130.8',
                :discount_status => '',
@@ -568,6 +588,7 @@ Product.create(:id => 20,
                :size_48 => true)
 
 Product.create(:id => 21,
+               :vendor => rand(10000...99999),
                :brand => 'Peter Kaiser',
                :price => '125.4',
                :discount_status => '10',
@@ -596,6 +617,7 @@ Product.create(:id => 21,
                :size_48 => true)
 
 Product.create(:id => 22,
+               :vendor => rand(10000...99999),
                :brand => 'Gabriele',
                :price => '110.0',
                :discount_status => '15',
@@ -624,6 +646,7 @@ Product.create(:id => 22,
                :size_48 => true)
 
 Product.create(:id => 23,
+               :vendor => rand(10000...99999),
                :brand => 'Jane Klain',
                :price => '100.1',
                :discount_status => '30',
@@ -652,6 +675,7 @@ Product.create(:id => 23,
                :size_48 => true)
 
 Product.create(:id => 24,
+               :vendor => rand(10000...99999),
                :brand => 'S.Oliver',
                :price => '123.4',
                :discount_status => '',
@@ -680,6 +704,7 @@ Product.create(:id => 24,
                :size_48 => true)
 
 Product.create(:id => 25,
+               :vendor => rand(10000...99999),
                :brand => 'Peter Kaiser',
                :price => '99.5',
                :discount_status => '',
@@ -708,6 +733,7 @@ Product.create(:id => 25,
                :size_48 => true)
 
 Product.create(:id => 26,
+               :vendor => rand(10000...99999),
                :brand => 'Gabriele',
                :price => '45.2',
                :discount_status => '',
@@ -735,6 +761,7 @@ Product.create(:id => 26,
                :size_47 => true,
                :size_48 => true)
 Product.create(:id => 27,
+               :vendor => rand(10000...99999),
                :brand => 'Jane Klain',
                :price => '140.8',
                :discount_status => '',
@@ -763,6 +790,7 @@ Product.create(:id => 27,
                :size_48 => true)
 
 Product.create(:id => 28,
+               :vendor => rand(10000...99999),
                :brand => 'S.Oliver',
                :price => '160.5',
                :discount_status => '',
@@ -791,6 +819,7 @@ Product.create(:id => 28,
                :size_48 => true)
 
 Product.create(:id => 29,
+               :vendor => rand(10000...99999),
                :brand => 'S.Oliver',
                :price => '111.5',
                :discount_status => '',
@@ -819,6 +848,7 @@ Product.create(:id => 29,
                :size_48 => true)
 
 Product.create(:id => 30,
+               :vendor => rand(10000...99999),
                :brand => 'Jane Klain',
                :price => '130.8',
                :discount_status => '',

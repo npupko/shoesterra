@@ -51,6 +51,8 @@ div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="ca
         .popular_block
           - if product.discount_status
             .discount.hidden-xs %
+          - else product.created_at < 1.month.ago
+            .new.hidden-xs NEW
           = link_to image_tag(product.main_image.url(:medium), :size => "250x160"), product
         - if product.discount_status
           h3.price#new_price
@@ -67,3 +69,4 @@ div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="ca
 
             /    - if product.created_at < Time.now.to_s && product.id == 2
               .new.hidden-xs NEW
+

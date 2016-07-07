@@ -24,15 +24,15 @@
             p
               = label_tag(:size, "Производитель:")
               /= select_tag :brand, options_for_select([['Выберите бренд', nil], 'Gabriele', 'S.Oliver']), class: "catalog_select"
-              = select_tag :brand, options_for_select(@arr), class: "catalog_select", prompt: "Выберите бренд"
+              = select_tag :brand, options_for_select(@arr), id: "catalog_select" , class: "catalog_select", prompt: "Выберите бренд", onchange: 'javascript: $( this ).trigger("submit.rails")'
 
             p
               = label_tag(:size, "Размер:")
               br
-              = select_tag :size, options_for_select([['Выберите размер', nil], '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48']), class: "catalog_select"
+              = select_tag :size, options_for_select([['Выберите размер', nil], '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48']), class: "catalog_select", onchange: 'javascript: $( this ).trigger("submit.rails")'
             p
               = label_tag(:season, "Сезон:")
-              = select_tag :season, options_for_select([['Выберите сезон', nil], 'Весна/Осень', 'Зима', 'Лето']), class: "catalog_select"
+              = select_tag :season, options_for_select([['Выберите сезон', nil], 'Весна/Осень', 'Зима', 'Лето']), class: "catalog_select", onchange: 'javascript: $( this ).trigger("submit.rails")'
             p
               = label_tag(:shoe_type, "Тип обуви:")
             p
@@ -71,27 +71,6 @@
             p
               = check_box_tag :shoe_type12, "Слипоны"
               = label_tag(:shoe_type12, "Слипоны")
-            /p
-              = label_tag(:min_price, "Цена:")
-              = label_tag(:min_price, "От")
-              = number_field_tag :min_price, params[:min_price]
-              = label_tag(:max_price, "До")
-              = text_field_tag :max_price, params[:max_price], value: 200
-            javascript:
-              $(function() {
-                $( "#slider" ).slider({
-                  range: true,
-                  min: 0,
-                  max: 400,
-                  values: [ 50, 350 ],
-                  slide: function( event, ui ) {
-                    $( "#amount_min" ).val(ui.values[ 0 ]);
-                    $( "#amount_max" ).val(ui.values[ 1 ]);
-                  }
-                });
-                $( "#amount_min" ).val($( "#slider" ).slider( "values", 0 ));
-                $( "#amount_max" ).val($( "#slider" ).slider( "values", 1 ));
-              });
             p
               =label_tag(:price, "Цена:")
               br
@@ -120,7 +99,8 @@
           .right-inner-addon
             i class="glyphicon glyphicon-search"
             = form_tag catalog_path, :method => 'get' do
-              = text_field_tag :search, params[:search], :class => 'form-control',:placeholder => "Поиск"
+              = text_field_tag :search, params[:search], :class => 'form-control',:placeholder => "Поиск", :autofocus => true
       .row
         .col-md-12#products
           = render 'products'
+

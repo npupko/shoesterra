@@ -20,6 +20,8 @@ gem 'will_paginate'
 gem 'will_paginate-bootstrap'
 gem 'will-paginate-i18n'
 gem 'lightbox2-rails'
+gem 'active_link_to'
+gem 'russian'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

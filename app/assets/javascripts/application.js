@@ -17,5 +17,3 @@
 //= require bootstrap-sprockets
 //= require jquery-ui/slider
 //= require_tree .
-
-//$("#products_div").html(<%= escape_javascript(render('@products')) %>);

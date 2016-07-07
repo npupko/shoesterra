@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  
-  get '/home' => 'static_pages#home'
 
   get '/catalog' => 'static_pages#catalog'
 
@@ -9,13 +7,15 @@ Rails.application.routes.draw do
   get '/contacts' => 'static_pages#contacts'
 
   resources :carousels
-  resources :products
+  resources :products, param: :shoe_type
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   root 'static_pages#home'
+
+get ':controller/:action/:brand/:id'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

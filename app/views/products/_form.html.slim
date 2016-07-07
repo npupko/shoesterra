@@ -16,6 +16,8 @@
       .field.form-group
         = f.label "Скидка (%):"
         = f.number_field :discount_status, class: "form-control"
+        = f.label "Артикул:"
+        = f.text_field :vendor, class: "form-control"
 
       .field.form-group
         = f.label "Добавить в популярное:"

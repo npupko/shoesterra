@@ -5,4 +5,9 @@ module ApplicationHelper
       link_to link_text, link_path
     end
   end
+
+  def current_class?(test_path)
+    return 'active' if request.path == test_path
+    ''
+  end
 end
