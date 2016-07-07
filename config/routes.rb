@@ -1,10 +1,15 @@
 Rails.application.routes.draw do
 
+  resources :news
   get '/catalog' => 'static_pages#catalog'
 
   get '/about' => 'static_pages#about'
 
   get '/contacts' => 'static_pages#contacts'
+
+  as :user do
+    get "/admin" => "devise/sessions#new"
+  end
 
   resources :carousels
   resources :products, param: :shoe_type
@@ -14,8 +19,6 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'static_pages#home'
-
-get ':controller/:action/:brand/:id'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

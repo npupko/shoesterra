@@ -1,21 +1,40 @@
 class Product < ActiveRecord::Base
-  has_attached_file :main_image, styles: {large: "900x600>", medium: "250x160>", thumb: "100x100>", catalog: "198x223>" },
+  has_attached_file :main_image, styles: {large: "900x600>", 
+                                          medium: "250x160>", 
+                                          catalog: "200x130>",
+                                          general: "360x240>"},
                   default_url: "/images/:style/missing.png"
-  has_attached_file :first_image, styles: {large: "900x600>", medium: "250x160>" },
+  has_attached_file :first_image, styles: {large: "900x600>", 
+                                           medium: "250x160>",
+                                           catalog: "200x130>",
+                                           thumb: "150x90>"},
                   default_url: "/images/:style/missing.png"
-  has_attached_file :second_image, styles: {large: "900x600>", medium: "250x160>" },
+  has_attached_file :second_image, styles: {large: "900x600>", 
+                                            medium: "250x160>",
+                                            catalog: "200x130>",
+                                            thumb: "150x90>"},
                   default_url: "/images/:style/missing.png"
-  has_attached_file :third_image, styles: {large: "900x600>", medium: "250x160>" },
+  has_attached_file :third_image, styles: {large: "900x600>", 
+                                           medium: "250x160>",
+                                           catalog: "200x130>",
+                                           thumb: "150x90>"},
                   default_url: "/images/:style/missing.png"
-  has_attached_file :fourth_image, styles: {large: "900x600>", medium: "250x160>" },
+  has_attached_file :fourth_image, styles: {large: "900x600>",
+                                            medium: "250x160>",
+                                            catalog: "200x130>",
+                                            thumb: "150x90>"},
                   default_url: "/images/:style/missing.png"
-  has_attached_file :fifth_image, styles: {large: "900x600>", medium: "250x160>" },
+  has_attached_file :fifth_image, styles: {large: "900x600>", 
+                                           medium: "250x160>",
+                                           catalog: "200x130>",
+                                           thumb: "150x90>"},
                   default_url: "/images/:style/missing.png"
 
   validates_attachment_content_type :main_image, content_type: /\Aimage\/.*\Z/
   searchable do
     text :brand
     text :vendor
+    boolean :priority
     string :brand
     float :price
     string :season

@@ -1,0 +1,19 @@
+.container-fluid
+  h1 Новости
+  - @news.each do |news|
+    .col-md-6
+      = news.title
+      .fr-view 
+        = simple_format(news.body)
+      = link_to 'Show', news
+      br
+      = link_to 'Edit', edit_news_path(news)
+      br
+      = link_to 'Destroy', news, data: { confirm: 'Are you sure?' }, method: :delete
+      br
+
+  br
+
+  = link_to 'New News', new_news_path
+
+.fr-view = simple_format(@news.first.body)

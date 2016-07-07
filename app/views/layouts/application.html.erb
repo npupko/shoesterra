@@ -58,15 +58,15 @@
         <% end %>
         <%= content_tag :li, class: current_class?(catalog_path) do %>
           <%= active_link_to "Каталог", catalog_path %>
-          <ul>
+          <ul class="hidden-xs">
             <li><%= link_to "Женская обувь", catalog_path(:sex => "Женская обувь") %></li>
             <li><%= link_to "Мужская обувь", catalog_path(:sex => "Мужская обувь") %></li>
           </ul>
         <% end %>
         <%= content_tag :li, class: current_class?(about_path) do %>
           <%= link_to "Клиенту", about_path %>
-          <ul>
-            <li><%= link_to "Новости"%></li>
+          <ul class="hidden-xs">
+            <li><%= link_to "Новости", news_index_path %></li>
             <li><%= link_to "Акции"%></li>
           </ul>
         <% end %>

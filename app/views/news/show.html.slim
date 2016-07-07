@@ -1,0 +1,13 @@
+p#notice = notice
+
+p
+  strong Title:
+  = @news.title
+p
+  .fr-view
+    = simple_format(@news.body)
+
+= link_to 'Edit', edit_news_path(@news)
+'|
+= link_to 'Back', news_index_path
+

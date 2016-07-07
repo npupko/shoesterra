@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160707135709) do
+ActiveRecord::Schema.define(version: 20160707191750) do
 
   create_table "brands", force: :cascade do |t|
     t.string   "brand"
@@ -28,6 +28,17 @@ ActiveRecord::Schema.define(version: 20160707135709) do
     t.string   "carousel_image_content_type"
     t.integer  "carousel_image_file_size"
     t.datetime "carousel_image_updated_at"
+  end
+
+  create_table "news", force: :cascade do |t|
+    t.string   "title"
+    t.text     "body"
+    t.datetime "created_at",              null: false
+    t.datetime "updated_at",              null: false
+    t.string   "news_image_file_name"
+    t.string   "news_image_content_type"
+    t.integer  "news_image_file_size"
+    t.datetime "news_image_updated_at"
   end
 
   create_table "products", force: :cascade do |t|
@@ -83,6 +94,7 @@ ActiveRecord::Schema.define(version: 20160707135709) do
     t.integer  "discount_status"
     t.boolean  "popular_status"
     t.string   "vendor"
+    t.boolean  "priority"
   end
 
   create_table "users", force: :cascade do |t|

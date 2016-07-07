@@ -10,7 +10,7 @@
         hr
   .row
     .col-md-6.col-sm-6.col-xs-12.popular
-      = link_to image_tag(@product.main_image.url(:large), class: "preview-img"), @product.main_image.url(:large), "data-lightbox":"image-1"
+      = link_to image_tag(@product.main_image.url(:general), class: "preview-img"), @product.main_image.url(:large), "data-lightbox":"image-1"
     .col-md-6.col-sm-6
       table class="table table-striped"
         /tr
@@ -85,23 +85,23 @@
             span[class="label #{ @product.size_48 ? 'label label-success' : 'label-danger'}"] 48
   .row.popular
     .col-sm-2.col-sm-offset-1
-      = link_to image_tag(@product.first_image.url(:large), :size => "150x90"), @product.first_image.url(:large), "data-lightbox":"image-1"
+      = link_to image_tag(@product.first_image.url(:thumb), :size => "150x90"), @product.first_image.url(:large), "data-lightbox":"image-1"
     .clearfix.visible-xs-block
       br
     .col-sm-2
-      = link_to image_tag(@product.second_image.url(:large), :size => "150x90"), @product.second_image.url(:large), "data-lightbox":"image-1"
+      = link_to image_tag(@product.second_image.url(:thumb), :size => "150x90"), @product.second_image.url(:large), "data-lightbox":"image-1"
     .clearfix.visible-xs-block
       br
     .col-sm-2
-      = link_to image_tag(@product.third_image.url(:large), :size => "150x90"), @product.third_image.url(:large), "data-lightbox":"image-1"
+      = link_to image_tag(@product.third_image.url(:thumb), :size => "150x90"), @product.third_image.url(:large), "data-lightbox":"image-1"
     .clearfix.visible-xs-block
       br
     .col-sm-2
-      = link_to image_tag(@product.fourth_image.url(:large), :size => "150x90"), @product.fourth_image.url(:large), "data-lightbox":"image-1"
+      = link_to image_tag(@product.fourth_image.url(:thumb), :size => "150x90"), @product.fourth_image.url(:large), "data-lightbox":"image-1"
     .clearfix.visible-xs-block
       br
     .col-sm-2
-      = link_to image_tag(@product.fourth_image.url(:large), :size => "150x90"), @product.fourth_image.url(:large), "data-lightbox":"image-1"
+      = link_to image_tag(@product.fourth_image.url(:thumb), :size => "150x90"), @product.fourth_image.url(:large), "data-lightbox":"image-1"
   .row
     .col-md-12.col-sm-12
       hr

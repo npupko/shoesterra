@@ -75,9 +75,9 @@
               =label_tag(:price, "Цена:")
               br
               |От
-              =text_field_tag :min_price, params[:min_price], readonly: true, id: "amount_min"
+              =text_field_tag :min_price, params[:min_price], readonly: false, id: "amount_min"
               | до
-              =text_field_tag :max_price, params[:min_price], readonly: true, id: "amount_max"
+              =text_field_tag :max_price, params[:min_price], readonly: false, id: "amount_max"
               | руб.
               /input type="text" id="amount" style="border:0; color:#c21659; font-weight:bold;"
               #slider

@@ -22,6 +22,7 @@ gem 'will-paginate-i18n'
 gem 'lightbox2-rails'
 gem 'active_link_to'
 gem 'russian'
+gem "wysiwyg-rails"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
