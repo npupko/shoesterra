@@ -1,18 +1,20 @@
-= form_for @carousel do |f|
-  - if @carousel.errors.any?
-    #error_explanation
-      h2 = "#{pluralize(@carousel.errors.count, "error")} prohibited this carousel from being saved:"
-      ul
-        - @carousel.errors.full_messages.each do |message|
-          li = message
+.panel.panel-default.form
+  .panel-body
+    = form_for @carousel do |f|
+      - if @carousel.errors.any?
+        #error_explanation
+          h2 = "#{pluralize(@carousel.errors.count, "error")} prohibited this carousel from being saved:"
+          ul
+            - @carousel.errors.full_messages.each do |message|
+              li = message
 
-  .field
-    = f.label :name
-    = f.text_field :name
-  .field
-    = f.label :link
-    = f.text_field :link
-  .field
-    = f.label :carousel_image
-    = f.file_field :carousel_image
-  .actions = f.submit
+      .field.form-group
+        = f.label :name
+        = f.text_field :name, class: "form-control"
+      .field.form-group
+        = f.label :link
+        = f.text_field :link, class: "form-control"
+      .field.form-group
+        = f.label :carousel_image
+        = f.file_field :carousel_image
+      .actions = f.submit
