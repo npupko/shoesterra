@@ -5,7 +5,7 @@ class ProductsController < ApplicationController
   # GET /products.json
   def index
     authenticate_user!
-    @products = Product.all
+    @products = Product.paginate(:page => params[:page], :per_page => 20)
   end
 
   # GET /products/1

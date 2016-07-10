@@ -1,31 +1,23 @@
-h1 Сделать новости в этой вкладке?
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
+.container-fluid
+  h1.gradient 
+    = params[:news_type] ? "#{params[:news_type]}" : 'Новости'
+  .row
+    - @news.reverse_each do |news|
+        /.find_all{ |elem| elem.news_type == "Информация" }
+        .col-md-6
+          .panel.panel-default
+            .panel-heading
+              .panel-title
+                = link_to news.title, news
+                .pull-right = news.created_at.strftime("%F %T")
+            .panel-body 
+              center 
+                = link_to image_tag(news.news_image.url(:news_front), size: "500x270"), news
+              br
+              .btn-group.pull-right
+                .button type="button" class="btn btn-xs btn-default"
+                  = link_to "Изменить", edit_news_path(news)
+                .button type="button" class="btn btn-xs btn-danger"
+                  = link_to "", news, data: { confirm: 'Are you sure?' }, method: :delete, class: "glyphicon glyphicon-trash"
+  center
+    = will_paginate @news, renderer: BootstrapPagination::Rails

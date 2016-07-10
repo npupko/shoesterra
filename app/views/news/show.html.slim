@@ -1,13 +1,29 @@
-p#notice = notice
+.container-fluid
+  p#notice = notice
 
-p
-  strong Title:
-  = @news.title
-p
-  .fr-view
-    = simple_format(@news.body)
-
-= link_to 'Edit', edit_news_path(@news)
-'|
-= link_to 'Back', news_index_path
-
+  .row
+    h1.gradient = @news.title
+    hr
+  .row
+    .col-sm-6
+      = image_tag(@news.news_image.url(:news_front))
+    .col-sm-6
+      .fr-view 
+        = @news.body.html_safe
+      hr
+      .btn-group.pull-right
+        .button type="button" class="btn btn-xs btn-default"
+          = link_to "Изменить", edit_news_path(@news)
+        .button type="button" class="btn btn-xs btn-danger"
+          = link_to "", @news, data: { confirm: 'Are you sure?' }, method: :delete, class: "glyphicon glyphicon-trash"
+  .row
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br

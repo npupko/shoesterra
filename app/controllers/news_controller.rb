@@ -4,7 +4,7 @@ class NewsController < ApplicationController
   # GET /news
   # GET /news.json
   def index
-    @news = News.all
+    @news = News.paginate(:page => params[:page])
   end
 
   # GET /news/1
@@ -69,6 +69,6 @@ class NewsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def news_params
-      params.require(:news).permit(:title, :body)
+      params.require(:news).permit(:title, :body, :news_image, :page, :news_type)
     end
 end

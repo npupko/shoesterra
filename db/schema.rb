@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160707191750) do
+ActiveRecord::Schema.define(version: 20160710173227) do
 
   create_table "brands", force: :cascade do |t|
     t.string   "brand"
@@ -39,6 +39,7 @@ ActiveRecord::Schema.define(version: 20160707191750) do
     t.string   "news_image_content_type"
     t.integer  "news_image_file_size"
     t.datetime "news_image_updated_at"
+    t.string   "news_type"
   end
 
   create_table "products", force: :cascade do |t|

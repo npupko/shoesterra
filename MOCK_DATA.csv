@@ -1,0 +1,1001 @@
+brand,price,season,sex,top_matereal,pad_matereal,sole_matereal,shoe_type,vendor,discount_status,size_34,size_35,size_36,size_37,size_38,size_39,size_40,size_41,size_42,size_43,size_44,size_45,size_46,size_47,size_48
+Violet,5,Зима,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Кроссовки,038341751-1,,false,false,false,true,false,true,false,true,false,false,true,false,false,true,true
+Khaki,53,Лето,Женская обувь,Кожа,Кожа,Полимерный материал,Тапки,355110522-7,15,true,false,true,true,true,false,true,false,false,false,false,false,false,true,false
+Maroon,59,Зима,Мужская обувь,Кожа,Замша,Замша,Босоножки,735145009-9,,false,true,true,false,true,false,true,false,true,false,true,true,false,true,false
+Goldenrod,26,Лето,Женская обувь,Замша,Замша,Замша,Мокасины,369881167-7,,false,true,false,false,true,true,true,true,true,false,false,false,false,false,false
+Mauv,53,Зима,Мужская обувь,Кожа,Полимерный материал,Кожа,Кроссовки,810796738-0,,true,true,false,false,true,false,true,true,true,true,true,false,false,false,true
+Yellow,36,Лето,Мужская обувь,Замша,Кожа,Полимерный материал,Сапоги,228314208-3,,true,true,true,false,false,true,false,true,false,false,true,false,false,false,true
+Green,13,Весна/Осень,Мужская обувь,Замша,Замша,Замша,Босоножки,752478438-4,15,false,true,false,true,true,false,false,false,false,false,false,true,false,true,false
+Aquamarine,9,Лето,Мужская обувь,Кожа,Кожа,Полимерный материал,Кроссовки,154585296-0,,false,false,true,false,false,true,true,false,true,false,false,true,false,true,false
+Aquamarine,18,Лето,Мужская обувь,Кожа,Кожа,Замша,Сапоги,133509728-7,,false,true,true,false,true,false,true,false,false,false,false,true,true,true,true
+Mauv,60,Лето,Мужская обувь,Кожа,Замша,Полимерный материал,Кроссовки,777569132-8,,false,true,true,true,false,false,true,true,false,false,false,true,false,true,false
+Puce,31,Лето,Мужская обувь,Кожа,Кожа,Замша,Слипоны,923638311-4,,false,false,true,false,false,false,false,false,false,true,true,true,true,false,false
+Pink,89,Зима,Женская обувь,Замша,Полимерный материал,Полимерный материал,Сандалии,077697139-5,10,false,false,true,true,true,false,true,true,false,true,false,true,true,true,false
+Goldenrod,29,Весна/Осень,Мужская обувь,Кожа,Полимерный материал,Замша,Сабо,565344788-9,,true,false,false,false,true,true,true,false,false,false,true,false,false,true,false
+Puce,76,Лето,Женская обувь,Полимерный материал,Замша,Замша,Тапки,810498904-9,15,true,true,true,false,true,true,true,false,true,true,true,false,false,true,false
+Indigo,34,Зима,Мужская обувь,Замша,Полимерный материал,Кожа,Босоножки,412079466-0,15,false,true,true,true,false,true,true,false,false,false,false,false,true,false,true
+Mauv,22,Зима,Женская обувь,Полимерный материал,Полимерный материал,Замша,Туфли,336951843-0,,true,false,true,false,true,false,false,true,true,false,false,true,false,true,false
+Blue,58,Лето,Женская обувь,Кожа,Замша,Кожа,Босоножки,159470702-2,,true,true,true,false,false,true,false,true,false,true,false,true,true,true,true
+Fuscia,29,Весна/Осень,Мужская обувь,Замша,Замша,Кожа,Туфли,231490508-3,,false,false,false,true,false,false,true,true,false,true,true,true,true,true,true
+Turquoise,5,Лето,Мужская обувь,Полимерный материал,Полимерный материал,Замша,Мокасины,611225275-9,,true,true,true,false,true,false,false,false,true,true,true,false,false,true,true
+Mauv,12,Зима,Мужская обувь,Кожа,Замша,Полимерный материал,Сапоги,871883455-8,,true,true,true,true,false,false,true,false,true,false,true,false,false,false,true
+Turquoise,76,Зима,Мужская обувь,Замша,Кожа,Замша,Тапки,544410091-6,45,true,false,false,false,false,true,true,false,false,true,false,false,true,false,false
+Green,58,Зима,Женская обувь,Полимерный материал,Замша,Кожа,Туфли,037383636-8,30,true,false,true,false,true,false,false,true,false,true,true,false,false,true,false
+Fuscia,14,Лето,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Сапоги,735864395-X,,false,false,true,false,true,false,false,true,true,false,false,true,false,true,true
+Green,19,Весна/Осень,Мужская обувь,Кожа,Замша,Полимерный материал,Сабо,912909054-7,,false,false,false,false,true,false,true,false,false,false,false,true,false,false,true
+Fuscia,36,Весна/Осень,Женская обувь,Замша,Кожа,Замша,Мокасины,711924579-1,,false,false,true,true,false,false,false,true,false,true,true,true,false,false,true
+Turquoise,61,Весна/Осень,Мужская обувь,Полимерный материал,Полимерный материал,Кожа,Тапки,294467141-3,,true,false,true,true,true,true,false,true,true,false,false,false,true,true,false
+Pink,65,Лето,Женская обувь,Кожа,Кожа,Кожа,Кеды,652713522-X,,false,false,false,true,true,false,false,true,false,false,false,true,false,true,true
+Blue,91,Лето,Мужская обувь,Полимерный материал,Замша,Кожа,Сапоги,475844017-4,,false,false,false,false,false,true,false,false,false,false,true,false,true,false,false
+Puce,71,Зима,Женская обувь,Кожа,Кожа,Кожа,Угги,883118369-9,,true,false,true,true,false,false,false,false,false,false,false,false,true,false,false
+Goldenrod,93,Лето,Мужская обувь,Замша,Кожа,Замша,Кроссовки,860333057-3,,true,false,false,true,false,true,false,false,false,false,false,false,false,true,true
+Pink,12,Весна/Осень,Мужская обувь,Полимерный материал,Полимерный материал,Кожа,Тапки,081822134-8,30,true,false,true,true,true,true,false,true,true,true,false,false,true,true,true
+Green,15,Весна/Осень,Женская обувь,Замша,Замша,Кожа,Угги,697873221-4,,true,true,false,false,true,true,false,true,false,false,false,false,true,false,false
+Teal,29,Весна/Осень,Женская обувь,Кожа,Замша,Кожа,Кроссовки,312148365-X,,true,true,false,false,false,false,false,true,true,true,true,true,true,false,false
+Pink,30,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Замша,Сапоги,963480677-5,30,true,true,true,true,true,false,true,false,false,true,true,false,false,true,true
+Goldenrod,78,Лето,Мужская обувь,Замша,Замша,Полимерный материал,Мокасины,145851972-4,30,false,true,false,false,false,false,true,true,true,false,false,false,true,false,false
+Khaki,9,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Сандалии,907913538-0,,false,true,false,false,false,true,false,true,false,false,true,false,false,true,false
+Green,4,Зима,Женская обувь,Полимерный материал,Кожа,Замша,Туфли,835545557-6,,true,false,true,true,false,true,true,false,false,false,false,true,true,true,true
+Maroon,66,Весна/Осень,Мужская обувь,Замша,Полимерный материал,Замша,Туфли,034560609-4,,true,false,true,false,true,false,true,false,true,true,false,true,true,true,true
+Pink,34,Весна/Осень,Мужская обувь,Замша,Кожа,Замша,Мокасины,136035276-7,,true,false,false,true,false,true,true,true,true,true,false,true,false,true,true
+Aquamarine,79,Лето,Женская обувь,Полимерный материал,Кожа,Кожа,Угги,197955128-6,,false,true,true,false,true,true,false,false,false,false,false,false,true,true,true
+Puce,91,Лето,Женская обувь,Полимерный материал,Замша,Кожа,Сандалии,326567033-3,10,false,true,true,false,true,true,true,false,true,false,true,false,false,true,true
+Red,96,Зима,Женская обувь,Полимерный материал,Замша,Полимерный материал,Слипоны,925275313-3,10,true,false,true,true,false,false,true,true,false,false,true,false,false,false,false
+Turquoise,71,Зима,Мужская обувь,Кожа,Кожа,Замша,Угги,964605449-8,15,true,true,true,true,false,false,true,false,true,false,false,true,true,true,true
+Mauv,53,Зима,Мужская обувь,Полимерный материал,Кожа,Замша,Туфли,607670799-2,,false,false,false,true,true,true,true,false,true,true,false,false,false,true,false
+Fuscia,7,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Кожа,Туфли,224410727-2,10,false,false,true,true,true,true,true,false,true,true,true,true,false,true,true
+Turquoise,56,Лето,Мужская обувь,Замша,Замша,Замша,Ботинки,194784137-8,,true,false,true,false,true,true,true,true,false,false,true,false,true,false,true
+Puce,69,Лето,Мужская обувь,Полимерный материал,Кожа,Замша,Туфли,793343811-3,,true,false,true,false,true,false,false,false,false,false,false,true,true,true,false
+Fuscia,88,Весна/Осень,Мужская обувь,Кожа,Кожа,Кожа,Туфли,620496475-5,45,false,false,false,true,false,true,true,true,true,false,true,true,true,true,false
+Aquamarine,79,Весна/Осень,Мужская обувь,Кожа,Кожа,Полимерный материал,Кроссовки,012571518-8,,false,true,true,false,false,true,true,true,false,true,true,false,false,true,true
+Purple,74,Зима,Женская обувь,Замша,Кожа,Замша,Кеды,268656842-9,,false,true,false,true,true,true,false,true,true,false,false,false,true,true,false
+Khaki,48,Зима,Женская обувь,Замша,Полимерный материал,Полимерный материал,Туфли,257884804-1,,false,false,false,false,true,true,true,false,false,false,false,false,false,true,true
+Goldenrod,22,Лето,Женская обувь,Кожа,Замша,Полимерный материал,Тапки,267420814-7,15,true,true,true,true,false,false,false,false,false,true,true,true,false,false,true
+Goldenrod,38,Весна/Осень,Мужская обувь,Кожа,Замша,Полимерный материал,Сандалии,649739538-5,,false,true,false,true,true,false,true,false,true,false,false,true,true,false,true
+Mauv,67,Лето,Мужская обувь,Кожа,Замша,Замша,Мокасины,440107612-5,,true,false,true,false,true,false,true,true,true,true,false,false,false,false,false
+Goldenrod,8,Весна/Осень,Женская обувь,Полимерный материал,Кожа,Замша,Угги,732645607-0,,true,true,true,false,true,false,true,false,true,false,false,false,true,true,false
+Crimson,38,Зима,Женская обувь,Замша,Полимерный материал,Полимерный материал,Сапоги,104702206-0,,true,false,false,false,false,false,false,false,false,true,false,true,false,false,false
+Teal,75,Лето,Мужская обувь,Кожа,Кожа,Замша,Тапки,660491836-X,,false,true,true,false,true,true,false,true,false,false,true,false,false,true,true
+Puce,56,Зима,Мужская обувь,Полимерный материал,Кожа,Замша,Сандалии,192236984-5,15,false,false,false,true,true,true,false,true,false,false,false,true,true,true,false
+Crimson,29,Зима,Мужская обувь,Замша,Замша,Полимерный материал,Тапки,511430256-6,,true,true,true,false,false,true,true,false,false,true,true,true,true,false,true
+Khaki,3,Лето,Женская обувь,Кожа,Замша,Замша,Кеды,568197061-2,,true,true,false,true,true,true,false,false,false,true,true,false,true,false,true
+Aquamarine,70,Зима,Женская обувь,Замша,Кожа,Полимерный материал,Босоножки,273359092-8,,false,true,true,true,true,true,true,false,true,true,false,false,true,true,false
+Goldenrod,75,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Полимерный материал,Сапоги,862987326-4,10,false,false,false,false,true,true,true,false,false,true,false,true,true,false,true
+Mauv,76,Лето,Женская обувь,Замша,Полимерный материал,Полимерный материал,Сабо,780236749-2,30,true,true,false,false,true,false,true,true,true,false,true,true,false,true,true
+Turquoise,68,Зима,Женская обувь,Кожа,Кожа,Замша,Мокасины,683997261-5,10,true,true,false,false,true,true,false,true,false,false,false,false,true,false,false
+Violet,8,Лето,Мужская обувь,Кожа,Полимерный материал,Кожа,Кеды,010844312-4,30,true,true,false,true,true,false,true,true,false,false,true,true,true,true,false
+Orange,30,Зима,Мужская обувь,Полимерный материал,Кожа,Замша,Сабо,280440997-X,,true,false,true,true,false,false,true,true,true,false,true,false,true,false,false
+Mauv,9,Весна/Осень,Мужская обувь,Замша,Полимерный материал,Полимерный материал,Туфли,163900187-5,,false,false,true,true,false,true,true,false,false,false,false,true,false,false,true
+Violet,12,Весна/Осень,Женская обувь,Замша,Замша,Полимерный материал,Сандалии,914017692-4,,true,true,false,false,false,false,true,true,false,false,false,false,false,true,false
+Violet,20,Зима,Мужская обувь,Замша,Кожа,Замша,Ботинки,382835274-X,30,false,true,false,false,true,false,true,false,false,true,false,true,false,true,false
+Violet,49,Лето,Женская обувь,Замша,Кожа,Замша,Ботинки,591803636-9,,false,false,true,false,true,false,false,true,false,false,true,false,true,false,false
+Turquoise,35,Весна/Осень,Женская обувь,Замша,Замша,Замша,Босоножки,248157743-4,,false,false,true,true,false,true,true,true,false,true,true,true,true,true,false
+Puce,19,Зима,Мужская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Кроссовки,885885666-X,,true,true,true,true,true,false,true,true,false,false,true,false,true,true,true
+Puce,99,Зима,Мужская обувь,Полимерный материал,Кожа,Кожа,Босоножки,931303154-X,,false,true,true,false,false,true,true,false,true,false,true,true,true,false,false
+Indigo,22,Зима,Мужская обувь,Замша,Полимерный материал,Полимерный материал,Сандалии,311288954-1,30,true,true,true,false,true,true,true,true,false,true,true,true,false,false,false
+Turquoise,6,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Ботинки,678550121-0,,true,true,false,true,true,true,false,false,false,true,true,false,false,true,false
+Goldenrod,98,Лето,Мужская обувь,Замша,Кожа,Замша,Кеды,736719824-6,10,true,true,true,true,false,false,false,true,false,true,true,true,false,true,false
+Orange,52,Зима,Мужская обувь,Кожа,Замша,Замша,Кеды,453468983-7,,true,false,false,true,true,false,false,false,false,false,false,false,false,true,false
+Puce,62,Зима,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Босоножки,253397679-2,,true,true,true,true,false,false,false,true,true,false,true,false,true,false,false
+Maroon,16,Лето,Женская обувь,Полимерный материал,Полимерный материал,Замша,Слипоны,482979560-3,45,true,true,false,true,true,true,false,true,false,false,false,true,true,false,false
+Goldenrod,41,Зима,Мужская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Сабо,061859466-3,,true,true,false,true,true,false,true,false,true,true,true,false,true,true,false
+Yellow,55,Весна/Осень,Женская обувь,Кожа,Замша,Замша,Тапки,821139164-3,15,false,true,true,false,true,false,true,false,true,true,true,false,false,true,false
+Blue,19,Лето,Мужская обувь,Полимерный материал,Замша,Замша,Кроссовки,762477591-3,30,true,true,true,true,true,false,false,false,false,true,false,true,true,false,false
+Puce,38,Лето,Мужская обувь,Замша,Полимерный материал,Замша,Угги,939607038-6,15,false,false,false,true,false,false,false,true,false,false,false,false,false,false,false
+Turquoise,81,Весна/Осень,Женская обувь,Кожа,Кожа,Замша,Тапки,372575550-7,,false,true,true,false,false,false,true,false,true,false,false,true,false,true,false
+Aquamarine,5,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Туфли,923624553-6,,false,true,false,true,false,true,true,true,true,true,false,true,false,true,true
+Red,18,Лето,Мужская обувь,Замша,Замша,Кожа,Кроссовки,570092275-4,10,true,false,false,false,true,true,true,false,false,true,true,false,true,false,false
+Violet,50,Зима,Женская обувь,Замша,Кожа,Полимерный материал,Ботинки,856470989-9,,false,true,false,true,true,false,true,false,false,true,false,false,false,false,true
+Crimson,59,Зима,Женская обувь,Полимерный материал,Кожа,Кожа,Тапки,648823965-1,,true,false,false,false,true,false,false,true,false,false,true,false,true,false,true
+Teal,66,Зима,Мужская обувь,Замша,Полимерный материал,Кожа,Мокасины,322713277-X,,true,false,true,false,false,false,true,false,false,true,true,true,true,false,true
+Puce,85,Весна/Осень,Женская обувь,Кожа,Замша,Полимерный материал,Тапки,240008349-5,45,false,true,true,true,false,true,true,false,true,true,false,false,false,false,false
+Fuscia,61,Лето,Мужская обувь,Замша,Замша,Полимерный материал,Мокасины,211237612-8,10,false,false,false,true,false,false,true,true,true,true,true,false,true,true,true
+Mauv,87,Зима,Женская обувь,Полимерный материал,Замша,Полимерный материал,Слипоны,619236865-1,,true,false,true,true,true,true,true,false,true,true,false,false,true,false,false
+Pink,75,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Кожа,Ботинки,945699793-6,,true,true,true,false,true,true,false,true,true,false,false,true,true,true,false
+Fuscia,54,Лето,Мужская обувь,Замша,Кожа,Замша,Сабо,568823273-0,,true,true,true,false,true,true,true,false,true,false,false,true,true,true,false
+Orange,7,Зима,Женская обувь,Полимерный материал,Кожа,Замша,Туфли,707318847-2,45,true,true,false,false,true,true,false,true,true,true,true,true,true,false,true
+Pink,48,Зима,Женская обувь,Полимерный материал,Замша,Замша,Сандалии,722448398-2,30,true,true,true,true,false,true,true,false,false,false,true,true,true,true,true
+Puce,72,Весна/Осень,Мужская обувь,Замша,Полимерный материал,Кожа,Тапки,777682010-5,45,true,true,true,false,true,true,false,false,false,false,true,true,false,false,false
+Pink,28,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Замша,Слипоны,448014411-0,,true,true,false,true,true,false,false,true,false,true,true,true,true,false,false
+Maroon,2,Лето,Женская обувь,Замша,Кожа,Замша,Угги,145653069-0,45,false,false,false,false,false,false,false,true,false,true,true,true,true,true,false
+Indigo,75,Зима,Мужская обувь,Кожа,Замша,Замша,Тапки,204305441-4,30,false,true,true,true,false,false,false,false,false,true,true,false,false,true,true
+Maroon,28,Зима,Женская обувь,Замша,Кожа,Кожа,Сапоги,729551701-4,,false,false,false,true,false,false,true,true,false,false,false,true,false,false,false
+Purple,42,Зима,Мужская обувь,Полимерный материал,Замша,Кожа,Сапоги,317272715-7,15,true,true,false,true,true,false,false,true,false,false,false,false,false,false,false
+Fuscia,44,Зима,Мужская обувь,Кожа,Замша,Полимерный материал,Туфли,587109470-8,30,false,false,false,false,true,true,true,false,false,true,false,false,true,false,true
+Yellow,21,Весна/Осень,Женская обувь,Кожа,Замша,Полимерный материал,Сапоги,184237703-5,,false,false,true,true,true,true,true,false,true,false,true,false,false,true,false
+Mauv,36,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Замша,Слипоны,430642146-5,,false,true,false,true,false,true,true,true,true,true,false,true,false,false,true
+Turquoise,25,Зима,Мужская обувь,Кожа,Полимерный материал,Замша,Кеды,495846031-4,10,false,true,false,true,false,false,false,false,false,false,true,true,false,false,true
+Pink,30,Весна/Осень,Женская обувь,Кожа,Кожа,Замша,Кроссовки,557029421-X,45,true,true,true,false,true,true,false,false,false,true,false,true,false,true,true
+Red,27,Зима,Мужская обувь,Кожа,Полимерный материал,Кожа,Ботинки,840272252-0,,false,false,true,false,true,false,false,true,false,true,false,false,false,true,false
+Pink,100,Зима,Мужская обувь,Полимерный материал,Полимерный материал,Замша,Босоножки,771722013-X,,true,false,true,true,true,false,true,false,false,false,true,true,false,true,false
+Indigo,93,Лето,Женская обувь,Кожа,Замша,Кожа,Туфли,095898739-4,30,false,false,true,true,false,true,true,true,false,false,false,false,true,true,true
+Maroon,52,Зима,Женская обувь,Полимерный материал,Замша,Замша,Угги,774613672-9,,false,true,false,false,true,false,false,true,false,true,true,true,true,true,true
+Violet,20,Зима,Женская обувь,Кожа,Замша,Замша,Угги,502975922-0,15,true,true,false,true,false,true,true,true,true,true,false,false,true,true,false
+Blue,83,Весна/Осень,Мужская обувь,Замша,Замша,Замша,Кроссовки,105383786-0,45,true,false,false,true,false,true,true,false,false,true,true,false,false,true,false
+Teal,23,Лето,Мужская обувь,Замша,Замша,Кожа,Туфли,860306422-9,,true,true,false,true,false,false,false,true,false,true,false,false,false,true,true
+Pink,64,Зима,Женская обувь,Замша,Полимерный материал,Полимерный материал,Тапки,661077910-4,,true,false,true,true,true,true,false,true,false,true,true,false,true,false,true
+Puce,20,Лето,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Ботинки,730684073-8,,false,true,true,false,false,false,false,false,false,true,true,true,true,false,false
+Teal,49,Лето,Мужская обувь,Кожа,Полимерный материал,Замша,Туфли,125131798-7,10,true,true,true,true,false,false,true,true,true,false,false,true,true,false,true
+Purple,15,Зима,Мужская обувь,Кожа,Кожа,Полимерный материал,Туфли,563939293-2,,false,true,false,true,true,false,true,false,true,false,true,false,false,false,true
+Pink,30,Весна/Осень,Мужская обувь,Замша,Замша,Полимерный материал,Слипоны,073544668-7,,true,true,true,false,false,false,false,false,true,false,true,false,false,false,true
+Khaki,15,Зима,Мужская обувь,Полимерный материал,Полимерный материал,Кожа,Слипоны,860700175-2,,true,true,true,false,false,false,false,false,false,false,true,false,true,true,false
+Khaki,7,Весна/Осень,Мужская обувь,Замша,Кожа,Кожа,Сандалии,209386326-X,15,true,false,true,true,false,true,true,false,true,true,false,true,true,true,false
+Yellow,73,Лето,Женская обувь,Кожа,Полимерный материал,Замша,Ботинки,427424365-6,15,true,true,true,true,false,true,true,false,true,false,true,false,false,true,false
+Red,21,Лето,Женская обувь,Полимерный материал,Замша,Кожа,Кроссовки,491448242-8,,true,false,false,true,false,true,true,true,true,true,false,false,true,true,false
+Puce,48,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Кожа,Босоножки,959289713-1,,true,false,true,true,true,false,false,false,true,false,true,false,false,false,true
+Orange,47,Лето,Женская обувь,Кожа,Кожа,Полимерный материал,Сабо,687466580-4,,false,true,true,false,true,false,false,true,false,true,false,true,false,false,false
+Red,97,Весна/Осень,Женская обувь,Замша,Кожа,Полимерный материал,Туфли,749208248-7,,false,false,true,true,false,false,true,false,true,false,false,true,true,false,true
+Goldenrod,59,Лето,Мужская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Угги,800247113-X,,true,false,false,false,true,true,false,true,true,true,false,false,false,false,false
+Teal,51,Зима,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Босоножки,123956298-5,,true,false,true,false,false,false,true,true,true,true,false,false,false,true,true
+Pink,76,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Замша,Тапки,438239148-2,,false,false,false,false,true,false,true,true,true,true,true,false,false,true,true
+Khaki,91,Весна/Осень,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Кеды,426829717-0,30,false,true,false,true,false,false,false,true,false,true,false,false,false,false,false
+Red,81,Лето,Женская обувь,Замша,Полимерный материал,Кожа,Кеды,508571736-8,,true,true,false,false,true,true,false,true,false,true,false,false,true,true,false
+Orange,54,Лето,Мужская обувь,Замша,Замша,Полимерный материал,Кеды,700888626-8,45,true,true,true,false,false,true,false,true,true,true,false,true,true,true,true
+Goldenrod,40,Зима,Женская обувь,Кожа,Полимерный материал,Замша,Сапоги,141401481-3,30,false,false,true,true,true,false,false,true,true,true,true,false,false,false,true
+Pink,73,Зима,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Тапки,744404956-4,,false,false,true,false,false,true,false,false,true,false,false,true,false,false,false
+Goldenrod,92,Лето,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Сандалии,970887412-4,10,true,false,true,true,false,true,false,false,true,true,false,false,true,false,false
+Pink,67,Лето,Женская обувь,Замша,Кожа,Замша,Тапки,200635590-2,10,true,true,false,true,false,false,false,false,true,false,false,true,true,false,false
+Green,100,Зима,Мужская обувь,Полимерный материал,Полимерный материал,Замша,Ботинки,144123110-2,,false,true,true,true,false,true,true,true,false,true,false,false,true,true,false
+Red,46,Весна/Осень,Женская обувь,Замша,Кожа,Замша,Слипоны,825862338-9,45,false,false,true,true,false,true,false,true,false,true,false,true,true,false,true
+Indigo,6,Весна/Осень,Мужская обувь,Замша,Замша,Кожа,Слипоны,455538913-1,30,true,false,false,false,false,false,false,true,false,false,false,true,false,false,true
+Purple,96,Весна/Осень,Женская обувь,Замша,Замша,Замша,Кроссовки,300854014-7,,false,false,true,true,true,true,true,true,false,true,false,false,false,false,true
+Indigo,40,Зима,Мужская обувь,Полимерный материал,Кожа,Замша,Кеды,194348899-1,,false,true,true,true,true,true,true,true,true,true,false,false,true,true,false
+Puce,91,Лето,Мужская обувь,Кожа,Кожа,Полимерный материал,Сандалии,042676730-6,30,true,false,false,false,false,true,false,false,false,true,true,true,false,false,true
+Khaki,50,Зима,Мужская обувь,Кожа,Кожа,Полимерный материал,Сапоги,665368427-X,45,true,false,true,true,true,true,false,true,false,false,true,false,true,false,true
+Goldenrod,58,Весна/Осень,Женская обувь,Полимерный материал,Замша,Замша,Мокасины,191046270-5,10,false,true,false,true,false,false,true,true,false,false,false,false,true,false,false
+Khaki,10,Лето,Мужская обувь,Полимерный материал,Кожа,Кожа,Слипоны,378098550-0,,true,true,false,false,true,false,true,true,true,false,true,false,false,true,true
+Green,81,Весна/Осень,Мужская обувь,Кожа,Замша,Полимерный материал,Слипоны,817523482-2,,true,false,false,true,true,true,true,false,false,true,true,false,true,false,true
+Purple,82,Лето,Мужская обувь,Замша,Замша,Замша,Ботинки,177772893-2,10,false,true,false,false,false,true,false,false,true,false,false,true,true,false,true
+Green,36,Зима,Мужская обувь,Кожа,Полимерный материал,Кожа,Ботинки,370117976-X,,false,false,false,false,true,true,false,false,false,false,true,false,true,true,false
+Turquoise,19,Весна/Осень,Женская обувь,Кожа,Замша,Полимерный материал,Сабо,137542763-6,,false,true,false,false,true,true,false,false,false,false,true,true,true,false,false
+Puce,20,Весна/Осень,Мужская обувь,Кожа,Полимерный материал,Кожа,Мокасины,441911867-9,15,true,true,true,false,true,true,true,true,true,true,true,false,true,false,false
+Puce,21,Весна/Осень,Мужская обувь,Замша,Замша,Замша,Туфли,545377823-7,,false,true,false,false,true,true,false,true,true,true,false,false,true,true,false
+Puce,31,Лето,Женская обувь,Полимерный материал,Кожа,Полимерный материал,Ботинки,496726202-3,30,true,true,true,true,false,true,true,true,false,true,false,false,true,false,false
+Blue,69,Зима,Мужская обувь,Замша,Замша,Замша,Босоножки,307605979-3,,true,false,true,false,false,false,false,false,true,true,true,true,false,true,false
+Green,23,Зима,Женская обувь,Замша,Кожа,Замша,Босоножки,523747928-6,,false,false,true,false,true,false,false,false,true,false,true,false,false,true,true
+Yellow,96,Зима,Мужская обувь,Кожа,Замша,Полимерный материал,Тапки,085863559-3,,false,false,true,false,true,false,true,false,false,true,false,false,false,false,true
+Purple,82,Зима,Женская обувь,Кожа,Полимерный материал,Кожа,Кеды,143664524-7,,false,true,true,true,false,true,true,false,false,true,false,true,false,false,false
+Indigo,81,Лето,Женская обувь,Полимерный материал,Замша,Кожа,Сапоги,700285532-8,,true,true,false,true,true,true,false,false,false,true,false,true,false,false,false
+Red,14,Зима,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Слипоны,700768593-5,,false,false,true,false,false,true,true,false,true,true,false,true,false,false,false
+Yellow,32,Весна/Осень,Мужская обувь,Замша,Полимерный материал,Полимерный материал,Сабо,768316161-6,30,false,false,false,true,false,false,true,false,false,false,false,true,false,true,true
+Violet,39,Зима,Женская обувь,Замша,Кожа,Замша,Слипоны,751118718-8,,false,true,false,true,false,false,false,true,false,true,false,false,false,true,true
+Teal,8,Зима,Женская обувь,Замша,Полимерный материал,Полимерный материал,Кеды,856589135-6,10,true,false,true,false,true,false,false,false,true,false,false,false,true,true,false
+Pink,26,Зима,Женская обувь,Полимерный материал,Кожа,Кожа,Тапки,716858899-0,45,true,true,false,true,false,false,true,true,false,false,false,false,false,false,true
+Fuscia,1,Зима,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Сапоги,651282435-0,,false,false,false,false,false,true,true,false,true,true,false,true,true,true,false
+Goldenrod,38,Зима,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Ботинки,665864418-7,45,true,false,false,false,true,false,false,true,false,true,true,false,false,true,false
+Violet,86,Весна/Осень,Мужская обувь,Кожа,Замша,Замша,Босоножки,460164654-5,15,true,true,false,false,true,true,true,false,true,false,false,false,true,false,true
+Turquoise,32,Лето,Женская обувь,Полимерный материал,Кожа,Кожа,Сапоги,642373433-X,45,true,true,true,true,true,false,true,false,true,false,true,true,true,false,false
+Red,88,Весна/Осень,Мужская обувь,Кожа,Замша,Полимерный материал,Ботинки,157992867-6,,true,false,false,true,false,true,false,true,false,false,true,false,false,true,false
+Indigo,26,Весна/Осень,Женская обувь,Полимерный материал,Замша,Замша,Кроссовки,551801645-X,,false,true,true,false,true,true,false,true,true,false,false,false,true,false,false
+Violet,36,Зима,Женская обувь,Замша,Полимерный материал,Полимерный материал,Сандалии,595067405-7,,false,false,false,false,false,false,true,true,true,false,false,true,true,false,false
+Purple,97,Зима,Мужская обувь,Замша,Полимерный материал,Полимерный материал,Мокасины,265760338-6,,true,true,false,true,false,false,false,false,true,true,false,false,true,true,true
+Green,17,Зима,Женская обувь,Кожа,Кожа,Замша,Сапоги,734272892-6,,true,true,false,true,true,true,false,false,true,true,true,false,false,true,true
+Teal,29,Зима,Мужская обувь,Замша,Замша,Кожа,Босоножки,632111826-5,10,true,true,false,false,false,false,true,true,true,true,true,false,false,true,false
+Red,54,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Слипоны,305410585-7,,false,true,true,false,true,true,true,false,false,true,false,false,false,false,true
+Yellow,37,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Замша,Слипоны,553984861-6,45,false,false,true,true,false,true,false,false,false,false,true,false,false,false,true
+Crimson,10,Лето,Мужская обувь,Полимерный материал,Замша,Замша,Слипоны,788169580-3,30,true,true,true,true,false,false,false,true,false,false,true,false,false,true,false
+Pink,92,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Замша,Сандалии,423734468-1,,true,true,false,true,false,false,false,false,true,false,false,true,true,false,true
+Teal,69,Зима,Мужская обувь,Замша,Кожа,Замша,Тапки,194021561-7,,true,true,true,true,false,false,true,true,false,false,false,false,true,false,false
+Pink,6,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Полимерный материал,Тапки,851577521-2,15,false,true,false,false,true,false,true,false,true,false,true,false,true,false,false
+Puce,43,Лето,Мужская обувь,Кожа,Замша,Замша,Сапоги,162472720-4,45,true,true,false,true,true,false,false,true,true,true,true,false,true,true,false
+Violet,62,Лето,Женская обувь,Кожа,Кожа,Замша,Мокасины,782959358-2,,true,true,true,false,true,true,true,false,true,true,false,true,false,false,true
+Indigo,81,Лето,Мужская обувь,Кожа,Кожа,Полимерный материал,Кроссовки,520782051-6,,false,false,true,true,false,true,false,false,false,true,false,true,false,false,false
+Orange,4,Весна/Осень,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Мокасины,655856888-8,10,true,true,true,false,true,false,false,true,false,false,false,true,true,false,true
+Red,27,Зима,Мужская обувь,Замша,Замша,Кожа,Туфли,333980795-7,,false,false,true,false,true,true,false,true,false,true,true,false,true,true,false
+Yellow,25,Зима,Женская обувь,Кожа,Полимерный материал,Кожа,Мокасины,028672533-9,,true,false,false,false,true,false,true,false,false,true,true,false,false,true,true
+Purple,86,Зима,Женская обувь,Полимерный материал,Кожа,Кожа,Сабо,332122297-3,30,false,false,false,true,true,false,false,false,true,true,false,true,false,false,false
+Red,86,Зима,Женская обувь,Замша,Замша,Кожа,Слипоны,264286075-2,,true,false,true,true,true,false,true,false,true,true,false,false,true,false,false
+Pink,96,Зима,Женская обувь,Полимерный материал,Замша,Полимерный материал,Кроссовки,936615950-8,,true,true,false,true,true,false,false,true,false,true,true,true,false,true,false
+Maroon,86,Лето,Мужская обувь,Кожа,Полимерный материал,Кожа,Босоножки,480280416-4,45,false,true,true,false,false,true,false,true,true,false,true,false,true,false,false
+Teal,78,Зима,Женская обувь,Замша,Замша,Замша,Слипоны,337662401-1,15,true,true,false,true,false,true,true,false,false,false,false,true,false,true,true
+Mauv,22,Зима,Мужская обувь,Замша,Полимерный материал,Кожа,Сапоги,943406755-3,,false,false,true,true,false,false,false,true,true,true,true,false,false,true,false
+Aquamarine,8,Весна/Осень,Женская обувь,Кожа,Кожа,Кожа,Угги,817356029-3,30,true,true,false,false,false,true,false,false,false,false,true,true,false,true,false
+Green,78,Лето,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Слипоны,808450912-8,,false,true,false,true,true,true,false,true,false,false,true,true,true,false,true
+Orange,6,Весна/Осень,Женская обувь,Кожа,Кожа,Замша,Ботинки,691819335-X,,true,true,false,false,false,false,false,true,true,true,false,false,true,false,true
+Goldenrod,94,Лето,Мужская обувь,Полимерный материал,Кожа,Полимерный материал,Слипоны,146547569-9,10,true,true,false,true,true,false,true,true,true,true,true,false,false,true,false
+Khaki,79,Лето,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Ботинки,390804821-4,45,true,true,true,true,true,false,false,false,false,true,false,true,false,false,false
+Pink,2,Лето,Женская обувь,Полимерный материал,Замша,Кожа,Сабо,360406971-8,,false,true,true,true,true,true,true,true,false,false,false,false,false,true,true
+Violet,31,Лето,Мужская обувь,Замша,Замша,Полимерный материал,Угги,536574001-7,30,true,true,true,false,true,true,true,false,true,true,false,true,false,false,true
+Maroon,22,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Кроссовки,189004663-9,,false,true,true,false,false,true,false,true,false,true,false,true,true,true,false
+Teal,98,Лето,Женская обувь,Кожа,Кожа,Кожа,Туфли,616364806-4,,true,false,true,true,false,false,true,false,false,false,true,true,true,true,true
+Goldenrod,17,Лето,Женская обувь,Полимерный материал,Полимерный материал,Замша,Туфли,499807271-4,45,false,false,false,true,false,true,true,true,false,false,true,false,true,true,false
+Violet,63,Лето,Женская обувь,Полимерный материал,Кожа,Кожа,Тапки,937989718-9,,false,true,true,true,false,true,true,true,true,false,false,true,true,true,true
+Teal,54,Зима,Женская обувь,Замша,Кожа,Замша,Туфли,271143347-1,,true,false,true,false,true,true,false,false,false,true,false,false,false,false,true
+Goldenrod,65,Лето,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Тапки,930300248-2,,true,false,true,true,false,true,false,true,false,true,true,true,true,false,false
+Fuscia,52,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Сабо,077044391-5,,true,true,true,true,true,true,false,false,false,false,false,false,true,false,false
+Indigo,36,Весна/Осень,Мужская обувь,Замша,Замша,Замша,Туфли,252066927-6,,false,false,true,false,true,true,true,true,true,false,true,false,false,true,true
+Green,56,Зима,Женская обувь,Кожа,Кожа,Замша,Туфли,979695003-0,,true,false,false,true,true,false,false,true,true,true,true,false,true,true,true
+Maroon,85,Зима,Мужская обувь,Кожа,Кожа,Полимерный материал,Тапки,185114928-7,30,true,true,true,false,true,false,false,false,false,false,false,false,false,false,true
+Turquoise,64,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Замша,Кроссовки,476994629-5,10,false,false,false,true,true,false,false,false,false,true,true,false,false,true,false
+Red,85,Зима,Мужская обувь,Кожа,Полимерный материал,Кожа,Угги,296383861-1,,true,true,false,false,true,false,true,true,true,false,false,true,false,true,true
+Green,91,Лето,Женская обувь,Замша,Кожа,Полимерный материал,Угги,982603907-1,,true,false,false,false,false,true,true,true,true,false,false,false,true,false,false
+Khaki,84,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Кожа,Ботинки,776849052-5,30,false,true,true,false,true,false,true,true,true,false,true,true,false,true,false
+Maroon,33,Зима,Женская обувь,Полимерный материал,Замша,Полимерный материал,Тапки,840169544-9,45,false,false,true,false,true,true,true,true,false,true,false,true,false,false,true
+Khaki,38,Весна/Осень,Мужская обувь,Кожа,Кожа,Полимерный материал,Слипоны,051914489-9,30,true,false,false,true,true,false,true,false,false,true,false,true,false,false,true
+Yellow,52,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Замша,Угги,474313706-3,,true,true,true,false,true,false,false,true,false,true,false,false,false,false,true
+Blue,33,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Замша,Сабо,220060900-0,10,true,true,false,true,false,false,false,false,false,false,true,true,false,true,true
+Pink,99,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Кожа,Туфли,294999256-0,,true,false,true,false,true,false,false,false,false,false,false,true,true,false,false
+Indigo,8,Весна/Осень,Женская обувь,Замша,Полимерный материал,Замша,Сапоги,132746298-2,30,true,false,true,true,false,true,true,false,false,false,false,false,true,false,false
+Fuscia,33,Зима,Мужская обувь,Замша,Кожа,Кожа,Кроссовки,868973464-3,45,true,false,false,false,true,true,true,false,false,true,true,false,true,true,false
+Purple,68,Зима,Женская обувь,Кожа,Замша,Полимерный материал,Ботинки,390768644-6,15,true,false,false,true,true,false,false,true,false,false,false,false,false,false,true
+Fuscia,20,Зима,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Босоножки,638035504-9,,true,true,true,true,true,false,true,true,false,false,true,true,false,false,false
+Maroon,63,Весна/Осень,Женская обувь,Замша,Замша,Полимерный материал,Сапоги,074681433-X,,true,false,false,true,false,false,true,true,false,false,false,false,false,true,false
+Khaki,28,Весна/Осень,Женская обувь,Замша,Полимерный материал,Полимерный материал,Сапоги,548011752-1,45,true,false,true,false,false,false,false,false,false,true,true,false,false,false,true
+Purple,46,Зима,Женская обувь,Замша,Кожа,Кожа,Сабо,668795748-1,30,false,false,true,false,true,false,true,false,false,false,false,true,false,false,false
+Teal,79,Зима,Женская обувь,Полимерный материал,Полимерный материал,Замша,Туфли,343661100-X,,true,false,true,true,false,false,false,false,true,false,false,false,false,true,true
+Red,67,Зима,Женская обувь,Кожа,Кожа,Кожа,Туфли,342401749-3,,true,true,false,true,true,false,true,false,false,true,true,false,true,false,true
+Purple,23,Зима,Мужская обувь,Замша,Кожа,Полимерный материал,Ботинки,918162670-3,30,false,true,false,true,false,true,true,true,false,true,true,true,true,true,true
+Maroon,47,Лето,Мужская обувь,Полимерный материал,Полимерный материал,Замша,Тапки,359861718-6,,false,true,false,true,true,false,true,true,false,true,false,true,false,false,false
+Turquoise,56,Зима,Мужская обувь,Замша,Кожа,Полимерный материал,Угги,402696189-3,15,true,true,false,false,false,false,false,true,true,true,true,false,true,true,true
+Violet,10,Весна/Осень,Женская обувь,Кожа,Кожа,Замша,Кроссовки,406454082-4,,true,true,false,false,false,true,true,false,false,true,false,false,false,false,true
+Aquamarine,72,Лето,Женская обувь,Кожа,Кожа,Кожа,Сабо,288954566-0,,true,false,false,false,true,true,true,true,true,true,true,true,false,true,true
+Aquamarine,8,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Туфли,168792414-7,15,false,true,true,false,true,true,false,true,true,false,true,true,true,true,false
+Orange,33,Весна/Осень,Женская обувь,Кожа,Замша,Полимерный материал,Туфли,163620833-9,,true,true,false,false,false,true,false,false,false,true,true,false,false,false,true
+Goldenrod,6,Лето,Женская обувь,Замша,Кожа,Замша,Тапки,422148698-8,45,true,true,false,false,false,true,false,true,false,true,false,true,false,false,false
+Orange,85,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Кожа,Кроссовки,653491134-5,10,false,true,true,true,false,true,false,true,false,true,false,true,true,true,false
+Teal,2,Зима,Женская обувь,Замша,Замша,Замша,Сабо,848172277-4,30,true,false,true,true,false,false,false,true,false,true,true,true,false,false,false
+Indigo,33,Лето,Мужская обувь,Полимерный материал,Кожа,Замша,Мокасины,045810491-4,30,false,false,false,false,false,true,false,true,true,false,true,false,false,false,true
+Aquamarine,67,Лето,Женская обувь,Полимерный материал,Замша,Замша,Босоножки,914074292-X,15,true,false,true,true,false,false,false,false,false,true,false,false,false,false,true
+Orange,10,Лето,Мужская обувь,Замша,Замша,Полимерный материал,Босоножки,126891724-9,10,true,false,false,true,true,false,false,true,false,true,false,false,true,true,true
+Khaki,97,Весна/Осень,Мужская обувь,Кожа,Полимерный материал,Замша,Тапки,378185706-9,,true,true,true,false,false,false,false,false,false,false,false,true,false,false,true
+Indigo,13,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Замша,Босоножки,475816804-0,45,true,true,false,false,true,true,false,false,false,true,false,true,false,false,true
+Mauv,43,Зима,Мужская обувь,Замша,Замша,Кожа,Тапки,005989747-3,10,true,true,true,true,false,false,true,true,false,false,true,false,true,true,false
+Fuscia,81,Лето,Женская обувь,Полимерный материал,Кожа,Кожа,Тапки,652958485-4,,true,true,false,true,false,true,false,true,false,false,true,true,false,true,true
+Purple,48,Зима,Женская обувь,Кожа,Замша,Замша,Босоножки,310477653-9,,true,true,true,false,true,false,false,false,false,false,false,true,true,true,true
+Aquamarine,93,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Замша,Кроссовки,648114101-X,,true,true,false,false,true,true,true,true,true,true,true,true,false,true,true
+Crimson,39,Зима,Женская обувь,Кожа,Полимерный материал,Кожа,Кроссовки,171967489-2,,true,false,false,false,false,false,false,false,true,true,false,true,false,true,false
+Fuscia,70,Зима,Женская обувь,Полимерный материал,Кожа,Кожа,Сапоги,544782842-2,,false,false,false,false,true,true,false,true,true,true,false,true,true,true,true
+Aquamarine,70,Лето,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Сапоги,038283694-4,,true,false,true,false,false,true,true,false,true,false,false,false,false,false,false
+Puce,2,Лето,Мужская обувь,Полимерный материал,Кожа,Замша,Кроссовки,261728107-8,,true,true,true,true,true,true,false,false,true,true,true,false,false,true,false
+Red,58,Зима,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Кеды,645567243-7,10,true,false,false,true,false,true,true,false,true,true,false,false,true,true,false
+Green,69,Весна/Осень,Мужская обувь,Замша,Кожа,Замша,Мокасины,020264059-0,,false,false,true,false,true,true,false,false,true,true,false,true,true,true,false
+Goldenrod,80,Лето,Мужская обувь,Кожа,Кожа,Полимерный материал,Сапоги,942842288-6,45,false,true,false,true,false,false,true,true,false,false,false,false,true,false,true
+Aquamarine,63,Лето,Женская обувь,Замша,Замша,Кожа,Слипоны,833450351-2,,false,true,false,true,false,false,true,true,true,false,false,false,true,false,false
+Yellow,34,Весна/Осень,Мужская обувь,Кожа,Кожа,Полимерный материал,Слипоны,325508687-6,10,true,false,false,true,false,false,true,false,false,true,false,true,true,true,true
+Khaki,87,Лето,Женская обувь,Замша,Полимерный материал,Кожа,Мокасины,965124603-0,,true,false,true,true,false,false,true,false,false,false,true,true,false,true,false
+Crimson,8,Лето,Мужская обувь,Замша,Замша,Замша,Сабо,563677322-6,,true,false,true,true,false,false,false,false,false,true,true,false,true,false,true
+Crimson,39,Зима,Женская обувь,Замша,Полимерный материал,Замша,Кроссовки,953909114-4,,false,false,true,true,false,true,false,false,false,true,true,false,true,true,true
+Red,41,Лето,Женская обувь,Кожа,Замша,Полимерный материал,Босоножки,167569330-7,10,true,true,true,true,true,true,false,false,false,true,true,true,true,false,false
+Green,68,Весна/Осень,Женская обувь,Замша,Кожа,Замша,Ботинки,057774239-6,,false,false,false,false,true,true,true,false,false,true,false,true,false,true,true
+Indigo,54,Лето,Мужская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Тапки,237156806-6,,true,false,true,false,true,true,false,true,false,true,true,true,true,false,false
+Aquamarine,17,Лето,Мужская обувь,Замша,Замша,Кожа,Слипоны,574941830-8,,true,true,false,true,false,false,true,false,true,true,true,true,false,false,true
+Red,10,Зима,Женская обувь,Замша,Полимерный материал,Замша,Босоножки,172851308-1,,true,true,false,true,false,true,false,false,true,false,false,true,false,false,false
+Yellow,89,Зима,Мужская обувь,Замша,Кожа,Замша,Сабо,865879438-5,,false,false,true,true,true,true,true,true,true,false,false,true,true,true,true
+Blue,61,Весна/Осень,Мужская обувь,Замша,Полимерный материал,Полимерный материал,Тапки,014470986-4,,false,false,true,false,true,false,true,true,true,false,true,true,false,true,false
+Yellow,45,Весна/Осень,Мужская обувь,Кожа,Полимерный материал,Замша,Ботинки,820345775-4,30,true,true,true,true,true,false,true,false,false,false,true,false,false,false,false
+Turquoise,45,Зима,Женская обувь,Кожа,Полимерный материал,Полимерный материал,Мокасины,016098762-8,,false,false,true,false,false,false,true,true,true,false,true,true,true,false,true
+Green,36,Весна/Осень,Женская обувь,Замша,Полимерный материал,Полимерный материал,Тапки,224511917-7,30,true,false,false,true,false,false,true,false,false,true,false,false,false,false,false
+Violet,45,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Кроссовки,910765526-6,,true,true,false,true,true,false,true,false,true,true,false,true,true,true,false
+Green,12,Весна/Осень,Мужская обувь,Кожа,Полимерный материал,Замша,Сапоги,836782778-3,,false,false,true,false,false,false,false,true,true,false,false,true,false,false,true
+Aquamarine,50,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Мокасины,148313396-6,,true,false,true,true,false,true,false,true,true,true,true,false,false,false,true
+Puce,52,Лето,Женская обувь,Кожа,Полимерный материал,Кожа,Тапки,618557683-X,15,false,true,true,true,true,true,true,false,true,true,true,false,true,false,true
+Yellow,82,Лето,Мужская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Кеды,354133765-6,10,true,true,true,true,true,true,true,true,true,false,true,false,false,true,false
+Indigo,18,Зима,Мужская обувь,Кожа,Замша,Полимерный материал,Сабо,573757729-5,45,true,false,true,true,false,true,false,true,true,true,false,true,true,false,true
+Violet,92,Лето,Мужская обувь,Полимерный материал,Замша,Замша,Тапки,118733537-1,10,false,false,true,false,true,true,false,true,false,false,true,true,false,true,true
+Green,31,Лето,Мужская обувь,Полимерный материал,Замша,Кожа,Кроссовки,223356661-0,,true,true,false,false,true,false,false,true,true,true,false,true,true,false,true
+Teal,20,Лето,Мужская обувь,Полимерный материал,Замша,Замша,Кеды,730657386-1,,true,true,false,false,false,true,false,true,false,true,false,false,false,false,true
+Green,71,Лето,Женская обувь,Замша,Замша,Кожа,Сандалии,879462548-4,,true,false,true,false,false,true,false,true,true,false,false,false,false,false,true
+Red,23,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Кожа,Кроссовки,687641614-3,30,false,true,false,false,false,true,false,false,false,true,true,false,true,false,false
+Puce,2,Зима,Женская обувь,Кожа,Кожа,Замша,Ботинки,074944370-7,10,false,true,false,false,true,true,true,true,true,false,false,false,false,true,false
+Orange,74,Зима,Мужская обувь,Замша,Замша,Кожа,Угги,977869284-X,30,true,false,true,false,false,true,true,true,false,false,false,true,true,false,true
+Teal,94,Весна/Осень,Мужская обувь,Замша,Полимерный материал,Замша,Мокасины,402601123-2,,true,false,true,true,true,true,false,false,false,false,false,true,true,false,false
+Turquoise,47,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Кожа,Слипоны,186549022-9,,false,false,true,false,false,false,false,false,false,false,true,false,true,false,false
+Blue,6,Зима,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Слипоны,561539218-5,,false,true,true,false,true,false,false,true,true,false,true,true,true,false,true
+Yellow,35,Зима,Женская обувь,Полимерный материал,Замша,Кожа,Кроссовки,165741029-3,30,true,true,false,true,false,true,true,false,false,true,true,false,true,false,false
+Aquamarine,76,Зима,Женская обувь,Кожа,Кожа,Кожа,Тапки,493022100-5,,false,true,false,true,true,true,false,false,true,false,false,false,true,false,true
+Khaki,69,Весна/Осень,Женская обувь,Полимерный материал,Замша,Кожа,Босоножки,745467459-3,,false,true,true,true,true,true,false,false,false,true,true,true,false,false,false
+Green,6,Лето,Мужская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Сабо,045254211-1,,false,true,true,true,true,true,false,true,true,true,false,true,true,false,true
+Teal,46,Лето,Женская обувь,Кожа,Замша,Кожа,Тапки,598227651-0,,false,true,true,false,true,true,false,true,false,true,false,true,false,true,true
+Puce,75,Зима,Женская обувь,Полимерный материал,Замша,Замша,Сабо,327532351-2,,false,false,false,false,true,true,false,false,false,true,true,true,false,true,false
+Maroon,57,Лето,Мужская обувь,Полимерный материал,Полимерный материал,Замша,Сандалии,432540476-7,10,false,false,true,false,true,true,false,false,true,true,true,true,true,true,true
+Goldenrod,93,Весна/Осень,Женская обувь,Замша,Кожа,Полимерный материал,Тапки,370069093-2,,true,true,true,false,true,false,true,false,true,false,true,false,false,true,false
+Orange,30,Весна/Осень,Мужская обувь,Кожа,Замша,Кожа,Босоножки,083401783-0,,true,true,true,true,true,false,false,false,false,true,true,false,false,false,true
+Aquamarine,77,Лето,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Сабо,500192835-4,30,false,true,true,true,true,true,false,true,false,false,true,false,true,true,false
+Turquoise,42,Лето,Мужская обувь,Полимерный материал,Кожа,Замша,Слипоны,260647302-7,,false,true,true,true,false,true,true,true,false,true,false,false,true,false,false
+Puce,55,Лето,Мужская обувь,Кожа,Кожа,Кожа,Сапоги,521549599-8,15,false,false,true,true,true,false,true,false,true,true,false,false,false,false,true
+Yellow,60,Зима,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Сандалии,082208570-4,,false,true,false,true,false,true,false,true,false,true,false,true,true,true,true
+Indigo,98,Лето,Женская обувь,Замша,Замша,Полимерный материал,Туфли,052108329-X,,true,true,true,true,true,false,false,true,false,false,true,false,true,false,true
+Crimson,27,Весна/Осень,Женская обувь,Полимерный материал,Кожа,Замша,Туфли,706761785-5,10,false,true,false,false,false,false,false,false,false,true,false,true,true,true,false
+Purple,88,Зима,Женская обувь,Кожа,Замша,Полимерный материал,Сандалии,094909488-9,,true,true,false,false,false,true,false,true,false,false,true,false,true,false,false
+Yellow,52,Весна/Осень,Мужская обувь,Замша,Кожа,Замша,Слипоны,382932279-8,,true,true,false,true,false,true,false,false,false,false,true,false,true,false,false
+Crimson,45,Весна/Осень,Мужская обувь,Замша,Замша,Замша,Сандалии,678943712-6,,true,false,false,true,false,true,true,false,true,false,true,false,false,true,true
+Indigo,82,Лето,Женская обувь,Замша,Замша,Замша,Сандалии,624466267-9,10,false,false,true,false,true,true,true,false,false,false,true,true,true,false,false
+Green,7,Лето,Женская обувь,Замша,Замша,Замша,Угги,110398163-3,,true,false,false,true,false,false,false,true,true,true,true,false,false,false,false
+Red,85,Весна/Осень,Женская обувь,Кожа,Кожа,Полимерный материал,Ботинки,036973908-6,45,false,false,true,true,false,true,true,true,false,true,true,true,false,true,false
+Aquamarine,35,Лето,Женская обувь,Замша,Кожа,Полимерный материал,Туфли,193285447-9,30,false,true,false,true,false,true,true,false,true,false,false,false,true,false,false
+Fuscia,14,Лето,Мужская обувь,Полимерный материал,Замша,Замша,Сандалии,184637343-3,45,false,false,true,true,false,true,true,false,true,false,false,false,true,false,true
+Turquoise,53,Зима,Женская обувь,Замша,Полимерный материал,Кожа,Кроссовки,066590000-7,,false,true,false,false,true,true,false,false,false,false,true,true,true,true,true
+Pink,90,Зима,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Сабо,022979522-6,,true,true,false,false,true,false,true,true,false,false,false,false,true,false,true
+Yellow,36,Лето,Женская обувь,Замша,Замша,Кожа,Угги,157992564-2,45,false,true,false,true,false,false,true,false,true,false,true,true,true,false,false
+Mauv,53,Зима,Женская обувь,Кожа,Кожа,Полимерный материал,Мокасины,871911520-2,,false,true,true,true,true,true,true,false,true,false,false,true,false,true,false
+Goldenrod,22,Зима,Женская обувь,Замша,Замша,Замша,Слипоны,518725338-7,,false,true,true,false,true,true,true,false,false,false,false,true,true,false,true
+Indigo,49,Зима,Мужская обувь,Замша,Замша,Замша,Кеды,374957393-X,45,false,true,true,true,false,true,true,true,false,true,false,false,true,true,false
+Aquamarine,20,Лето,Мужская обувь,Полимерный материал,Кожа,Полимерный материал,Сандалии,428572566-5,,false,true,false,false,false,true,false,true,true,false,true,false,true,true,true
+Yellow,100,Весна/Осень,Женская обувь,Замша,Кожа,Полимерный материал,Мокасины,868239676-9,,true,true,false,true,false,true,false,true,false,false,true,false,true,false,false
+Green,68,Весна/Осень,Женская обувь,Замша,Замша,Полимерный материал,Туфли,078775602-4,45,true,true,false,false,true,false,false,true,false,false,true,true,true,false,true
+Orange,34,Зима,Женская обувь,Кожа,Замша,Полимерный материал,Босоножки,995474200-X,,false,false,true,false,true,false,false,false,true,true,false,false,true,true,false
+Puce,22,Зима,Женская обувь,Замша,Замша,Замша,Кроссовки,063645380-4,,false,true,false,true,false,false,true,true,false,true,true,false,false,true,false
+Red,100,Зима,Мужская обувь,Кожа,Замша,Полимерный материал,Босоножки,469373608-2,,true,false,false,false,false,false,true,false,true,true,true,true,true,false,true
+Maroon,45,Лето,Женская обувь,Кожа,Замша,Замша,Тапки,177190190-X,,false,false,false,false,true,true,false,false,true,false,true,true,true,false,true
+Khaki,44,Весна/Осень,Женская обувь,Замша,Кожа,Кожа,Слипоны,376924512-1,10,false,false,false,true,true,false,false,true,false,true,true,false,true,true,true
+Orange,75,Весна/Осень,Мужская обувь,Замша,Замша,Замша,Мокасины,655485673-0,,false,true,false,false,false,false,false,true,false,true,false,false,false,true,false
+Aquamarine,89,Лето,Мужская обувь,Замша,Полимерный материал,Замша,Мокасины,099319822-8,,false,false,true,false,true,false,true,true,false,true,false,false,true,false,true
+Pink,75,Весна/Осень,Женская обувь,Замша,Кожа,Замша,Мокасины,111877580-5,,false,true,true,true,true,false,true,true,false,true,false,false,true,false,true
+Turquoise,3,Весна/Осень,Мужская обувь,Замша,Кожа,Замша,Тапки,792130271-8,,false,true,false,true,true,true,false,true,true,true,true,true,false,true,false
+Goldenrod,18,Лето,Мужская обувь,Кожа,Кожа,Кожа,Кеды,604327727-1,45,true,true,false,false,true,false,false,true,false,false,true,false,false,false,true
+Orange,73,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Кеды,882525223-4,30,false,false,false,false,true,true,true,true,true,true,true,true,false,false,false
+Indigo,63,Зима,Мужская обувь,Замша,Полимерный материал,Кожа,Тапки,233730345-4,,true,true,true,true,true,false,true,false,false,true,false,true,false,false,false
+Indigo,18,Лето,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Босоножки,641289933-2,,true,false,true,true,true,false,false,true,false,false,false,true,true,true,true
+Orange,29,Весна/Осень,Мужская обувь,Замша,Полимерный материал,Замша,Сапоги,257867533-3,,false,false,true,false,true,true,true,false,false,false,false,false,true,true,false
+Yellow,80,Зима,Женская обувь,Полимерный материал,Полимерный материал,Замша,Сабо,478257108-9,,true,false,false,true,false,false,false,true,true,true,false,true,false,true,false
+Teal,71,Зима,Мужская обувь,Кожа,Замша,Замша,Тапки,010152707-1,,false,false,true,true,true,true,false,true,false,false,false,true,false,true,false
+Crimson,28,Лето,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Сабо,961687644-9,10,false,false,false,false,true,false,true,true,false,true,false,false,true,false,true
+Purple,11,Весна/Осень,Мужская обувь,Замша,Кожа,Полимерный материал,Босоножки,715086727-8,,false,false,true,true,false,false,false,true,true,true,false,true,true,false,true
+Orange,28,Лето,Женская обувь,Полимерный материал,Кожа,Полимерный материал,Босоножки,800141262-8,45,true,true,true,true,true,true,true,false,false,false,true,false,false,true,false
+Purple,90,Лето,Мужская обувь,Полимерный материал,Полимерный материал,Замша,Кроссовки,335778562-5,,true,false,false,false,false,true,false,false,false,true,false,false,false,false,true
+Crimson,46,Зима,Мужская обувь,Кожа,Кожа,Замша,Сапоги,924966363-3,30,true,false,false,true,true,true,false,false,false,true,true,true,true,true,true
+Green,11,Лето,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Мокасины,896670128-0,,false,false,false,false,false,false,false,true,true,true,false,false,true,true,false
+Khaki,43,Зима,Женская обувь,Полимерный материал,Полимерный материал,Замша,Кеды,768087862-5,30,false,true,false,false,false,true,true,false,false,false,true,false,true,false,false
+Khaki,93,Лето,Женская обувь,Замша,Полимерный материал,Кожа,Босоножки,050393621-9,,true,true,true,true,false,true,false,true,false,false,true,false,false,false,true
+Purple,39,Лето,Мужская обувь,Кожа,Кожа,Замша,Босоножки,277053877-2,45,true,false,true,true,false,true,false,true,false,false,false,false,true,false,true
+Teal,1,Лето,Женская обувь,Замша,Замша,Кожа,Туфли,768134833-6,,true,false,true,false,false,false,false,true,false,false,false,true,true,true,false
+Violet,1,Лето,Женская обувь,Замша,Замша,Замша,Кеды,694843690-0,10,false,true,true,true,true,true,true,false,false,true,true,false,false,true,true
+Aquamarine,84,Лето,Женская обувь,Замша,Кожа,Кожа,Ботинки,598024071-3,,true,true,false,false,false,false,false,true,true,false,false,false,false,false,true
+Yellow,97,Весна/Осень,Женская обувь,Полимерный материал,Замша,Замша,Угги,934749162-4,,false,false,true,false,true,false,true,true,true,true,true,true,false,false,true
+Crimson,3,Весна/Осень,Женская обувь,Замша,Полимерный материал,Кожа,Сандалии,344439625-2,,true,false,true,true,false,false,false,true,true,true,true,true,true,false,true
+Khaki,43,Весна/Осень,Мужская обувь,Замша,Полимерный материал,Замша,Мокасины,937793357-9,30,false,true,true,false,true,false,false,true,false,true,true,true,false,false,true
+Turquoise,89,Зима,Мужская обувь,Кожа,Полимерный материал,Замша,Сандалии,505563686-6,,false,false,true,false,false,false,false,true,true,true,false,true,false,true,false
+Khaki,77,Зима,Женская обувь,Кожа,Полимерный материал,Полимерный материал,Слипоны,926688944-X,30,false,false,false,false,true,false,true,false,true,true,false,false,false,false,false
+Violet,23,Зима,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Кеды,312670064-0,30,true,true,false,true,false,true,false,false,false,false,false,false,true,false,false
+Purple,84,Весна/Осень,Женская обувь,Полимерный материал,Замша,Кожа,Слипоны,171451590-7,,false,true,false,true,false,false,false,false,true,true,false,true,true,false,false
+Fuscia,15,Зима,Женская обувь,Кожа,Замша,Замша,Ботинки,733378045-7,,false,true,true,false,true,false,false,false,true,false,false,true,false,true,true
+Red,5,Зима,Мужская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Кеды,325755916-X,10,false,true,true,true,true,true,false,true,true,false,true,false,true,false,true
+Orange,95,Лето,Женская обувь,Полимерный материал,Кожа,Полимерный материал,Мокасины,742057458-8,,false,false,false,false,true,true,true,false,false,true,true,true,true,true,true
+Khaki,63,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Замша,Слипоны,060938555-0,30,true,false,false,true,true,true,true,true,true,true,false,true,false,true,false
+Purple,25,Лето,Женская обувь,Кожа,Кожа,Кожа,Туфли,034299431-X,,false,true,false,true,false,false,false,false,false,true,false,true,true,true,true
+Goldenrod,55,Зима,Мужская обувь,Замша,Замша,Замша,Кеды,781129964-X,,false,true,true,false,false,false,false,false,false,true,false,false,false,false,false
+Mauv,4,Зима,Женская обувь,Кожа,Замша,Полимерный материал,Босоножки,495477459-4,10,true,false,false,false,true,true,true,false,false,true,true,true,false,true,false
+Crimson,7,Зима,Женская обувь,Кожа,Замша,Замша,Кроссовки,048511776-2,45,false,false,false,true,false,false,false,false,false,true,true,false,false,true,false
+Violet,44,Весна/Осень,Женская обувь,Замша,Кожа,Замша,Угги,697134975-X,45,false,true,true,false,true,true,true,false,false,true,false,false,true,false,true
+Purple,79,Зима,Мужская обувь,Замша,Кожа,Кожа,Сандалии,155054640-6,,false,true,true,false,false,true,false,false,false,true,true,false,true,true,true
+Puce,59,Лето,Мужская обувь,Полимерный материал,Замша,Кожа,Ботинки,290161415-9,,true,true,true,false,false,true,false,true,false,false,true,false,false,false,false
+Orange,32,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Кожа,Тапки,587108132-0,,true,false,true,true,true,false,false,false,true,true,false,true,false,false,true
+Aquamarine,9,Весна/Осень,Мужская обувь,Замша,Полимерный материал,Кожа,Босоножки,851180992-9,,false,false,false,true,true,false,true,false,true,true,false,true,false,false,false
+Violet,93,Лето,Женская обувь,Кожа,Полимерный материал,Замша,Кроссовки,269363692-2,,true,false,true,false,false,true,false,true,false,true,false,false,true,true,false
+Goldenrod,37,Зима,Женская обувь,Кожа,Замша,Полимерный материал,Тапки,769262759-2,,false,true,true,false,false,false,false,false,false,true,false,false,true,false,false
+Orange,27,Весна/Осень,Женская обувь,Кожа,Замша,Кожа,Тапки,145884764-0,,false,false,false,false,true,true,true,true,false,false,false,false,true,false,true
+Khaki,92,Весна/Осень,Мужская обувь,Кожа,Замша,Полимерный материал,Босоножки,602999716-5,,true,true,true,true,false,false,false,false,false,true,false,true,false,true,false
+Mauv,93,Зима,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Сабо,472157291-3,,true,false,true,false,true,false,true,false,true,true,true,false,false,true,false
+Purple,72,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Полимерный материал,Туфли,756846581-0,,true,true,false,false,false,false,false,true,false,false,true,false,false,true,false
+Red,9,Весна/Осень,Мужская обувь,Кожа,Замша,Кожа,Тапки,867884653-4,,true,true,false,false,true,true,true,false,true,false,false,false,false,true,false
+Pink,50,Лето,Женская обувь,Замша,Полимерный материал,Замша,Кроссовки,579098582-3,15,false,false,false,false,true,false,true,true,false,true,true,false,false,true,false
+Puce,97,Лето,Мужская обувь,Замша,Полимерный материал,Замша,Сабо,534163884-0,45,false,true,false,true,true,false,true,false,true,false,true,false,true,true,false
+Red,39,Лето,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Слипоны,750065443-X,10,false,true,false,true,true,false,false,true,true,false,false,false,false,true,false
+Fuscia,86,Зима,Мужская обувь,Кожа,Кожа,Замша,Сандалии,712023651-2,,false,true,false,false,true,false,true,true,false,true,true,false,true,true,false
+Blue,38,Лето,Женская обувь,Полимерный материал,Замша,Замша,Угги,688989950-4,,true,true,true,true,false,false,true,false,false,false,false,true,true,true,true
+Crimson,80,Лето,Мужская обувь,Кожа,Замша,Кожа,Туфли,313089324-5,15,false,true,false,true,false,false,false,true,false,true,true,true,false,false,false
+Green,73,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Мокасины,907084128-2,45,false,true,false,false,true,false,false,false,false,true,false,true,false,false,false
+Violet,55,Зима,Мужская обувь,Полимерный материал,Кожа,Полимерный материал,Босоножки,423973006-6,,false,true,true,true,true,true,false,false,false,false,false,true,true,false,false
+Mauv,39,Зима,Женская обувь,Полимерный материал,Замша,Кожа,Сабо,427901749-2,,false,false,true,false,false,true,true,true,false,false,true,true,false,true,false
+Pink,28,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Угги,216007472-1,,true,true,false,true,false,false,true,true,false,false,false,true,false,false,false
+Turquoise,60,Весна/Осень,Мужская обувь,Замша,Замша,Замша,Слипоны,127192130-8,,false,false,true,true,false,false,false,true,false,true,false,true,true,false,false
+Green,11,Зима,Мужская обувь,Замша,Кожа,Замша,Кроссовки,381418074-7,,false,false,false,true,false,false,true,false,false,false,true,true,true,false,false
+Purple,75,Весна/Осень,Мужская обувь,Полимерный материал,Полимерный материал,Кожа,Босоножки,061844848-9,,false,true,true,false,false,true,false,false,true,true,true,true,false,false,true
+Pink,51,Зима,Мужская обувь,Кожа,Полимерный материал,Кожа,Ботинки,519513480-4,,true,true,true,false,false,false,true,false,true,true,true,true,true,true,false
+Goldenrod,44,Лето,Мужская обувь,Замша,Полимерный материал,Замша,Сандалии,294617639-8,45,true,true,false,true,true,true,false,true,false,false,true,true,false,true,false
+Fuscia,22,Зима,Мужская обувь,Замша,Полимерный материал,Замша,Сабо,775647416-3,15,false,false,false,true,false,false,false,false,false,false,false,true,true,true,false
+Goldenrod,10,Зима,Женская обувь,Кожа,Полимерный материал,Кожа,Сабо,779888069-0,,true,true,true,true,false,true,true,false,false,true,true,true,true,true,false
+Crimson,67,Зима,Мужская обувь,Замша,Кожа,Замша,Кроссовки,544600005-6,,true,true,true,true,false,false,false,true,true,false,false,false,false,false,false
+Blue,11,Весна/Осень,Мужская обувь,Замша,Кожа,Замша,Угги,687864507-7,,false,false,true,false,false,false,true,true,false,true,false,true,true,true,true
+Maroon,88,Весна/Осень,Мужская обувь,Замша,Полимерный материал,Полимерный материал,Угги,642163166-5,,false,false,true,false,true,false,true,true,true,true,false,false,false,false,true
+Maroon,1,Весна/Осень,Женская обувь,Кожа,Замша,Полимерный материал,Угги,093055966-5,,true,false,false,true,false,false,false,false,true,true,false,true,true,true,true
+Mauv,24,Лето,Мужская обувь,Замша,Полимерный материал,Замша,Угги,640965413-8,10,true,true,false,false,true,false,false,true,false,true,false,true,false,false,false
+Purple,96,Лето,Мужская обувь,Кожа,Замша,Замша,Угги,657415597-5,,true,false,false,false,true,false,false,true,false,true,true,true,false,true,false
+Green,8,Лето,Женская обувь,Кожа,Замша,Замша,Мокасины,470865848-6,15,true,true,false,true,true,true,true,true,true,false,true,false,true,true,true
+Green,76,Зима,Мужская обувь,Полимерный материал,Замша,Замша,Слипоны,459529381-X,15,true,false,true,false,true,false,true,false,false,true,true,false,true,false,false
+Goldenrod,46,Зима,Женская обувь,Кожа,Замша,Полимерный материал,Мокасины,525439905-8,30,true,false,false,false,false,true,true,false,false,false,false,false,false,true,true
+Crimson,9,Весна/Осень,Мужская обувь,Кожа,Полимерный материал,Кожа,Угги,592285478-X,45,true,false,false,false,true,false,true,true,false,true,false,true,false,true,true
+Yellow,59,Зима,Мужская обувь,Кожа,Кожа,Замша,Сабо,247629379-2,,false,false,true,false,true,false,true,false,true,false,false,false,false,true,true
+Khaki,53,Весна/Осень,Женская обувь,Полимерный материал,Кожа,Кожа,Мокасины,238538587-2,45,false,false,false,true,false,true,false,true,true,true,false,false,true,false,true
+Teal,51,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Полимерный материал,Сабо,328412217-6,10,true,false,true,true,true,true,false,false,true,true,true,false,true,false,false
+Violet,21,Зима,Женская обувь,Полимерный материал,Замша,Кожа,Мокасины,639244142-5,,true,false,false,true,true,true,true,true,true,true,true,true,true,false,true
+Turquoise,10,Весна/Осень,Мужская обувь,Кожа,Замша,Кожа,Ботинки,406933335-5,45,false,true,true,true,false,true,false,false,false,false,true,false,true,false,false
+Goldenrod,28,Зима,Мужская обувь,Замша,Кожа,Замша,Сабо,320961269-2,15,false,true,false,false,true,false,true,true,true,true,false,false,true,false,false
+Orange,88,Зима,Мужская обувь,Кожа,Замша,Кожа,Туфли,147456376-7,,true,true,true,true,false,false,false,false,false,false,false,true,false,true,true
+Red,47,Лето,Женская обувь,Кожа,Кожа,Замша,Сандалии,541060507-1,,false,false,false,true,false,false,false,false,false,true,false,true,true,false,false
+Fuscia,85,Весна/Осень,Женская обувь,Кожа,Кожа,Полимерный материал,Кроссовки,627221613-0,,true,false,false,false,true,false,false,false,false,false,true,true,true,false,false
+Green,100,Зима,Мужская обувь,Замша,Полимерный материал,Полимерный материал,Босоножки,125266310-2,15,false,false,false,true,false,false,false,false,false,true,false,false,false,false,true
+Yellow,82,Весна/Осень,Мужская обувь,Замша,Замша,Полимерный материал,Ботинки,843039944-5,,false,true,true,true,true,true,true,true,true,true,false,false,false,true,false
+Maroon,37,Весна/Осень,Женская обувь,Замша,Полимерный материал,Замша,Ботинки,571557528-1,,true,false,false,false,false,false,false,true,true,false,false,false,true,true,false
+Pink,77,Зима,Мужская обувь,Кожа,Кожа,Кожа,Сабо,564184735-6,45,true,false,false,true,true,false,true,false,true,true,false,true,true,true,false
+Maroon,79,Лето,Мужская обувь,Замша,Кожа,Замша,Сапоги,185263888-5,45,false,false,true,false,false,true,false,true,true,false,true,true,false,true,true
+Orange,95,Зима,Мужская обувь,Полимерный материал,Кожа,Кожа,Туфли,238006335-4,,true,false,true,false,true,true,true,true,true,true,true,false,false,false,false
+Indigo,16,Лето,Женская обувь,Полимерный материал,Полимерный материал,Замша,Сабо,530737525-5,,false,true,true,false,false,false,true,true,true,true,true,true,false,true,true
+Puce,97,Весна/Осень,Женская обувь,Замша,Замша,Полимерный материал,Сабо,870519812-7,,true,true,true,true,true,false,true,true,true,false,true,false,true,false,true
+Goldenrod,68,Весна/Осень,Женская обувь,Полимерный материал,Замша,Полимерный материал,Туфли,472311815-2,,true,false,false,false,true,false,false,false,true,false,true,false,true,false,true
+Blue,2,Зима,Мужская обувь,Кожа,Кожа,Полимерный материал,Сабо,019372515-0,10,false,false,false,false,true,true,true,true,true,false,false,false,true,false,false
+Fuscia,90,Зима,Женская обувь,Замша,Полимерный материал,Кожа,Кроссовки,979168110-4,,true,true,false,true,false,false,true,false,false,true,true,true,true,false,false
+Yellow,24,Лето,Женская обувь,Замша,Полимерный материал,Кожа,Кроссовки,342510256-7,15,false,false,true,true,true,false,true,false,true,false,true,true,false,false,false
+Yellow,50,Весна/Осень,Женская обувь,Замша,Кожа,Полимерный материал,Мокасины,602087885-6,45,false,true,false,true,false,true,false,true,false,false,true,false,false,true,true
+Khaki,30,Зима,Мужская обувь,Полимерный материал,Полимерный материал,Кожа,Ботинки,892707039-9,,false,false,false,false,false,true,true,false,true,true,false,false,false,true,false
+Goldenrod,61,Весна/Осень,Мужская обувь,Замша,Замша,Полимерный материал,Мокасины,821913899-8,45,true,true,true,true,false,true,true,false,true,true,false,true,true,true,false
+Crimson,44,Зима,Женская обувь,Полимерный материал,Кожа,Замша,Кеды,435991747-3,30,true,false,true,true,false,true,false,true,true,true,false,false,true,false,false
+Yellow,50,Лето,Мужская обувь,Полимерный материал,Полимерный материал,Замша,Ботинки,716696065-5,30,true,true,false,false,true,false,true,true,true,true,true,true,false,false,true
+Indigo,16,Весна/Осень,Мужская обувь,Замша,Полимерный материал,Полимерный материал,Мокасины,799342767-3,,false,true,true,true,true,false,false,true,false,false,true,true,false,true,true
+Turquoise,46,Весна/Осень,Женская обувь,Кожа,Замша,Замша,Мокасины,236564821-5,30,false,false,false,false,true,true,false,true,true,true,true,false,false,false,false
+Purple,50,Весна/Осень,Женская обувь,Кожа,Замша,Кожа,Туфли,880273888-2,,false,true,true,true,true,true,false,true,true,true,false,true,true,true,true
+Red,70,Лето,Женская обувь,Кожа,Замша,Замша,Тапки,303947665-3,10,true,false,true,false,true,false,true,false,false,false,true,false,false,true,true
+Mauv,10,Лето,Женская обувь,Полимерный материал,Кожа,Замша,Сабо,608009015-5,15,true,true,true,false,true,false,true,true,true,false,false,false,false,true,false
+Purple,44,Лето,Мужская обувь,Замша,Кожа,Кожа,Мокасины,457621541-8,,false,false,true,false,false,false,true,false,true,true,false,true,true,true,true
+Aquamarine,31,Лето,Мужская обувь,Кожа,Кожа,Кожа,Туфли,442806370-9,10,false,true,false,true,false,false,true,false,false,true,false,false,true,false,true
+Green,79,Весна/Осень,Мужская обувь,Полимерный материал,Полимерный материал,Замша,Сандалии,201885896-3,,true,true,true,true,false,false,false,false,false,true,false,true,false,false,true
+Mauv,18,Зима,Женская обувь,Полимерный материал,Кожа,Кожа,Ботинки,221828770-6,10,false,false,false,false,false,true,true,true,false,false,false,false,false,true,true
+Violet,92,Зима,Женская обувь,Полимерный материал,Полимерный материал,Замша,Сабо,851299318-9,,true,true,false,true,false,false,true,false,false,false,false,false,true,false,true
+Red,16,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Замша,Туфли,240055516-8,,true,true,false,true,true,true,false,true,false,false,true,false,false,false,false
+Indigo,42,Лето,Женская обувь,Кожа,Кожа,Замша,Кеды,652616315-7,45,true,true,true,true,false,false,true,false,true,true,false,true,true,false,true
+Yellow,49,Зима,Мужская обувь,Кожа,Кожа,Полимерный материал,Мокасины,309220870-6,,true,true,true,true,false,false,true,true,false,false,true,false,false,false,false
+Khaki,98,Зима,Мужская обувь,Полимерный материал,Кожа,Полимерный материал,Мокасины,057198010-4,,false,true,false,true,false,false,true,false,true,true,false,false,false,true,true
+Maroon,77,Зима,Женская обувь,Замша,Кожа,Замша,Слипоны,658669786-7,10,false,false,false,true,false,true,true,false,true,false,false,true,true,true,true
+Goldenrod,19,Зима,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Туфли,137114388-9,,false,false,true,false,false,true,false,true,false,true,false,false,false,true,false
+Violet,15,Лето,Женская обувь,Полимерный материал,Кожа,Полимерный материал,Сапоги,153391836-8,30,false,true,true,false,false,true,false,false,false,true,true,false,false,false,false
+Pink,79,Лето,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Угги,843043486-0,45,false,true,true,true,false,true,true,true,false,false,true,false,true,true,false
+Blue,100,Весна/Осень,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Угги,410742621-1,30,true,false,true,true,false,true,false,false,false,true,true,true,true,true,false
+Maroon,32,Весна/Осень,Мужская обувь,Кожа,Полимерный материал,Замша,Мокасины,477531508-0,10,false,true,false,true,true,true,true,false,true,false,true,true,false,true,true
+Mauv,6,Зима,Мужская обувь,Замша,Полимерный материал,Кожа,Сабо,227907700-0,10,false,true,false,false,true,true,false,false,false,true,true,false,false,false,true
+Purple,93,Зима,Мужская обувь,Замша,Замша,Кожа,Кроссовки,564102683-2,,false,true,false,false,false,false,false,true,false,true,false,false,true,true,true
+Red,73,Лето,Женская обувь,Полимерный материал,Замша,Замша,Мокасины,433152007-2,,true,true,true,true,false,false,false,false,true,true,true,true,false,false,true
+Goldenrod,16,Зима,Женская обувь,Полимерный материал,Замша,Замша,Тапки,802228539-0,,true,false,false,true,false,false,true,false,false,false,true,false,true,false,false
+Indigo,80,Зима,Женская обувь,Кожа,Замша,Полимерный материал,Кроссовки,402214943-4,10,true,false,true,true,false,false,true,false,true,true,true,false,false,true,false
+Teal,39,Лето,Женская обувь,Кожа,Кожа,Полимерный материал,Ботинки,076842646-4,,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false
+Teal,5,Весна/Осень,Женская обувь,Замша,Замша,Кожа,Ботинки,515083620-6,,false,true,true,true,false,false,false,false,false,false,true,false,false,false,false
+Mauv,1,Зима,Женская обувь,Замша,Замша,Замша,Босоножки,255791144-5,,false,true,false,true,false,false,false,false,true,false,false,false,false,false,false
+Puce,85,Весна/Осень,Женская обувь,Полимерный материал,Кожа,Кожа,Слипоны,622431925-1,15,false,false,false,true,false,true,true,false,false,false,false,true,true,true,false
+Red,23,Лето,Женская обувь,Полимерный материал,Кожа,Замша,Сапоги,792909003-5,45,true,false,false,false,false,false,false,true,false,false,true,false,true,true,true
+Green,50,Зима,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Угги,374364734-6,45,false,false,false,true,true,true,false,false,false,false,true,false,false,false,true
+Mauv,63,Зима,Женская обувь,Замша,Кожа,Полимерный материал,Ботинки,183918236-9,,true,true,true,false,true,true,true,false,true,false,true,false,true,false,false
+Violet,69,Лето,Мужская обувь,Полимерный материал,Полимерный материал,Замша,Сабо,422869890-5,10,false,false,false,true,false,true,false,false,true,true,false,true,false,false,true
+Khaki,76,Лето,Мужская обувь,Замша,Замша,Полимерный материал,Сабо,303061605-3,,false,false,true,true,false,false,false,false,false,false,true,true,false,false,true
+Khaki,37,Весна/Осень,Женская обувь,Замша,Кожа,Полимерный материал,Кроссовки,541404912-2,,true,true,false,true,true,true,true,false,true,false,true,false,true,true,true
+Violet,56,Лето,Женская обувь,Кожа,Кожа,Полимерный материал,Мокасины,689586279-X,30,false,true,false,false,false,true,false,true,false,false,false,true,true,true,true
+Khaki,34,Зима,Женская обувь,Кожа,Полимерный материал,Кожа,Угги,344613941-9,,true,true,false,true,true,true,true,true,true,false,true,false,false,true,true
+Pink,11,Зима,Мужская обувь,Замша,Кожа,Кожа,Босоножки,386788602-4,45,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false
+Orange,7,Зима,Мужская обувь,Замша,Кожа,Полимерный материал,Туфли,160531801-9,10,false,true,true,true,false,false,false,false,false,false,true,true,true,false,false
+Purple,12,Весна/Осень,Женская обувь,Замша,Полимерный материал,Кожа,Босоножки,928218721-7,,false,true,true,false,false,true,true,false,false,true,false,false,true,false,false
+Aquamarine,78,Лето,Мужская обувь,Замша,Замша,Полимерный материал,Кроссовки,023754023-1,,false,false,false,true,false,true,true,false,false,false,false,false,false,true,true
+Indigo,67,Лето,Мужская обувь,Замша,Замша,Полимерный материал,Мокасины,878688573-1,30,false,false,false,true,true,true,true,false,true,true,false,false,true,true,true
+Turquoise,5,Весна/Осень,Женская обувь,Кожа,Замша,Полимерный материал,Угги,653884559-2,30,true,true,true,false,true,true,true,false,false,true,false,false,false,false,false
+Teal,25,Лето,Мужская обувь,Полимерный материал,Полимерный материал,Замша,Угги,653048611-9,30,true,true,false,true,false,true,true,true,false,false,false,false,false,true,true
+Khaki,44,Зима,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Тапки,679388666-5,,true,true,true,true,false,true,true,true,true,true,true,true,true,true,false
+Violet,40,Лето,Женская обувь,Кожа,Замша,Полимерный материал,Кроссовки,242216187-1,30,true,false,true,true,true,true,false,false,true,false,false,true,false,false,false
+Goldenrod,62,Зима,Женская обувь,Кожа,Замша,Кожа,Мокасины,429105300-2,,true,true,true,false,true,false,false,false,false,false,false,true,true,false,true
+Aquamarine,80,Лето,Женская обувь,Кожа,Кожа,Замша,Туфли,194093678-0,45,false,false,true,false,false,true,true,false,true,false,false,true,false,false,false
+Crimson,78,Зима,Мужская обувь,Полимерный материал,Кожа,Полимерный материал,Сапоги,214059315-4,15,true,false,true,false,true,true,false,true,true,true,true,false,true,false,true
+Turquoise,29,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Замша,Тапки,544563268-7,10,false,true,false,true,true,false,false,true,false,false,true,true,false,false,true
+Aquamarine,62,Весна/Осень,Мужская обувь,Кожа,Кожа,Полимерный материал,Сапоги,609668450-5,45,true,false,true,false,false,false,false,false,true,true,false,false,false,false,false
+Green,39,Весна/Осень,Женская обувь,Замша,Замша,Полимерный материал,Ботинки,067051034-3,45,true,false,false,false,true,false,false,false,true,false,false,true,true,true,true
+Goldenrod,5,Лето,Женская обувь,Замша,Полимерный материал,Кожа,Тапки,944569548-8,,false,false,false,true,false,false,true,true,true,true,false,true,true,true,true
+Violet,2,Лето,Мужская обувь,Кожа,Замша,Кожа,Сандалии,939465389-9,,true,true,true,true,false,false,false,false,true,true,false,false,false,true,true
+Teal,53,Лето,Женская обувь,Полимерный материал,Кожа,Замша,Угги,288570800-X,15,true,false,true,false,false,true,true,false,false,true,true,true,true,true,true
+Green,43,Зима,Мужская обувь,Кожа,Полимерный материал,Кожа,Слипоны,777320406-3,,true,false,false,false,false,false,false,true,true,true,true,true,false,true,true
+Mauv,76,Зима,Женская обувь,Кожа,Кожа,Кожа,Мокасины,056336722-9,,true,true,true,true,true,true,true,true,true,false,true,false,true,false,true
+Orange,60,Весна/Осень,Женская обувь,Полимерный материал,Кожа,Полимерный материал,Кеды,743103225-0,,false,true,true,true,true,true,true,true,false,false,true,true,true,true,false
+Blue,85,Весна/Осень,Женская обувь,Замша,Кожа,Полимерный материал,Сандалии,229169599-1,45,false,true,false,true,true,true,false,true,false,false,true,true,true,true,true
+Turquoise,41,Весна/Осень,Женская обувь,Кожа,Замша,Кожа,Тапки,711842402-1,,true,false,true,false,false,true,false,false,true,false,false,false,true,true,true
+Indigo,21,Зима,Женская обувь,Кожа,Замша,Кожа,Мокасины,770758247-0,45,true,true,true,false,true,false,false,false,true,true,false,true,false,false,true
+Teal,36,Лето,Женская обувь,Кожа,Замша,Кожа,Мокасины,003590202-7,,false,true,false,true,false,true,true,false,false,true,false,true,false,true,true
+Puce,71,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Кожа,Туфли,137207284-5,,true,true,false,false,true,true,false,false,true,false,false,false,false,false,false
+Teal,68,Весна/Осень,Женская обувь,Кожа,Замша,Кожа,Слипоны,894236761-5,10,true,false,false,true,true,true,true,true,true,true,false,false,true,false,true
+Pink,29,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Замша,Мокасины,700591705-7,45,true,true,true,true,true,false,true,false,true,true,false,false,false,false,true
+Aquamarine,35,Весна/Осень,Женская обувь,Замша,Полимерный материал,Замша,Кеды,846028356-9,45,true,true,true,false,true,false,false,false,true,false,false,false,true,true,true
+Khaki,30,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Замша,Сандалии,331896716-5,,true,false,true,false,false,false,true,false,true,true,true,true,true,false,true
+Maroon,67,Зима,Мужская обувь,Замша,Полимерный материал,Полимерный материал,Босоножки,595396710-1,,false,false,true,false,true,false,true,false,true,false,false,true,false,false,true
+Red,4,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Кроссовки,073910350-4,,true,true,false,true,false,true,false,false,true,true,true,false,true,false,false
+Orange,62,Лето,Мужская обувь,Кожа,Полимерный материал,Замша,Слипоны,007425270-4,,false,false,true,true,false,false,true,false,false,true,true,false,true,false,true
+Blue,60,Зима,Женская обувь,Замша,Замша,Полимерный материал,Кроссовки,063324468-6,15,false,true,false,false,false,true,false,false,false,false,false,false,true,true,true
+Puce,70,Зима,Мужская обувь,Замша,Замша,Замша,Туфли,821365201-0,,true,true,true,false,true,true,false,false,true,true,false,true,false,false,true
+Puce,14,Лето,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Угги,348677499-9,30,true,false,true,true,true,true,true,true,true,false,false,true,true,true,true
+Khaki,5,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Замша,Слипоны,036719430-9,,true,false,false,false,true,true,true,true,true,false,false,true,true,false,false
+Purple,9,Весна/Осень,Женская обувь,Кожа,Замша,Кожа,Угги,607612491-1,,false,false,true,false,false,true,false,true,true,true,false,true,true,true,true
+Crimson,80,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Кожа,Кроссовки,269957876-2,,true,true,false,true,false,false,false,false,false,true,true,false,true,true,true
+Indigo,28,Зима,Женская обувь,Кожа,Полимерный материал,Полимерный материал,Слипоны,115731974-2,,false,false,true,false,false,false,true,true,true,false,false,false,false,true,true
+Maroon,29,Лето,Женская обувь,Кожа,Кожа,Замша,Сабо,219941869-3,45,false,true,true,true,true,true,true,false,false,false,false,false,false,true,false
+Khaki,38,Лето,Мужская обувь,Замша,Кожа,Замша,Тапки,012757833-1,45,true,true,false,true,false,false,true,false,false,true,false,false,true,false,true
+Green,3,Зима,Мужская обувь,Кожа,Полимерный материал,Замша,Слипоны,835465022-7,,true,false,false,true,false,false,false,true,true,true,false,false,false,false,true
+Maroon,5,Лето,Женская обувь,Полимерный материал,Полимерный материал,Замша,Тапки,212011263-0,,true,false,false,false,false,true,false,false,true,true,true,false,false,true,false
+Red,88,Зима,Женская обувь,Полимерный материал,Полимерный материал,Замша,Ботинки,651062355-2,,true,true,true,true,true,false,true,true,true,false,true,true,false,false,true
+Maroon,20,Зима,Мужская обувь,Замша,Замша,Полимерный материал,Сабо,446447263-X,30,true,true,false,false,true,true,true,true,false,true,false,true,false,true,false
+Khaki,33,Зима,Женская обувь,Полимерный материал,Кожа,Замша,Ботинки,603448435-9,10,false,true,true,false,true,false,false,true,true,false,false,true,true,true,true
+Teal,95,Зима,Мужская обувь,Кожа,Кожа,Полимерный материал,Тапки,266703011-7,,true,false,false,true,true,false,true,false,true,false,true,false,true,false,false
+Green,5,Зима,Женская обувь,Полимерный материал,Кожа,Кожа,Тапки,810158746-2,,false,false,true,false,true,false,true,false,false,true,false,true,true,false,true
+Teal,73,Лето,Мужская обувь,Кожа,Кожа,Полимерный материал,Сапоги,878448476-4,,false,false,false,false,true,true,false,false,false,true,true,true,true,false,true
+Pink,39,Весна/Осень,Мужская обувь,Кожа,Кожа,Кожа,Туфли,910149047-8,,false,false,false,false,true,true,false,false,false,true,false,false,true,false,true
+Crimson,95,Зима,Мужская обувь,Кожа,Кожа,Замша,Слипоны,253617646-0,,false,true,false,false,false,false,true,false,true,true,false,true,false,true,true
+Mauv,57,Весна/Осень,Мужская обувь,Кожа,Кожа,Полимерный материал,Кеды,859512865-0,,false,true,true,true,false,true,true,false,false,true,true,false,true,false,false
+Red,54,Зима,Мужская обувь,Замша,Кожа,Кожа,Ботинки,044854516-0,,false,false,true,true,false,false,true,false,true,false,true,true,false,true,false
+Khaki,62,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Полимерный материал,Сапоги,272062939-1,30,true,true,false,false,false,false,true,true,false,false,false,false,false,true,true
+Green,6,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Кожа,Сандалии,800456496-8,45,false,true,true,true,true,false,false,true,false,true,true,false,false,false,true
+Mauv,89,Лето,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Кроссовки,741284188-2,,true,false,false,true,false,false,true,false,true,false,false,false,true,false,false
+Purple,80,Весна/Осень,Женская обувь,Замша,Полимерный материал,Замша,Сабо,027977758-2,,true,false,true,true,false,true,false,false,true,false,true,true,true,false,false
+Mauv,50,Зима,Мужская обувь,Замша,Полимерный материал,Кожа,Кеды,326822170-X,15,true,false,false,true,true,true,false,false,true,true,false,false,false,true,true
+Fuscia,29,Весна/Осень,Женская обувь,Полимерный материал,Замша,Кожа,Туфли,665567361-5,,false,false,false,false,false,true,true,true,true,false,false,true,true,false,false
+Crimson,27,Зима,Мужская обувь,Замша,Замша,Замша,Туфли,645585481-0,45,true,false,false,false,false,false,true,true,false,false,true,true,false,false,true
+Green,98,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Полимерный материал,Кеды,834609189-3,,false,false,false,false,false,true,true,false,false,true,false,true,false,false,true
+Turquoise,65,Лето,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Босоножки,366266315-5,,false,false,true,false,false,false,true,false,true,false,true,false,true,true,false
+Indigo,72,Зима,Мужская обувь,Замша,Полимерный материал,Полимерный материал,Сабо,664349123-1,15,false,false,false,false,true,true,true,false,true,true,false,true,true,false,false
+Red,52,Зима,Мужская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Сандалии,896329033-6,15,true,true,false,false,true,false,false,true,false,false,true,true,false,true,false
+Goldenrod,13,Весна/Осень,Женская обувь,Замша,Замша,Замша,Кеды,299223555-5,30,true,true,false,true,false,false,true,true,true,true,false,false,false,false,false
+Mauv,21,Лето,Женская обувь,Полимерный материал,Полимерный материал,Замша,Туфли,086264548-4,,false,true,true,true,true,false,false,true,false,false,true,true,false,false,false
+Turquoise,84,Лето,Женская обувь,Замша,Полимерный материал,Кожа,Кеды,766597465-1,,false,false,true,true,false,false,true,false,true,true,false,false,true,true,true
+Mauv,47,Зима,Женская обувь,Кожа,Кожа,Полимерный материал,Слипоны,019810186-4,,true,false,false,true,false,true,false,false,true,false,true,false,true,true,true
+Pink,63,Лето,Мужская обувь,Замша,Замша,Полимерный материал,Босоножки,939934114-3,,false,true,false,false,false,true,false,false,false,false,true,false,true,false,true
+Aquamarine,68,Зима,Мужская обувь,Кожа,Полимерный материал,Замша,Слипоны,131159202-4,,true,true,true,false,false,true,true,true,false,false,false,true,true,false,true
+Goldenrod,22,Лето,Женская обувь,Замша,Кожа,Замша,Слипоны,842354804-X,45,true,false,true,true,false,false,true,false,false,true,true,true,false,false,true
+Yellow,86,Зима,Женская обувь,Замша,Кожа,Полимерный материал,Кеды,381255111-X,15,true,true,true,true,false,true,true,true,false,true,false,true,false,false,true
+Teal,31,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Тапки,950543983-0,,true,false,true,true,false,false,false,false,true,false,true,false,false,false,true
+Violet,9,Зима,Женская обувь,Кожа,Полимерный материал,Кожа,Тапки,760502964-0,10,false,false,true,false,true,true,false,true,false,true,true,false,false,false,true
+Puce,14,Лето,Мужская обувь,Полимерный материал,Замша,Замша,Кеды,821024750-6,,false,false,false,false,true,false,true,false,true,true,true,true,false,false,false
+Teal,54,Зима,Мужская обувь,Кожа,Кожа,Замша,Угги,971503814-X,30,true,true,true,false,true,false,false,true,true,true,true,false,false,true,true
+Pink,75,Зима,Мужская обувь,Замша,Полимерный материал,Кожа,Мокасины,761376508-3,,false,false,true,true,false,true,true,false,true,false,true,true,false,false,true
+Violet,66,Весна/Осень,Женская обувь,Замша,Полимерный материал,Замша,Кеды,124933264-8,,true,true,false,false,true,false,false,true,true,false,false,false,true,true,true
+Red,96,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Босоножки,128636198-2,15,true,true,false,false,true,true,false,true,false,true,true,false,false,false,true
+Indigo,16,Весна/Осень,Женская обувь,Замша,Замша,Замша,Слипоны,248830530-8,45,true,true,true,false,true,true,false,true,true,false,true,true,false,false,true
+Maroon,62,Лето,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Сандалии,796402438-8,15,false,false,false,false,false,true,false,false,true,false,false,true,true,true,true
+Blue,73,Зима,Женская обувь,Замша,Полимерный материал,Кожа,Сабо,795063559-2,45,false,false,false,false,false,false,true,true,false,true,false,false,false,false,false
+Maroon,77,Весна/Осень,Женская обувь,Полимерный материал,Замша,Полимерный материал,Угги,012035127-7,15,true,false,true,false,true,false,true,true,true,false,false,true,true,true,false
+Orange,96,Лето,Женская обувь,Полимерный материал,Замша,Полимерный материал,Сандалии,762657730-2,15,false,true,false,false,true,true,true,false,false,true,true,true,false,false,true
+Yellow,69,Зима,Женская обувь,Кожа,Замша,Замша,Босоножки,068809906-8,10,false,false,false,false,false,false,false,false,true,true,true,false,false,true,true
+Fuscia,92,Лето,Женская обувь,Кожа,Полимерный материал,Полимерный материал,Тапки,777730463-1,10,true,false,true,true,false,false,false,false,true,false,false,true,false,false,true
+Turquoise,2,Зима,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Кеды,106786365-6,,false,true,false,false,true,true,true,true,false,false,false,false,false,false,false
+Goldenrod,7,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Кеды,144459240-8,,false,true,true,false,false,true,true,false,true,false,false,true,false,false,true
+Indigo,45,Лето,Женская обувь,Полимерный материал,Полимерный материал,Замша,Слипоны,643073799-3,,false,true,false,false,true,false,true,false,false,false,true,false,true,false,false
+Orange,99,Весна/Осень,Женская обувь,Полимерный материал,Кожа,Полимерный материал,Сандалии,343775617-6,30,true,false,false,true,true,true,false,true,true,true,true,true,false,true,true
+Green,54,Лето,Женская обувь,Кожа,Замша,Кожа,Кроссовки,979045162-8,10,false,true,false,false,true,false,false,false,false,false,true,false,false,true,true
+Indigo,44,Зима,Женская обувь,Кожа,Замша,Замша,Угги,638627519-5,,false,true,false,false,false,false,false,false,false,true,false,true,false,true,true
+Purple,10,Весна/Осень,Женская обувь,Кожа,Кожа,Кожа,Кеды,345992908-1,,false,true,false,true,false,true,true,true,false,false,true,true,true,true,true
+Puce,91,Весна/Осень,Женская обувь,Замша,Замша,Кожа,Угги,840999261-2,30,false,false,true,false,false,false,true,true,true,false,true,false,false,true,false
+Puce,22,Зима,Женская обувь,Замша,Кожа,Кожа,Тапки,777653206-1,10,false,true,false,false,true,false,false,false,true,false,true,false,true,true,false
+Violet,29,Лето,Женская обувь,Полимерный материал,Полимерный материал,Замша,Кроссовки,492769180-2,45,true,false,true,true,false,false,false,true,true,true,false,false,false,false,true
+Aquamarine,84,Зима,Женская обувь,Полимерный материал,Кожа,Кожа,Туфли,853615923-5,,false,true,false,true,false,true,true,false,false,false,false,false,false,false,false
+Maroon,10,Весна/Осень,Женская обувь,Кожа,Кожа,Кожа,Ботинки,224962411-9,10,false,false,true,false,true,false,false,true,false,true,true,true,false,false,false
+Blue,19,Весна/Осень,Женская обувь,Замша,Кожа,Замша,Ботинки,246469181-X,,true,true,true,true,true,true,true,true,false,true,false,true,true,false,false
+Yellow,6,Весна/Осень,Женская обувь,Кожа,Замша,Кожа,Угги,928664598-8,30,true,false,true,false,true,true,true,true,false,false,true,true,false,true,false
+Khaki,24,Зима,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Сандалии,408602047-5,,true,false,true,true,true,true,false,false,true,false,true,false,false,false,false
+Puce,4,Весна/Осень,Женская обувь,Кожа,Замша,Замша,Сабо,167205845-7,,false,false,true,true,true,true,false,true,false,true,true,false,false,true,true
+Yellow,86,Весна/Осень,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Туфли,705582165-7,15,false,true,true,false,false,false,true,false,true,true,true,true,true,true,true
+Aquamarine,100,Зима,Женская обувь,Замша,Полимерный материал,Кожа,Мокасины,143927213-1,45,false,false,false,false,false,true,false,true,true,true,true,false,false,true,false
+Red,94,Зима,Мужская обувь,Замша,Кожа,Замша,Сандалии,448948492-5,,false,false,true,true,true,true,true,false,true,true,false,false,true,true,false
+Mauv,39,Весна/Осень,Мужская обувь,Замша,Замша,Полимерный материал,Сапоги,684297213-2,,true,true,true,true,false,false,false,true,false,false,false,true,false,false,false
+Yellow,46,Зима,Женская обувь,Кожа,Кожа,Кожа,Слипоны,146397962-2,15,false,true,false,true,false,false,false,false,true,true,true,true,true,true,true
+Crimson,7,Лето,Женская обувь,Замша,Полимерный материал,Полимерный материал,Сабо,028334085-1,,false,true,false,true,true,true,true,true,true,true,false,false,true,true,true
+Turquoise,89,Лето,Женская обувь,Кожа,Полимерный материал,Полимерный материал,Угги,548267281-6,15,true,true,true,true,false,true,true,true,true,false,true,true,false,true,true
+Maroon,34,Лето,Мужская обувь,Кожа,Замша,Полимерный материал,Слипоны,843312771-3,,true,false,false,false,true,true,false,false,true,true,true,false,true,false,true
+Puce,55,Весна/Осень,Мужская обувь,Замша,Полимерный материал,Кожа,Мокасины,190991791-5,,false,true,true,true,true,true,false,false,true,true,true,true,true,false,true
+Goldenrod,20,Лето,Мужская обувь,Замша,Замша,Полимерный материал,Босоножки,236915423-3,,false,false,false,false,true,false,false,true,true,true,false,true,false,false,true
+Violet,89,Лето,Мужская обувь,Замша,Полимерный материал,Замша,Сапоги,412417006-8,10,false,false,false,false,false,true,true,true,false,true,false,true,true,false,false
+Aquamarine,72,Весна/Осень,Женская обувь,Полимерный материал,Замша,Замша,Тапки,443330294-5,45,true,true,false,true,false,false,true,false,true,true,false,false,true,false,false
+Crimson,83,Зима,Женская обувь,Кожа,Замша,Полимерный материал,Кроссовки,972163980-X,30,true,false,false,false,false,true,true,true,true,true,false,false,false,true,true
+Teal,8,Весна/Осень,Женская обувь,Полимерный материал,Кожа,Кожа,Кроссовки,503148596-5,,true,false,false,false,false,true,true,true,false,false,true,false,false,true,true
+Blue,38,Весна/Осень,Мужская обувь,Кожа,Замша,Кожа,Угги,290088600-7,,false,true,false,true,true,true,true,true,true,false,false,true,true,true,true
+Violet,18,Зима,Мужская обувь,Замша,Полимерный материал,Полимерный материал,Сандалии,660399400-3,15,true,false,true,true,false,false,true,false,true,true,true,true,false,false,true
+Aquamarine,36,Зима,Мужская обувь,Кожа,Полимерный материал,Кожа,Кеды,119565441-3,,true,true,false,true,false,false,false,false,false,false,true,false,true,true,true
+Turquoise,35,Лето,Женская обувь,Замша,Замша,Замша,Кроссовки,057481947-9,10,false,false,true,true,false,false,true,false,true,false,false,true,false,false,false
+Khaki,34,Весна/Осень,Мужская обувь,Полимерный материал,Полимерный материал,Замша,Тапки,823401070-0,,false,false,false,true,false,true,true,true,true,false,true,true,false,true,true
+Fuscia,83,Зима,Мужская обувь,Замша,Замша,Полимерный материал,Слипоны,639642075-9,,false,true,true,false,false,false,false,false,false,true,false,true,false,true,false
+Purple,32,Зима,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Мокасины,565929969-5,,false,true,false,false,false,false,false,false,true,true,true,true,false,false,false
+Goldenrod,17,Зима,Женская обувь,Кожа,Кожа,Полимерный материал,Сандалии,820405010-0,,true,false,false,true,false,true,false,true,true,false,false,false,false,true,true
+Red,86,Весна/Осень,Женская обувь,Замша,Кожа,Замша,Сабо,043622462-3,15,true,true,false,true,false,true,true,false,false,true,true,true,true,true,false
+Aquamarine,90,Лето,Мужская обувь,Полимерный материал,Кожа,Полимерный материал,Угги,923538232-7,,false,true,false,false,false,true,true,false,true,false,false,false,true,false,true
+Violet,30,Зима,Женская обувь,Полимерный материал,Замша,Полимерный материал,Сапоги,682680361-5,15,true,true,false,false,false,false,false,true,true,false,false,false,false,true,true
+Purple,40,Зима,Женская обувь,Кожа,Полимерный материал,Замша,Угги,899777022-5,15,false,false,true,true,true,false,false,false,false,false,false,true,false,false,true
+Red,83,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Кожа,Туфли,723072519-4,,true,false,false,true,false,false,true,true,false,true,true,false,false,false,true
+Indigo,25,Зима,Женская обувь,Замша,Полимерный материал,Кожа,Мокасины,479123692-0,,false,false,true,false,false,true,true,true,true,false,true,false,false,true,true
+Maroon,1,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Замша,Ботинки,956259121-2,45,false,false,false,false,false,true,true,true,false,true,true,true,true,false,false
+Mauv,32,Весна/Осень,Мужская обувь,Замша,Замша,Полимерный материал,Сапоги,383490637-9,15,false,true,true,true,false,false,true,false,false,true,true,false,true,false,true
+Khaki,17,Весна/Осень,Женская обувь,Кожа,Замша,Замша,Сабо,137052441-2,45,true,true,false,true,true,false,false,true,false,true,false,true,false,true,true
+Crimson,43,Зима,Мужская обувь,Кожа,Замша,Кожа,Ботинки,561679415-5,10,true,false,false,false,true,true,false,false,false,true,false,false,false,true,false
+Fuscia,14,Зима,Мужская обувь,Замша,Кожа,Полимерный материал,Тапки,422431392-8,,false,false,true,false,true,false,true,true,false,false,true,true,true,true,false
+Crimson,6,Весна/Осень,Мужская обувь,Кожа,Замша,Кожа,Сандалии,238963372-2,15,false,false,false,false,false,true,false,false,false,false,false,false,false,true,false
+Aquamarine,66,Зима,Мужская обувь,Замша,Кожа,Полимерный материал,Тапки,244611904-2,,true,false,false,false,true,false,false,true,false,true,true,true,true,false,true
+Goldenrod,11,Весна/Осень,Женская обувь,Замша,Кожа,Полимерный материал,Туфли,726910498-0,,false,false,true,false,true,false,true,false,false,true,false,true,true,true,false
+Mauv,98,Зима,Мужская обувь,Замша,Кожа,Замша,Мокасины,799317462-7,15,true,false,false,true,false,false,true,true,false,false,true,false,false,true,true
+Mauv,20,Лето,Мужская обувь,Кожа,Кожа,Кожа,Тапки,769941028-9,,true,true,false,false,false,false,false,true,true,true,true,true,true,false,false
+Indigo,8,Зима,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Кроссовки,160712043-7,,true,false,false,false,true,false,true,true,true,true,true,true,true,true,true
+Pink,78,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Полимерный материал,Сапоги,021244792-0,,true,false,true,true,true,false,true,false,true,true,false,true,false,true,false
+Turquoise,38,Весна/Осень,Мужская обувь,Кожа,Замша,Кожа,Туфли,870646881-0,,true,true,false,true,true,false,false,false,true,false,false,true,false,true,false
+Purple,50,Лето,Женская обувь,Кожа,Полимерный материал,Полимерный материал,Кроссовки,989567482-1,,true,true,true,false,true,false,false,true,true,true,false,false,true,true,false
+Red,3,Весна/Осень,Женская обувь,Замша,Кожа,Кожа,Сабо,108077864-0,,false,true,true,false,true,false,true,true,true,false,true,true,false,false,false
+Fuscia,68,Зима,Мужская обувь,Полимерный материал,Кожа,Кожа,Босоножки,150730021-2,15,true,true,false,false,true,false,false,false,false,false,false,true,true,true,false
+Yellow,65,Зима,Женская обувь,Кожа,Замша,Кожа,Сапоги,278521513-3,,true,false,true,false,false,false,true,true,false,false,true,false,false,true,false
+Red,41,Весна/Осень,Мужская обувь,Замша,Замша,Кожа,Сандалии,964610850-4,10,false,false,false,false,true,true,false,false,true,false,false,false,false,false,false
+Green,42,Лето,Женская обувь,Полимерный материал,Замша,Полимерный материал,Босоножки,122714298-6,10,false,false,false,false,true,false,false,true,false,true,true,false,true,false,true
+Green,56,Зима,Мужская обувь,Кожа,Полимерный материал,Кожа,Босоножки,276457233-6,10,false,false,false,false,false,false,true,false,false,false,false,true,false,false,false
+Puce,83,Весна/Осень,Мужская обувь,Кожа,Кожа,Полимерный материал,Босоножки,000692682-7,10,false,false,false,true,true,false,false,true,true,false,true,true,false,true,true
+Goldenrod,26,Весна/Осень,Мужская обувь,Замша,Полимерный материал,Кожа,Ботинки,616259507-2,,false,true,false,false,false,true,false,true,true,false,true,true,true,true,false
+Goldenrod,47,Весна/Осень,Мужская обувь,Замша,Замша,Замша,Тапки,275649560-3,,false,true,true,false,false,true,false,true,false,true,true,true,false,true,true
+Red,3,Лето,Женская обувь,Полимерный материал,Кожа,Замша,Угги,287394447-1,30,true,true,true,false,false,false,false,true,true,false,true,true,false,false,false
+Purple,78,Лето,Мужская обувь,Замша,Полимерный материал,Замша,Сапоги,593381933-6,,false,false,false,false,false,true,false,false,false,true,true,false,true,false,true
+Yellow,18,Зима,Мужская обувь,Кожа,Замша,Замша,Сабо,391213168-6,,true,true,false,true,true,true,false,false,false,true,false,true,true,true,true
+Orange,72,Зима,Мужская обувь,Полимерный материал,Кожа,Замша,Кеды,491104374-1,45,true,false,true,true,false,true,true,true,false,false,true,true,true,true,true
+Pink,14,Зима,Женская обувь,Полимерный материал,Кожа,Полимерный материал,Сапоги,459791499-4,,false,false,false,false,false,false,true,false,true,false,false,true,true,false,false
+Mauv,20,Весна/Осень,Мужская обувь,Кожа,Кожа,Кожа,Слипоны,360250262-7,,true,true,true,true,true,true,true,false,true,false,true,true,false,true,true
+Teal,44,Весна/Осень,Женская обувь,Замша,Полимерный материал,Замша,Кеды,334874112-2,,false,true,false,true,true,true,true,true,false,true,false,true,false,false,false
+Yellow,65,Зима,Женская обувь,Кожа,Полимерный материал,Полимерный материал,Кроссовки,910851404-6,,false,false,false,true,false,true,true,false,false,false,false,false,true,false,true
+Aquamarine,93,Весна/Осень,Женская обувь,Кожа,Кожа,Полимерный материал,Ботинки,056479153-9,15,true,false,false,true,false,false,false,true,true,false,false,true,false,false,false
+Maroon,78,Зима,Женская обувь,Кожа,Кожа,Кожа,Угги,556498712-8,,true,true,false,true,true,false,false,true,true,true,true,true,false,true,true
+Blue,90,Зима,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Мокасины,513231792-8,,true,true,false,true,false,false,false,false,false,false,false,true,true,false,true
+Puce,65,Лето,Мужская обувь,Полимерный материал,Замша,Замша,Тапки,394237971-6,,false,true,false,true,true,false,false,false,true,false,true,true,false,true,true
+Crimson,98,Лето,Женская обувь,Замша,Замша,Полимерный материал,Кеды,616246448-2,,true,false,false,false,true,true,true,false,true,false,true,true,true,true,true
+Yellow,36,Лето,Мужская обувь,Полимерный материал,Полимерный материал,Кожа,Слипоны,696660390-2,,true,false,true,false,true,true,true,false,true,false,true,true,false,false,false
+Puce,41,Лето,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Угги,784657375-6,,true,true,false,false,false,false,true,false,true,true,false,false,true,false,false
+Goldenrod,39,Весна/Осень,Женская обувь,Кожа,Замша,Замша,Сапоги,313224768-5,,true,false,false,false,false,true,false,true,true,true,true,true,false,true,true
+Red,56,Лето,Женская обувь,Замша,Замша,Полимерный материал,Туфли,485609992-2,45,false,false,true,false,true,true,false,true,true,false,false,true,true,true,true
+Green,3,Весна/Осень,Мужская обувь,Кожа,Полимерный материал,Замша,Туфли,580460200-4,15,true,false,true,false,true,true,false,true,false,true,false,false,true,false,true
+Aquamarine,83,Весна/Осень,Женская обувь,Замша,Замша,Замша,Сапоги,706591787-8,30,true,false,true,true,false,true,true,false,true,true,true,false,false,true,false
+Aquamarine,45,Зима,Женская обувь,Замша,Кожа,Замша,Сабо,915779553-3,30,false,true,false,false,true,true,true,false,true,true,true,true,true,true,false
+Fuscia,55,Лето,Женская обувь,Замша,Кожа,Полимерный материал,Кроссовки,275030581-0,,true,true,true,false,false,true,true,true,true,true,true,false,false,true,false
+Violet,17,Лето,Мужская обувь,Кожа,Замша,Замша,Туфли,425293795-7,45,true,false,true,true,true,false,true,true,false,true,false,false,true,false,false
+Violet,92,Лето,Женская обувь,Замша,Полимерный материал,Полимерный материал,Сабо,522388770-0,10,false,true,false,false,true,false,false,true,true,true,true,false,false,true,false
+Teal,61,Зима,Мужская обувь,Кожа,Полимерный материал,Замша,Сабо,134126631-1,,true,false,true,true,true,true,false,false,false,false,false,false,false,false,true
+Teal,42,Весна/Осень,Женская обувь,Замша,Кожа,Замша,Слипоны,316883404-1,,true,true,false,true,true,true,true,false,true,false,false,true,false,true,false
+Green,44,Весна/Осень,Женская обувь,Полимерный материал,Замша,Кожа,Кеды,463871346-7,15,true,false,false,false,true,false,false,false,false,true,false,false,true,false,false
+Fuscia,83,Зима,Женская обувь,Замша,Полимерный материал,Полимерный материал,Кеды,907203570-4,,false,false,false,true,true,false,true,false,true,true,true,true,false,false,false
+Pink,53,Лето,Мужская обувь,Полимерный материал,Полимерный материал,Замша,Сабо,590064858-3,,false,true,false,false,true,true,true,true,true,true,false,true,false,false,false
+Orange,40,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Кожа,Слипоны,446536550-0,10,true,false,false,true,false,true,false,true,false,true,false,true,false,false,false
+Puce,41,Лето,Мужская обувь,Полимерный материал,Замша,Кожа,Босоножки,524857764-0,10,true,true,true,true,false,false,true,false,false,true,false,false,true,true,false
+Red,90,Весна/Осень,Женская обувь,Кожа,Кожа,Замша,Босоножки,097933612-0,30,true,false,true,true,false,false,true,true,true,false,false,false,false,true,true
+Purple,65,Лето,Женская обувь,Замша,Замша,Кожа,Туфли,300696969-3,15,true,false,false,false,false,false,true,true,false,false,false,false,true,true,true
+Pink,64,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Замша,Мокасины,621889988-8,15,true,false,true,false,true,false,true,true,true,true,false,false,false,false,true
+Orange,41,Зима,Женская обувь,Замша,Замша,Замша,Мокасины,701295680-1,15,false,true,true,false,false,false,true,true,false,false,false,true,false,false,false
+Maroon,73,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Полимерный материал,Сабо,513753332-7,,true,false,false,true,true,true,false,false,false,false,false,true,true,false,false
+Green,35,Зима,Женская обувь,Кожа,Полимерный материал,Замша,Сапоги,701529851-1,,true,false,false,true,false,true,false,false,false,true,true,false,true,true,false
+Violet,48,Зима,Женская обувь,Кожа,Кожа,Полимерный материал,Кеды,718182134-2,,true,false,true,true,true,false,false,true,false,true,true,false,true,true,true
+Fuscia,74,Лето,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Туфли,700564149-3,45,false,true,true,false,false,false,false,true,false,true,false,false,true,true,true
+Orange,80,Лето,Женская обувь,Полимерный материал,Замша,Полимерный материал,Сабо,462891201-7,,true,true,false,true,false,true,true,true,false,true,true,true,true,true,true
+Teal,52,Зима,Женская обувь,Полимерный материал,Замша,Полимерный материал,Сапоги,307214332-3,10,false,true,true,true,true,false,false,true,false,false,false,true,false,true,true
+Crimson,80,Лето,Женская обувь,Замша,Кожа,Кожа,Мокасины,917641872-3,,true,true,false,true,false,true,true,true,false,false,false,true,true,false,false
+Pink,93,Весна/Осень,Женская обувь,Полимерный материал,Замша,Полимерный материал,Туфли,449076530-4,45,false,true,false,false,false,true,true,true,true,true,true,true,true,true,false
+Violet,61,Зима,Женская обувь,Кожа,Кожа,Полимерный материал,Босоножки,451672766-8,,false,false,true,false,true,false,false,true,false,true,true,false,true,true,true
+Violet,89,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Замша,Туфли,229187610-4,,true,false,false,false,false,false,true,true,true,true,true,true,false,true,false
+Green,75,Весна/Осень,Мужская обувь,Замша,Кожа,Полимерный материал,Кеды,523640463-0,45,false,true,false,true,false,false,true,false,false,true,false,true,true,false,true
+Crimson,92,Весна/Осень,Мужская обувь,Замша,Кожа,Полимерный материал,Кроссовки,567194060-5,,false,false,true,false,false,false,false,false,true,false,false,false,false,true,false
+Pink,71,Лето,Женская обувь,Полимерный материал,Кожа,Кожа,Кеды,297104691-5,,false,false,false,false,true,false,false,false,false,true,true,false,true,true,false
+Puce,63,Лето,Женская обувь,Полимерный материал,Замша,Кожа,Сапоги,897956603-4,,false,true,false,true,false,false,false,true,false,true,false,true,true,true,false
+Purple,28,Лето,Женская обувь,Замша,Замша,Замша,Мокасины,919849148-2,10,false,false,false,true,false,true,true,false,true,false,false,false,true,false,false
+Blue,57,Лето,Женская обувь,Полимерный материал,Полимерный материал,Замша,Сапоги,561809639-0,,false,false,false,true,true,false,true,true,true,true,true,false,true,false,true
+Puce,70,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Замша,Тапки,786393771-X,,true,true,false,false,true,false,true,false,false,false,false,true,false,true,false
+Violet,64,Весна/Осень,Женская обувь,Кожа,Замша,Замша,Мокасины,708637721-X,,false,false,false,false,false,true,true,true,false,true,true,true,true,true,false
+Blue,92,Зима,Мужская обувь,Полимерный материал,Кожа,Полимерный материал,Сабо,373430999-9,,false,true,true,false,false,true,true,false,true,false,true,true,true,false,true
+Aquamarine,93,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Кожа,Кеды,258338596-8,,true,true,true,false,false,false,false,true,false,false,false,true,false,true,true
+Pink,95,Весна/Осень,Женская обувь,Замша,Кожа,Полимерный материал,Кроссовки,787409157-4,45,false,true,true,true,true,true,true,false,false,true,false,false,true,true,false
+Orange,11,Лето,Мужская обувь,Замша,Замша,Полимерный материал,Угги,005110286-2,30,true,false,false,true,false,true,true,false,true,false,true,false,true,true,true
+Orange,76,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Полимерный материал,Сабо,430902703-2,,true,true,true,false,true,false,true,true,true,true,false,false,false,true,true
+Purple,93,Лето,Мужская обувь,Замша,Замша,Полимерный материал,Сапоги,949575091-1,,false,true,false,false,true,false,true,false,true,true,false,true,false,true,true
+Orange,16,Зима,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Угги,077306865-1,,false,true,false,false,false,true,true,false,false,true,true,true,true,true,true
+Green,82,Зима,Женская обувь,Полимерный материал,Кожа,Полимерный материал,Угги,805640174-1,,true,false,true,true,false,false,true,true,false,false,true,false,true,false,false
+Teal,41,Лето,Женская обувь,Полимерный материал,Полимерный материал,Замша,Кроссовки,384343156-6,10,true,true,false,false,false,false,false,true,false,false,false,true,true,true,true
+Goldenrod,25,Весна/Осень,Мужская обувь,Кожа,Кожа,Замша,Босоножки,274912916-8,,true,false,true,false,true,false,false,true,true,false,true,true,true,true,false
+Teal,8,Лето,Женская обувь,Полимерный материал,Замша,Кожа,Угги,121157336-2,,false,false,false,false,true,false,true,true,true,false,false,false,true,true,true
+Orange,25,Зима,Женская обувь,Кожа,Замша,Полимерный материал,Босоножки,550518291-7,10,false,true,false,false,false,true,true,false,false,false,false,false,false,true,true
+Khaki,36,Лето,Женская обувь,Полимерный материал,Кожа,Полимерный материал,Сандалии,729745664-0,,false,true,false,false,false,true,true,false,true,false,false,true,false,false,false
+Pink,82,Весна/Осень,Женская обувь,Замша,Кожа,Замша,Сандалии,048752023-8,,false,true,true,true,false,true,true,false,true,false,false,true,false,false,false
+Puce,87,Зима,Мужская обувь,Полимерный материал,Кожа,Кожа,Тапки,580284221-0,15,true,true,true,true,true,false,false,false,true,false,true,false,false,false,true
+Purple,51,Лето,Женская обувь,Полимерный материал,Кожа,Кожа,Мокасины,089259058-0,,true,true,false,true,true,false,false,false,true,false,false,false,false,false,false
+Red,48,Зима,Женская обувь,Кожа,Замша,Полимерный материал,Босоножки,345598254-9,,false,false,false,true,false,false,true,false,true,false,false,true,false,false,false
+Turquoise,19,Лето,Женская обувь,Кожа,Полимерный материал,Замша,Мокасины,983698930-7,10,false,false,true,false,true,true,true,true,true,false,false,false,false,true,false
+Crimson,76,Лето,Женская обувь,Кожа,Полимерный материал,Кожа,Сандалии,707823450-2,,false,false,true,true,false,false,false,true,false,true,false,false,false,true,false
+Blue,42,Зима,Мужская обувь,Полимерный материал,Замша,Замша,Босоножки,220045331-0,10,false,false,true,false,false,true,false,false,false,false,false,false,false,true,true
+Purple,66,Зима,Мужская обувь,Замша,Замша,Кожа,Мокасины,349990070-X,10,true,false,false,false,false,true,true,true,true,false,false,false,false,false,true
+Puce,93,Лето,Мужская обувь,Замша,Полимерный материал,Кожа,Слипоны,890088475-1,10,true,false,true,false,false,true,true,false,true,false,false,true,true,true,false
+Khaki,82,Лето,Женская обувь,Замша,Замша,Замша,Кеды,912917971-8,15,true,true,false,true,false,false,false,true,false,false,false,false,true,false,true
+Pink,92,Зима,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Слипоны,079277401-9,,false,true,false,false,false,true,false,true,true,true,true,true,true,false,false
+Turquoise,98,Весна/Осень,Женская обувь,Замша,Кожа,Полимерный материал,Угги,341433447-X,15,true,true,false,true,true,false,false,false,false,true,false,true,false,false,false
+Goldenrod,23,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Замша,Кеды,840098374-2,,true,true,true,false,true,true,true,true,false,true,false,false,true,false,true
+Aquamarine,85,Весна/Осень,Женская обувь,Полимерный материал,Замша,Полимерный материал,Сапоги,306928289-X,,true,false,false,false,false,false,false,true,false,false,true,true,false,false,true
+Blue,3,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Туфли,399599730-9,10,false,false,true,true,true,true,true,false,true,false,true,false,false,true,true
+Blue,48,Весна/Осень,Мужская обувь,Замша,Полимерный материал,Замша,Мокасины,747612861-3,,true,true,true,false,false,false,false,false,false,false,true,false,true,true,true
+Goldenrod,42,Лето,Мужская обувь,Кожа,Замша,Замша,Угги,031629936-7,30,true,false,false,false,false,false,true,true,false,false,false,true,false,true,true
+Crimson,75,Зима,Женская обувь,Полимерный материал,Кожа,Полимерный материал,Сапоги,587322112-X,,false,false,true,false,true,false,false,false,true,true,true,true,true,true,true
+Teal,9,Лето,Женская обувь,Полимерный материал,Кожа,Замша,Кроссовки,953656437-8,,false,false,false,true,true,false,false,true,false,false,false,true,false,false,false
+Red,73,Зима,Мужская обувь,Полимерный материал,Замша,Кожа,Ботинки,100548157-1,45,false,false,false,true,false,false,false,false,true,true,false,false,true,true,false
+Violet,72,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Босоножки,069841929-4,45,false,false,true,true,true,true,true,false,false,true,false,true,false,false,true
+Pink,33,Зима,Мужская обувь,Замша,Замша,Полимерный материал,Ботинки,151373954-9,,true,false,true,false,true,false,true,true,true,false,false,true,false,false,false
+Mauv,7,Лето,Мужская обувь,Кожа,Кожа,Замша,Туфли,533391329-3,30,false,true,false,true,true,true,false,true,true,false,false,false,false,true,true
+Maroon,24,Лето,Женская обувь,Полимерный материал,Полимерный материал,Замша,Босоножки,327010543-6,15,false,true,false,false,false,true,false,false,false,true,false,false,false,false,true
+Purple,92,Лето,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Мокасины,987997123-X,,true,true,false,true,false,true,false,true,true,false,false,false,false,false,true
+Green,98,Зима,Мужская обувь,Кожа,Замша,Полимерный материал,Босоножки,926830426-0,15,false,true,false,false,false,true,false,false,true,true,true,false,false,true,true
+Mauv,12,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Полимерный материал,Ботинки,375267099-1,30,false,false,true,true,false,false,false,false,false,true,true,true,false,false,true
+Aquamarine,50,Зима,Мужская обувь,Кожа,Полимерный материал,Замша,Мокасины,972572873-4,30,false,true,true,false,false,false,true,true,false,false,false,false,false,false,false
+Fuscia,12,Зима,Женская обувь,Замша,Кожа,Кожа,Угги,734032006-7,15,false,true,false,true,true,true,false,false,false,true,true,true,true,false,true
+Blue,70,Зима,Мужская обувь,Полимерный материал,Полимерный материал,Кожа,Кеды,175791388-2,,false,false,true,true,false,false,false,true,true,true,false,false,true,false,true
+Violet,85,Лето,Женская обувь,Кожа,Замша,Кожа,Кроссовки,068949010-0,15,false,false,true,true,false,false,true,true,true,false,true,true,false,true,true
+Maroon,8,Весна/Осень,Мужская обувь,Полимерный материал,Полимерный материал,Кожа,Босоножки,989199001-X,,true,false,true,true,true,true,false,false,false,false,false,true,false,true,false
+Purple,55,Лето,Мужская обувь,Полимерный материал,Кожа,Замша,Тапки,735750117-5,,false,false,true,false,false,true,false,false,true,false,true,false,false,true,false
+Red,24,Лето,Женская обувь,Замша,Кожа,Кожа,Босоножки,725154962-X,,false,true,true,true,false,true,false,false,false,true,false,true,false,true,false
+Turquoise,69,Зима,Мужская обувь,Замша,Замша,Замша,Туфли,400763604-4,30,false,true,true,true,true,false,false,true,false,false,true,true,true,true,false
+Pink,22,Весна/Осень,Мужская обувь,Полимерный материал,Полимерный материал,Замша,Ботинки,653939975-8,,false,false,true,false,false,true,false,true,false,true,true,true,true,true,true
+Khaki,17,Весна/Осень,Женская обувь,Полимерный материал,Кожа,Полимерный материал,Сандалии,899720551-X,,true,true,false,true,false,false,false,false,true,true,true,false,true,true,true
+Crimson,84,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Замша,Сабо,680158761-7,,false,false,true,false,false,true,false,true,true,true,false,true,true,false,true
+Yellow,92,Весна/Осень,Мужская обувь,Замша,Кожа,Кожа,Босоножки,495105182-6,,false,false,true,false,false,false,false,true,true,true,true,false,false,false,false
+Red,37,Весна/Осень,Мужская обувь,Кожа,Полимерный материал,Замша,Тапки,258452642-5,10,false,true,true,false,false,true,true,true,true,true,true,false,true,false,false
+Puce,5,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Кожа,Туфли,600300101-1,,false,true,true,false,false,false,false,true,false,false,true,true,true,false,false
+Pink,29,Зима,Женская обувь,Кожа,Полимерный материал,Кожа,Сабо,659077817-5,,true,true,true,true,true,true,true,false,false,true,true,true,false,true,true
+Red,20,Лето,Женская обувь,Замша,Полимерный материал,Кожа,Кеды,438274379-6,15,false,true,false,true,false,true,true,false,true,true,false,true,true,false,false
+Teal,10,Весна/Осень,Мужская обувь,Замша,Кожа,Кожа,Туфли,950637873-8,10,false,false,false,false,true,true,false,false,true,false,false,true,true,true,false
+Teal,23,Весна/Осень,Женская обувь,Кожа,Кожа,Полимерный материал,Тапки,616249637-6,30,true,true,true,true,true,false,false,true,true,true,true,true,true,false,false
+Maroon,63,Лето,Женская обувь,Замша,Полимерный материал,Замша,Босоножки,671156851-6,,false,true,true,false,false,false,false,true,true,false,false,true,true,false,true
+Yellow,15,Весна/Осень,Женская обувь,Полимерный материал,Замша,Кожа,Угги,783673457-9,,false,true,false,false,false,false,true,false,true,false,true,true,false,true,false
+Fuscia,16,Лето,Мужская обувь,Полимерный материал,Замша,Кожа,Сапоги,700307520-2,,true,true,false,true,false,true,false,true,true,false,true,true,true,false,true
+Khaki,81,Весна/Осень,Женская обувь,Полимерный материал,Кожа,Замша,Мокасины,290956378-2,,true,true,false,false,true,true,false,true,true,true,true,false,true,false,true
+Maroon,100,Зима,Женская обувь,Замша,Кожа,Полимерный материал,Кроссовки,798385577-X,45,true,true,true,true,true,true,false,false,false,true,false,true,false,false,false
+Mauv,86,Весна/Осень,Женская обувь,Замша,Полимерный материал,Кожа,Слипоны,413089433-1,,false,false,true,true,true,false,true,false,false,false,false,false,false,true,true
+Red,70,Зима,Женская обувь,Замша,Полимерный материал,Полимерный материал,Угги,570147507-7,,false,false,false,true,false,true,false,false,false,false,false,false,false,false,true
+Goldenrod,77,Лето,Мужская обувь,Кожа,Кожа,Кожа,Кеды,079619778-4,45,true,true,true,true,false,false,false,false,false,true,false,true,true,false,false
+Khaki,8,Зима,Женская обувь,Кожа,Замша,Замша,Мокасины,631142058-9,,false,false,false,true,false,true,false,false,true,false,false,true,false,true,false
+Khaki,75,Лето,Женская обувь,Полимерный материал,Кожа,Замша,Сандалии,263852672-X,,true,true,true,false,false,true,false,true,true,true,false,true,false,false,false
+Violet,84,Зима,Женская обувь,Полимерный материал,Кожа,Кожа,Сандалии,402328443-2,10,false,false,false,true,false,false,false,false,false,false,true,true,true,true,false
+Aquamarine,58,Зима,Мужская обувь,Полимерный материал,Замша,Кожа,Босоножки,316850770-9,,true,true,false,true,true,true,false,true,true,true,false,false,false,false,false
+Khaki,65,Зима,Мужская обувь,Кожа,Полимерный материал,Замша,Туфли,930941466-9,,true,true,true,true,false,false,true,true,false,false,true,false,true,false,true
+Green,83,Весна/Осень,Мужская обувь,Замша,Кожа,Полимерный материал,Ботинки,343813249-4,,false,true,false,true,false,false,false,true,true,false,true,true,true,true,false
+Yellow,13,Зима,Женская обувь,Кожа,Замша,Замша,Туфли,586182550-5,,false,true,true,true,true,true,true,false,false,false,false,false,false,true,false
+Puce,58,Лето,Мужская обувь,Кожа,Полимерный материал,Кожа,Слипоны,532067444-9,,false,false,false,true,false,false,false,true,true,true,false,false,false,true,false
+Crimson,34,Зима,Мужская обувь,Кожа,Кожа,Замша,Кроссовки,999198448-8,,false,true,false,false,true,false,true,false,false,false,true,false,true,false,true
+Orange,42,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Тапки,021489926-8,,true,true,true,true,true,false,false,false,true,false,false,true,true,false,true
+Fuscia,36,Весна/Осень,Мужская обувь,Замша,Кожа,Кожа,Босоножки,998003695-8,15,false,false,false,false,false,true,true,true,false,true,false,false,true,false,true
+Fuscia,23,Лето,Мужская обувь,Кожа,Замша,Полимерный материал,Босоножки,902039719-2,15,true,false,false,false,false,false,false,true,false,false,false,true,true,true,true
+Violet,94,Лето,Женская обувь,Кожа,Полимерный материал,Замша,Угги,055444601-4,,false,true,false,true,false,false,false,true,false,false,true,true,true,false,false
+Violet,1,Лето,Женская обувь,Замша,Полимерный материал,Полимерный материал,Мокасины,007180585-0,,false,false,true,false,false,false,true,false,true,true,true,false,false,true,true
+Red,88,Лето,Мужская обувь,Полимерный материал,Кожа,Полимерный материал,Мокасины,632409088-4,45,true,false,true,false,false,true,true,false,true,true,true,true,false,true,true
+Red,76,Зима,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Сандалии,705251753-1,,true,true,true,false,false,false,true,true,true,false,false,true,false,false,false
+Yellow,94,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Кроссовки,955958306-9,,true,true,true,false,true,true,false,false,true,false,false,true,true,true,true
+Aquamarine,83,Лето,Женская обувь,Кожа,Кожа,Полимерный материал,Кеды,668842804-0,15,true,true,false,false,true,true,false,true,true,false,true,true,false,true,false
+Red,13,Весна/Осень,Мужская обувь,Кожа,Кожа,Полимерный материал,Туфли,193726158-1,,false,false,true,true,false,true,false,false,true,true,false,false,true,true,false
+Teal,24,Лето,Мужская обувь,Кожа,Кожа,Полимерный материал,Тапки,154527996-9,15,false,true,true,true,false,false,false,false,false,true,false,false,true,false,false
+Mauv,33,Лето,Мужская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Сапоги,636319174-2,,true,true,true,false,false,false,true,true,false,true,true,false,true,false,true
+Crimson,55,Зима,Женская обувь,Кожа,Замша,Кожа,Ботинки,819979792-4,,true,true,true,false,true,false,false,true,true,true,true,true,true,true,false
+Mauv,36,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Тапки,385447186-6,,false,true,false,true,true,true,true,false,true,true,true,true,true,false,true
+Khaki,83,Зима,Мужская обувь,Замша,Кожа,Полимерный материал,Босоножки,380441595-4,,true,true,false,true,true,false,false,true,true,false,false,false,false,true,false
+Mauv,21,Весна/Осень,Мужская обувь,Замша,Замша,Полимерный материал,Угги,035814590-2,,false,false,true,true,true,false,true,true,false,false,false,false,false,true,false
+Goldenrod,72,Лето,Женская обувь,Кожа,Полимерный материал,Полимерный материал,Сапоги,465269776-7,45,false,true,true,false,true,false,true,true,true,true,true,true,true,false,true
+Blue,30,Зима,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Кеды,360283204-X,,true,false,false,false,false,true,true,true,true,false,false,false,false,false,true
+Violet,18,Лето,Женская обувь,Полимерный материал,Кожа,Кожа,Кроссовки,292127702-6,15,false,true,true,false,true,true,true,true,false,true,false,true,true,true,true
+Goldenrod,1,Весна/Осень,Мужская обувь,Замша,Кожа,Замша,Слипоны,373124568-X,,false,false,false,true,false,false,false,true,false,true,true,true,true,true,false
+Puce,56,Лето,Мужская обувь,Замша,Полимерный материал,Замша,Тапки,847184089-8,15,true,true,false,false,false,false,false,true,false,false,false,true,true,true,true
+Red,19,Весна/Осень,Мужская обувь,Замша,Замша,Замша,Сандалии,197542711-4,30,true,true,false,true,true,false,true,true,false,false,false,false,false,false,false
+Goldenrod,81,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Мокасины,057406085-5,,true,false,false,true,true,false,true,true,false,true,false,false,true,true,true
+Blue,31,Весна/Осень,Женская обувь,Кожа,Замша,Кожа,Кроссовки,950845960-3,45,true,true,false,false,true,false,true,false,false,false,false,true,true,false,false
+Goldenrod,67,Лето,Женская обувь,Полимерный материал,Замша,Кожа,Мокасины,814443270-3,15,false,true,false,false,false,true,true,false,false,true,true,true,false,false,true
+Crimson,40,Зима,Женская обувь,Кожа,Кожа,Замша,Мокасины,677401859-9,,true,false,true,true,true,true,true,true,false,true,false,false,true,false,true
+Green,21,Лето,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Туфли,850670729-3,,true,true,false,false,false,false,true,true,false,true,true,false,false,true,false
+Orange,33,Лето,Мужская обувь,Полимерный материал,Кожа,Полимерный материал,Туфли,640781382-4,,true,true,true,true,false,true,true,true,true,true,true,true,false,false,true
+Indigo,94,Лето,Женская обувь,Кожа,Полимерный материал,Замша,Тапки,020786969-3,,true,false,true,false,false,true,true,true,true,false,false,false,false,false,true
+Purple,41,Весна/Осень,Женская обувь,Кожа,Замша,Полимерный материал,Угги,196260203-6,30,false,false,false,true,true,false,true,true,true,true,false,true,true,false,false
+Maroon,87,Зима,Мужская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Ботинки,600961382-5,,false,true,false,false,false,true,false,true,true,true,false,true,false,false,false
+Pink,46,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Мокасины,548384867-5,,false,false,false,false,false,false,true,false,true,false,false,false,true,false,false
+Teal,34,Зима,Женская обувь,Замша,Замша,Полимерный материал,Ботинки,172717442-9,10,true,true,false,true,false,true,true,false,true,true,false,false,true,false,true
+Teal,46,Зима,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Сандалии,692392432-4,10,true,true,true,true,false,false,false,false,true,true,false,false,false,true,false
+Teal,31,Весна/Осень,Мужская обувь,Замша,Замша,Кожа,Тапки,571235658-9,,true,false,true,false,true,true,true,false,false,true,false,false,false,false,true
+Green,65,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Мокасины,156518034-8,,true,true,false,false,true,true,true,true,false,true,true,false,false,true,true
+Puce,24,Лето,Мужская обувь,Полимерный материал,Кожа,Замша,Тапки,250571244-1,,false,true,false,false,false,false,false,true,true,false,true,false,false,false,true
+Yellow,86,Зима,Мужская обувь,Полимерный материал,Полимерный материал,Замша,Сабо,051325296-7,15,true,false,true,false,false,false,false,true,true,true,true,false,false,true,true
+Puce,72,Лето,Женская обувь,Полимерный материал,Кожа,Замша,Кроссовки,153660453-4,,false,false,true,false,false,true,true,false,false,false,true,true,true,false,false
+Fuscia,82,Лето,Женская обувь,Замша,Замша,Замша,Сабо,487105308-3,15,true,false,true,true,false,true,false,true,false,false,true,true,false,false,false
+Indigo,72,Весна/Осень,Женская обувь,Кожа,Кожа,Замша,Тапки,659958907-3,,true,false,true,true,true,false,false,true,true,true,true,false,true,false,false
+Aquamarine,82,Зима,Женская обувь,Замша,Полимерный материал,Кожа,Угги,962853546-3,45,false,true,false,true,true,false,true,true,true,false,true,true,false,false,false
+Red,21,Зима,Мужская обувь,Замша,Полимерный материал,Полимерный материал,Сандалии,021708989-5,,false,false,false,true,true,false,true,true,true,false,true,false,true,true,true
+Khaki,6,Весна/Осень,Женская обувь,Полимерный материал,Кожа,Замша,Тапки,671837680-9,,true,true,true,false,true,true,false,false,false,false,false,true,true,false,false
+Yellow,67,Лето,Женская обувь,Полимерный материал,Кожа,Кожа,Мокасины,399528013-7,15,true,false,false,false,false,false,true,false,false,true,true,true,true,false,false
+Fuscia,51,Зима,Мужская обувь,Полимерный материал,Полимерный материал,Кожа,Сандалии,905260764-8,,false,false,false,true,true,true,true,false,true,false,true,true,true,true,false
+Maroon,13,Лето,Женская обувь,Полимерный материал,Кожа,Замша,Ботинки,438059395-9,10,true,true,true,false,false,true,false,false,true,false,true,true,false,true,true
+Crimson,15,Лето,Женская обувь,Замша,Замша,Полимерный материал,Босоножки,052404192-X,,false,true,true,false,false,false,false,true,true,true,true,true,false,true,false
+Maroon,7,Весна/Осень,Мужская обувь,Замша,Замша,Полимерный материал,Сандалии,369996847-2,15,false,true,true,true,false,true,true,true,true,false,true,true,true,true,false
+Mauv,50,Весна/Осень,Женская обувь,Замша,Замша,Кожа,Угги,510130039-X,,false,false,true,false,true,true,false,false,true,true,false,false,true,true,true
+Violet,66,Лето,Мужская обувь,Полимерный материал,Полимерный материал,Замша,Сапоги,061056442-0,,true,true,true,true,true,false,true,true,true,true,false,false,true,true,true
+Orange,95,Весна/Осень,Женская обувь,Замша,Кожа,Кожа,Сапоги,846047622-7,,true,true,false,true,false,false,true,true,false,false,true,false,true,false,false
+Orange,36,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Замша,Слипоны,601246914-4,,true,false,false,false,true,true,true,true,true,true,false,true,false,true,false
+Red,67,Зима,Женская обувь,Полимерный материал,Кожа,Замша,Слипоны,695363804-4,,true,false,true,true,false,true,true,false,false,true,false,true,false,false,true
+Goldenrod,14,Лето,Женская обувь,Кожа,Замша,Замша,Сабо,736005314-5,,true,true,true,false,true,false,true,false,true,false,false,true,true,false,false
+Pink,40,Лето,Женская обувь,Замша,Кожа,Полимерный материал,Ботинки,067488627-5,,true,false,false,true,true,true,true,true,true,false,false,false,false,true,true
+Blue,43,Зима,Женская обувь,Полимерный материал,Полимерный материал,Замша,Босоножки,094821639-5,,true,true,false,true,true,true,true,false,false,true,false,true,true,false,true
+Orange,11,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Кожа,Слипоны,436923426-3,,false,true,false,true,false,false,false,true,true,false,true,true,false,false,false
+Orange,29,Зима,Женская обувь,Полимерный материал,Замша,Замша,Сабо,569971066-3,,true,true,true,true,true,true,false,true,true,true,true,false,false,true,false
+Goldenrod,36,Зима,Женская обувь,Кожа,Полимерный материал,Полимерный материал,Мокасины,706339577-7,,false,true,false,false,false,true,false,false,true,true,true,false,false,true,true
+Aquamarine,49,Зима,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Ботинки,940965949-3,30,true,true,false,false,false,false,false,true,false,false,true,true,true,false,false
+Fuscia,50,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Полимерный материал,Мокасины,489351908-5,,false,false,true,false,false,true,false,false,true,false,true,false,false,true,true
+Turquoise,79,Весна/Осень,Женская обувь,Полимерный материал,Кожа,Полимерный материал,Босоножки,467619548-6,15,false,true,false,false,true,false,true,false,true,false,false,false,false,true,true
+Puce,92,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Кожа,Сабо,067150016-3,,true,false,true,false,true,false,false,false,true,false,true,true,false,false,false
+Puce,3,Весна/Осень,Мужская обувь,Замша,Кожа,Полимерный материал,Сабо,487086555-6,,true,false,false,false,true,true,true,true,true,false,false,false,true,false,false
+Mauv,59,Лето,Женская обувь,Полимерный материал,Полимерный материал,Замша,Угги,963130960-6,,true,false,false,true,true,false,false,false,true,false,false,true,false,true,true
+Teal,61,Весна/Осень,Женская обувь,Замша,Кожа,Кожа,Тапки,791314967-1,10,true,false,false,false,false,false,false,true,true,true,false,true,true,false,false
+Maroon,58,Весна/Осень,Мужская обувь,Замша,Полимерный материал,Кожа,Кеды,482087131-5,,true,true,false,true,true,false,false,false,true,true,true,true,false,false,false
+Pink,24,Лето,Мужская обувь,Замша,Кожа,Кожа,Кеды,637100422-0,,true,false,true,false,false,false,false,false,false,false,true,false,true,true,false
+Violet,9,Лето,Женская обувь,Кожа,Кожа,Полимерный материал,Сапоги,581829100-6,10,true,false,false,false,true,true,false,false,false,true,true,false,false,true,true
+Red,95,Весна/Осень,Мужская обувь,Кожа,Полимерный материал,Замша,Мокасины,624520422-4,,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false
+Indigo,89,Зима,Мужская обувь,Полимерный материал,Кожа,Замша,Слипоны,304810536-0,10,false,true,false,false,true,false,false,false,true,false,true,true,false,false,true
+Maroon,80,Весна/Осень,Мужская обувь,Замша,Замша,Полимерный материал,Слипоны,557006102-9,30,false,false,false,true,true,true,true,false,true,true,false,true,true,true,true
+Puce,10,Зима,Женская обувь,Замша,Кожа,Полимерный материал,Босоножки,677458070-X,,false,false,false,true,false,false,false,false,false,true,true,true,false,false,false
+Crimson,82,Лето,Мужская обувь,Кожа,Полимерный материал,Кожа,Слипоны,713120532-X,,true,false,true,true,false,false,false,false,false,true,true,true,false,false,false
+Orange,21,Лето,Мужская обувь,Замша,Замша,Полимерный материал,Угги,315894033-7,,false,false,true,true,false,false,true,true,false,false,false,true,true,true,true
+Fuscia,41,Весна/Осень,Женская обувь,Замша,Замша,Кожа,Слипоны,693941350-2,,false,true,true,true,false,false,true,true,false,true,false,false,false,true,true
+Fuscia,91,Зима,Женская обувь,Замша,Замша,Кожа,Кеды,656567317-9,,false,true,true,false,false,false,true,false,true,false,true,true,true,true,false
+Turquoise,20,Лето,Женская обувь,Замша,Замша,Кожа,Босоножки,606550070-4,,true,false,false,true,true,false,true,true,true,true,true,true,false,true,true
+Indigo,32,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Полимерный материал,Мокасины,375270823-9,,true,false,false,true,false,true,true,true,true,false,true,true,true,false,true
+Yellow,31,Зима,Мужская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Сандалии,266472974-8,,true,false,false,true,true,true,true,true,true,false,true,true,false,false,false
+Yellow,66,Весна/Осень,Женская обувь,Замша,Полимерный материал,Замша,Ботинки,741481934-5,,false,true,false,false,true,false,true,true,true,false,false,false,true,false,true
+Mauv,58,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Мокасины,402227701-7,30,true,true,false,false,true,false,true,true,true,false,true,true,true,false,true
+Green,68,Весна/Осень,Мужская обувь,Замша,Замша,Кожа,Слипоны,143416389-X,,false,true,true,false,true,true,false,true,true,false,true,false,true,true,true
+Crimson,6,Весна/Осень,Мужская обувь,Кожа,Полимерный материал,Кожа,Кеды,393271405-9,,true,false,false,false,false,false,false,true,true,true,true,false,true,true,false
+Violet,68,Зима,Женская обувь,Замша,Кожа,Полимерный материал,Сапоги,990153814-9,,true,true,false,false,false,false,false,true,false,true,false,false,true,true,false
+Green,29,Зима,Мужская обувь,Замша,Кожа,Замша,Кеды,510955006-9,10,false,true,false,false,true,true,true,false,false,false,false,true,false,false,false
+Goldenrod,42,Весна/Осень,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Сабо,569457880-5,,false,false,false,true,false,false,false,true,false,false,true,false,true,true,false
+Orange,73,Лето,Женская обувь,Кожа,Кожа,Замша,Угги,062591801-0,,true,true,true,false,false,false,true,true,false,false,true,true,true,true,true
+Red,100,Лето,Женская обувь,Замша,Кожа,Полимерный материал,Сабо,334681244-8,45,true,false,true,false,true,true,true,false,false,false,true,true,true,true,false
+Green,14,Весна/Осень,Мужская обувь,Кожа,Замша,Кожа,Сапоги,651511345-5,30,false,false,true,true,true,false,false,true,true,true,false,true,false,false,true
+Green,98,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Сабо,748726629-X,45,true,false,true,false,false,true,false,true,false,false,true,false,false,true,true
+Khaki,78,Лето,Мужская обувь,Кожа,Кожа,Кожа,Угги,179296580-X,,false,false,true,false,true,false,false,true,true,true,false,true,false,false,true
+Orange,42,Лето,Женская обувь,Полимерный материал,Полимерный материал,Кожа,Сапоги,598284983-9,,true,true,true,true,true,true,true,true,true,false,true,true,true,false,false
+Indigo,45,Зима,Женская обувь,Замша,Кожа,Замша,Кроссовки,051735578-7,15,true,true,true,true,false,false,true,true,false,true,false,false,false,false,true
+Indigo,92,Лето,Женская обувь,Кожа,Полимерный материал,Полимерный материал,Босоножки,201216612-1,,false,false,true,true,false,true,false,true,true,true,false,true,true,false,true
+Green,3,Весна/Осень,Мужская обувь,Замша,Полимерный материал,Замша,Тапки,640317330-8,,true,true,true,true,false,true,false,false,true,false,true,false,false,true,true
+Purple,92,Лето,Мужская обувь,Полимерный материал,Полимерный материал,Кожа,Босоножки,786983552-8,,false,false,false,false,false,true,true,false,false,false,false,true,false,true,true
+Goldenrod,41,Зима,Мужская обувь,Замша,Замша,Замша,Угги,673354908-5,,false,false,false,false,false,true,false,true,false,false,true,false,true,true,true
+Goldenrod,95,Зима,Мужская обувь,Кожа,Замша,Полимерный материал,Мокасины,325497874-9,,true,false,false,true,false,false,false,true,false,true,false,true,false,true,false
+Mauv,49,Зима,Женская обувь,Полимерный материал,Кожа,Кожа,Кеды,098171328-9,,true,false,false,false,true,true,false,false,false,true,false,false,true,false,true
+Goldenrod,38,Лето,Мужская обувь,Замша,Кожа,Полимерный материал,Мокасины,734960905-1,,true,true,true,false,false,false,false,false,false,true,false,false,false,false,true
+Violet,90,Весна/Осень,Женская обувь,Кожа,Кожа,Замша,Слипоны,595117616-6,,true,true,true,false,true,true,false,true,true,false,true,true,true,true,false
+Khaki,89,Зима,Женская обувь,Кожа,Кожа,Полимерный материал,Слипоны,071367529-2,,false,false,true,true,false,true,false,true,false,true,true,false,true,true,false
+Khaki,96,Лето,Мужская обувь,Замша,Замша,Замша,Босоножки,211183514-5,45,true,true,false,true,false,true,false,false,true,false,false,true,true,false,true
+Mauv,69,Зима,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Мокасины,181912880-6,45,false,false,true,true,false,false,false,false,true,false,true,false,true,true,true
+Turquoise,67,Зима,Женская обувь,Кожа,Кожа,Кожа,Угги,680262589-X,30,false,false,false,true,false,false,false,false,true,false,false,false,true,false,false
+Green,95,Лето,Женская обувь,Кожа,Полимерный материал,Замша,Сапоги,079537986-2,30,false,false,true,false,false,false,false,true,true,false,true,true,true,false,true
+Orange,76,Лето,Женская обувь,Замша,Полимерный материал,Замша,Сапоги,513726648-5,15,true,false,true,true,true,true,false,false,true,false,false,false,true,true,true
+Orange,99,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Замша,Слипоны,886496844-X,,false,true,true,false,false,false,true,false,true,false,true,true,true,false,true
+Crimson,34,Зима,Женская обувь,Кожа,Кожа,Полимерный материал,Тапки,012106980-X,,true,false,false,false,false,false,false,true,true,true,false,false,false,true,true
+Red,54,Лето,Мужская обувь,Кожа,Полимерный материал,Замша,Слипоны,590684382-5,,false,false,true,false,true,false,true,true,false,false,true,false,false,false,true
+Indigo,8,Зима,Мужская обувь,Замша,Кожа,Замша,Кеды,511552303-5,,false,false,false,true,true,true,false,false,true,true,false,true,true,false,true
+Fuscia,66,Лето,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Сандалии,312816333-2,,false,true,false,false,true,false,false,false,true,true,false,true,false,false,false
+Purple,44,Зима,Женская обувь,Замша,Кожа,Полимерный материал,Тапки,132125086-X,,false,false,false,true,false,false,false,true,false,true,true,true,true,false,true
+Green,91,Лето,Женская обувь,Полимерный материал,Замша,Кожа,Сапоги,924951554-5,,true,true,true,true,true,false,false,true,false,true,true,true,false,false,false
+Teal,71,Весна/Осень,Женская обувь,Полимерный материал,Замша,Замша,Кроссовки,140038427-3,30,true,true,true,true,false,false,false,true,true,true,false,false,true,false,true
+Turquoise,11,Весна/Осень,Мужская обувь,Полимерный материал,Полимерный материал,Кожа,Угги,355485274-0,45,true,false,false,true,true,false,true,true,true,true,false,true,true,false,false
+Maroon,70,Весна/Осень,Женская обувь,Замша,Замша,Замша,Сабо,121863672-6,45,true,true,true,false,true,true,true,false,true,true,true,false,true,false,true
+Goldenrod,41,Лето,Мужская обувь,Замша,Полимерный материал,Полимерный материал,Сапоги,011535826-9,,false,true,false,false,false,true,true,false,false,true,true,true,true,false,false
+Indigo,96,Лето,Мужская обувь,Кожа,Кожа,Кожа,Ботинки,656350782-4,,false,false,true,true,false,false,true,false,false,true,true,false,false,false,false
+Red,13,Зима,Мужская обувь,Кожа,Замша,Кожа,Тапки,431616072-9,,true,true,false,true,true,false,true,true,true,true,true,false,true,true,false
+Indigo,52,Лето,Женская обувь,Замша,Кожа,Замша,Тапки,951112647-4,10,false,true,true,false,false,false,true,true,false,false,false,true,true,true,true
+Turquoise,42,Лето,Мужская обувь,Замша,Полимерный материал,Полимерный материал,Кроссовки,366725890-9,,false,false,false,false,false,false,true,false,true,true,true,true,false,false,true
+Crimson,23,Весна/Осень,Женская обувь,Замша,Кожа,Полимерный материал,Туфли,753761667-1,,true,true,true,false,true,false,false,true,false,false,false,true,false,false,true
+Aquamarine,27,Весна/Осень,Мужская обувь,Кожа,Кожа,Полимерный материал,Сандалии,023547479-7,10,true,true,false,true,false,true,false,false,false,false,false,false,true,false,false
+Goldenrod,65,Весна/Осень,Женская обувь,Замша,Замша,Замша,Сабо,284477361-3,15,true,true,true,false,true,true,false,false,false,true,false,false,false,true,true
+Maroon,35,Зима,Женская обувь,Кожа,Полимерный материал,Кожа,Сапоги,361640864-4,,false,true,true,false,true,false,false,false,false,true,true,true,true,false,false
+Puce,49,Зима,Мужская обувь,Замша,Кожа,Полимерный материал,Ботинки,890873204-7,,true,false,true,false,true,false,false,true,false,false,true,false,false,false,false
+Puce,50,Зима,Мужская обувь,Полимерный материал,Замша,Замша,Сандалии,232220254-1,,false,true,true,false,false,false,true,false,true,true,true,false,true,false,false
+Aquamarine,54,Лето,Мужская обувь,Полимерный материал,Кожа,Замша,Сапоги,060877275-5,10,false,false,true,true,true,false,true,false,false,false,false,true,true,false,true
+Violet,3,Лето,Женская обувь,Кожа,Замша,Полимерный материал,Ботинки,994161681-7,,true,false,false,false,false,false,false,true,true,true,true,true,false,false,false
+Turquoise,39,Зима,Мужская обувь,Кожа,Полимерный материал,Кожа,Мокасины,595676543-7,,false,true,false,false,true,false,true,false,false,true,true,false,true,true,true
+Violet,75,Весна/Осень,Мужская обувь,Полимерный материал,Полимерный материал,Кожа,Босоножки,028461050-X,,false,false,false,true,false,true,false,true,true,true,false,true,true,true,true
+Crimson,66,Зима,Женская обувь,Замша,Замша,Замша,Сапоги,516704812-5,,false,true,false,false,false,false,false,true,true,false,false,false,true,false,false
+Turquoise,70,Лето,Женская обувь,Кожа,Замша,Полимерный материал,Угги,103963900-3,,false,false,true,true,true,false,false,true,false,false,true,false,true,false,true
+Orange,26,Весна/Осень,Женская обувь,Замша,Кожа,Полимерный материал,Ботинки,541827434-1,30,true,true,true,true,false,false,true,true,true,true,false,true,true,true,true
+Purple,57,Зима,Женская обувь,Полимерный материал,Замша,Замша,Тапки,434331192-9,,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true
+Puce,73,Зима,Женская обувь,Кожа,Кожа,Замша,Босоножки,234902893-3,,true,false,true,true,true,true,false,false,true,true,false,true,false,true,true
+Orange,22,Лето,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Сабо,369143957-8,,true,true,false,false,false,false,true,true,false,false,false,false,false,true,false
+Khaki,17,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Кожа,Сабо,009820242-1,,true,false,false,false,true,true,false,false,true,true,true,true,false,true,true
+Crimson,44,Весна/Осень,Женская обувь,Кожа,Замша,Замша,Сандалии,806024326-8,45,false,false,true,false,true,true,false,false,false,false,true,true,true,true,false
+Maroon,3,Весна/Осень,Мужская обувь,Замша,Полимерный материал,Полимерный материал,Босоножки,299256600-4,10,false,true,true,false,false,false,false,true,true,true,false,true,false,false,false
+Fuscia,67,Лето,Женская обувь,Полимерный материал,Кожа,Кожа,Слипоны,750015416-X,,false,true,true,false,true,false,false,false,false,true,false,false,true,true,false
+Violet,60,Зима,Женская обувь,Замша,Замша,Замша,Босоножки,033770624-7,10,false,false,false,false,false,true,false,false,true,true,false,false,true,true,false
+Aquamarine,29,Весна/Осень,Мужская обувь,Замша,Кожа,Кожа,Тапки,652376508-3,30,true,true,false,false,false,false,false,true,true,false,true,true,false,true,true
+Maroon,39,Лето,Женская обувь,Кожа,Замша,Полимерный материал,Босоножки,861967821-3,,true,true,false,true,true,true,true,true,true,false,false,true,true,false,true
+Red,82,Весна/Осень,Мужская обувь,Замша,Замша,Кожа,Босоножки,445141619-1,,true,true,true,true,true,true,true,true,true,false,true,false,false,false,true
+Teal,74,Лето,Мужская обувь,Кожа,Замша,Полимерный материал,Босоножки,839493248-7,,false,false,true,true,false,false,true,true,true,false,true,false,false,false,false
+Purple,40,Весна/Осень,Женская обувь,Замша,Полимерный материал,Замша,Мокасины,580026915-7,10,true,false,false,true,false,true,true,true,true,false,false,true,false,false,false
+Goldenrod,5,Лето,Женская обувь,Замша,Замша,Полимерный материал,Сапоги,400345140-6,45,true,false,false,false,false,true,false,true,true,false,false,false,true,true,false
+Maroon,42,Зима,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Ботинки,964793766-0,,true,true,true,true,true,false,false,true,false,true,false,false,true,false,true
+Aquamarine,26,Лето,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Туфли,384454250-7,,false,false,false,false,true,false,false,false,true,false,true,true,false,true,false
+Red,30,Лето,Женская обувь,Кожа,Замша,Полимерный материал,Сабо,712962733-6,,false,false,false,false,true,true,false,true,true,false,true,true,true,false,true
+Orange,95,Лето,Женская обувь,Замша,Полимерный материал,Полимерный материал,Сандалии,344692833-2,,true,true,true,true,true,true,false,false,true,true,false,true,true,true,false
+Crimson,71,Зима,Мужская обувь,Полимерный материал,Замша,Кожа,Кроссовки,938327482-4,45,true,false,true,true,false,false,true,true,false,true,false,false,true,false,true
+Mauv,74,Лето,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Мокасины,761502982-1,,false,true,false,true,true,true,false,false,true,false,true,false,false,false,false
+Fuscia,3,Зима,Мужская обувь,Замша,Замша,Полимерный материал,Тапки,772336462-8,10,false,false,false,true,true,false,false,true,true,false,false,true,false,true,false
+Red,32,Весна/Осень,Мужская обувь,Кожа,Кожа,Полимерный материал,Туфли,633837771-4,,true,true,true,false,false,false,true,false,false,false,false,false,true,true,false
+Crimson,73,Зима,Мужская обувь,Замша,Замша,Кожа,Угги,076631633-5,15,false,false,true,false,true,false,false,false,false,true,false,true,false,false,false
+Yellow,71,Лето,Женская обувь,Замша,Полимерный материал,Кожа,Сандалии,039300655-7,30,false,true,false,false,false,true,true,false,true,false,false,false,true,false,true
+Aquamarine,62,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Замша,Слипоны,272458078-8,,false,true,false,false,false,true,true,true,false,true,true,false,true,false,false
+Red,89,Весна/Осень,Женская обувь,Кожа,Замша,Замша,Сабо,794543778-8,,true,false,false,false,false,true,true,false,false,true,true,false,false,true,true
+Maroon,91,Лето,Женская обувь,Замша,Кожа,Полимерный материал,Мокасины,213817240-6,45,true,true,false,true,false,false,true,true,false,true,false,true,true,false,false
+Blue,32,Зима,Мужская обувь,Полимерный материал,Замша,Замша,Сабо,684802505-4,30,true,true,false,true,true,false,false,false,false,true,true,true,true,false,false
+Blue,45,Зима,Женская обувь,Замша,Полимерный материал,Полимерный материал,Слипоны,660274316-3,,true,true,true,true,true,false,true,false,true,false,true,true,false,true,true
+Turquoise,60,Зима,Женская обувь,Кожа,Кожа,Кожа,Угги,526286749-9,,true,true,false,false,true,false,true,false,true,true,false,false,false,true,false
+Indigo,71,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Кожа,Кеды,087734471-X,,true,false,true,false,false,false,false,true,true,false,true,true,true,false,false
+Red,2,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Кожа,Кроссовки,241158053-3,,false,false,false,false,true,false,true,false,true,true,true,false,false,true,false
+Violet,51,Лето,Женская обувь,Замша,Полимерный материал,Полимерный материал,Сапоги,014601412-X,,false,true,false,true,true,false,true,true,true,false,false,false,true,false,false
+Red,96,Лето,Мужская обувь,Полимерный материал,Кожа,Замша,Тапки,732423819-X,,true,true,false,true,false,false,false,false,false,true,true,false,true,false,false
+Fuscia,80,Зима,Женская обувь,Полимерный материал,Кожа,Полимерный материал,Мокасины,331387723-0,,false,true,true,true,true,false,true,true,false,false,true,false,false,true,true
+Pink,19,Весна/Осень,Мужская обувь,Полимерный материал,Полимерный материал,Замша,Слипоны,585582201-X,,true,false,false,true,false,false,true,false,false,true,true,false,true,true,true
+Green,1,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Сандалии,341487544-6,15,true,true,true,false,true,true,false,true,true,true,false,false,false,false,false
+Crimson,7,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Кожа,Угги,373304881-4,,false,true,false,false,true,true,false,false,false,false,true,false,true,true,false
+Teal,23,Зима,Женская обувь,Замша,Кожа,Полимерный материал,Сабо,519260170-3,,false,false,true,true,false,false,true,false,false,false,true,true,false,false,false
+Khaki,70,Зима,Мужская обувь,Замша,Замша,Полимерный материал,Тапки,103041306-1,,true,false,true,true,true,false,true,false,true,false,true,true,true,false,false
+Yellow,43,Лето,Женская обувь,Полимерный материал,Полимерный материал,Замша,Кроссовки,431900291-1,,true,false,true,true,true,false,true,false,false,false,false,false,false,false,false
+Teal,56,Зима,Мужская обувь,Кожа,Полимерный материал,Полимерный материал,Сапоги,370088266-1,45,true,true,false,false,false,true,true,false,true,false,true,false,true,false,false
+Khaki,74,Зима,Мужская обувь,Полимерный материал,Замша,Замша,Кроссовки,882965411-6,15,false,true,true,false,false,true,false,true,true,false,false,true,false,false,false
+Crimson,84,Лето,Мужская обувь,Замша,Замша,Кожа,Слипоны,645808100-6,,true,true,false,true,true,true,true,false,false,true,false,true,false,false,false
+Yellow,35,Лето,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Кроссовки,383764432-4,30,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false
+Purple,69,Зима,Женская обувь,Замша,Кожа,Кожа,Ботинки,177250820-9,,true,false,true,false,false,false,false,true,false,true,true,false,false,false,false
+Yellow,94,Весна/Осень,Женская обувь,Замша,Кожа,Замша,Слипоны,308289934-X,15,true,true,false,false,false,true,false,false,true,false,true,true,true,false,false
+Aquamarine,53,Зима,Мужская обувь,Полимерный материал,Кожа,Замша,Сандалии,362118969-6,15,true,true,true,false,true,true,true,true,true,false,false,true,false,false,true
+Orange,17,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Кожа,Ботинки,109788358-2,,false,false,true,true,true,true,false,true,false,false,false,false,false,true,false
+Aquamarine,28,Лето,Женская обувь,Кожа,Полимерный материал,Кожа,Ботинки,525201595-3,10,true,false,false,false,true,false,false,true,false,true,true,false,true,true,true
+Goldenrod,25,Зима,Женская обувь,Полимерный материал,Кожа,Замша,Ботинки,486908696-4,,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true
+Yellow,92,Зима,Мужская обувь,Кожа,Замша,Полимерный материал,Тапки,997620570-8,,true,true,true,false,true,true,false,true,false,true,true,false,true,true,true
+Violet,66,Весна/Осень,Женская обувь,Замша,Полимерный материал,Замша,Сабо,641042663-1,,true,false,false,true,false,true,true,true,true,true,true,true,true,false,true
+Turquoise,31,Весна/Осень,Женская обувь,Полимерный материал,Замша,Кожа,Кеды,936845189-3,,false,true,true,false,true,true,false,false,false,false,false,false,false,true,true
+Goldenrod,12,Зима,Женская обувь,Кожа,Кожа,Кожа,Слипоны,925986271-X,,true,false,false,true,false,false,true,true,false,false,true,false,true,false,true
+Mauv,69,Зима,Мужская обувь,Кожа,Кожа,Полимерный материал,Сабо,287832209-6,45,false,true,false,false,false,true,true,false,true,true,true,true,false,true,true
+Aquamarine,17,Лето,Женская обувь,Кожа,Кожа,Кожа,Угги,041267871-3,15,true,false,false,false,true,true,true,false,true,false,false,false,true,false,false
+Khaki,80,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Замша,Сапоги,934003966-1,,true,true,true,false,false,true,false,true,true,true,false,false,true,false,true
+Purple,94,Лето,Женская обувь,Кожа,Замша,Замша,Сапоги,787208540-2,,false,true,false,true,true,false,false,true,false,false,false,false,true,true,false
+Aquamarine,27,Лето,Женская обувь,Кожа,Замша,Полимерный материал,Кроссовки,548485408-3,10,true,true,true,true,true,true,true,false,true,true,true,false,false,false,true
+Indigo,39,Весна/Осень,Мужская обувь,Замша,Замша,Полимерный материал,Сабо,430501713-X,,false,false,true,false,false,false,true,false,false,false,false,false,true,false,false
+Blue,8,Весна/Осень,Женская обувь,Полимерный материал,Замша,Замша,Слипоны,007996376-5,,true,true,true,true,false,false,true,true,false,false,false,false,false,true,true
+Green,98,Весна/Осень,Мужская обувь,Замша,Кожа,Замша,Сабо,673566014-5,,false,true,false,true,true,true,true,true,true,true,true,false,true,false,true
+Khaki,10,Весна/Осень,Мужская обувь,Кожа,Замша,Кожа,Босоножки,071223394-6,30,true,true,false,false,false,false,true,false,false,true,true,true,false,true,false
+Teal,36,Зима,Мужская обувь,Полимерный материал,Кожа,Полимерный материал,Туфли,864078559-7,,false,true,true,true,false,true,true,false,false,false,false,false,false,true,true
+Violet,39,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Замша,Сабо,667857661-6,10,true,false,false,true,true,false,false,true,false,false,true,true,true,false,false
+Purple,36,Весна/Осень,Мужская обувь,Замша,Полимерный материал,Полимерный материал,Кеды,521892416-4,45,false,true,true,true,false,true,true,false,true,false,false,false,true,true,true
+Crimson,33,Зима,Женская обувь,Замша,Полимерный материал,Полимерный материал,Сандалии,197531039-X,,false,true,false,true,false,true,false,false,false,false,false,false,true,true,true
+Khaki,20,Зима,Мужская обувь,Полимерный материал,Замша,Замша,Слипоны,741243765-8,10,true,false,false,true,true,false,false,true,false,false,true,true,false,true,true
+Khaki,5,Зима,Мужская обувь,Кожа,Полимерный материал,Кожа,Туфли,869730676-0,30,false,true,true,true,true,true,false,false,false,true,false,true,false,false,true
+Crimson,65,Лето,Мужская обувь,Полимерный материал,Полимерный материал,Полимерный материал,Сандалии,222101418-9,45,true,true,true,false,true,false,false,false,false,true,false,false,true,true,false
+Turquoise,11,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Кожа,Кроссовки,725479735-7,,false,false,true,false,true,true,true,true,true,true,false,false,false,true,false
+Indigo,46,Лето,Женская обувь,Замша,Полимерный материал,Замша,Сабо,395446079-3,,true,true,false,true,true,true,false,true,true,false,true,true,true,true,true
+Green,1,Весна/Осень,Мужская обувь,Замша,Замша,Замша,Слипоны,103795228-6,30,false,true,true,true,true,false,false,false,false,false,true,true,false,true,false
+Pink,46,Весна/Осень,Женская обувь,Кожа,Кожа,Замша,Угги,684382524-9,,false,true,true,true,true,true,false,false,true,false,false,true,true,true,true
+Crimson,55,Весна/Осень,Женская обувь,Кожа,Кожа,Замша,Ботинки,466925288-7,,true,true,true,false,true,false,false,false,false,false,false,false,false,false,false
+Blue,5,Лето,Мужская обувь,Замша,Полимерный материал,Замша,Ботинки,274035314-6,45,false,true,true,true,true,true,true,false,true,false,true,false,true,true,true
+Aquamarine,12,Зима,Женская обувь,Кожа,Кожа,Замша,Мокасины,796354541-4,,true,false,false,true,false,true,false,false,true,false,true,false,false,true,true
+Violet,7,Весна/Осень,Женская обувь,Замша,Кожа,Полимерный материал,Мокасины,860055176-5,,false,true,false,true,false,false,true,true,false,false,false,true,false,true,true
+Aquamarine,48,Зима,Мужская обувь,Замша,Кожа,Полимерный материал,Мокасины,665831907-3,,true,true,true,false,true,false,true,true,false,true,false,true,true,true,false
+Teal,92,Лето,Женская обувь,Полимерный материал,Полимерный материал,Замша,Ботинки,154277010-6,30,true,false,true,true,true,false,false,false,true,true,true,true,true,false,false
+Green,16,Зима,Мужская обувь,Полимерный материал,Замша,Полимерный материал,Туфли,800707603-4,45,true,false,true,false,false,true,true,true,true,true,true,true,false,false,true
+Orange,56,Зима,Мужская обувь,Кожа,Кожа,Кожа,Мокасины,854336288-1,,false,false,true,true,true,true,true,true,true,true,false,false,true,true,false
+Khaki,40,Зима,Женская обувь,Замша,Замша,Кожа,Слипоны,977831410-1,,false,true,true,false,true,false,false,false,true,true,false,false,true,true,false
+Teal,40,Весна/Осень,Мужская обувь,Замша,Полимерный материал,Кожа,Ботинки,849335866-5,,false,false,true,false,false,true,true,true,false,true,false,true,true,false,true
+Yellow,37,Весна/Осень,Мужская обувь,Полимерный материал,Кожа,Кожа,Угги,014770940-7,,false,false,true,false,false,true,false,true,true,false,false,true,false,false,true
+Orange,87,Весна/Осень,Женская обувь,Кожа,Замша,Кожа,Кроссовки,859377346-X,,false,false,false,false,true,true,true,false,true,false,true,true,false,true,true
+Khaki,74,Весна/Осень,Мужская обувь,Замша,Кожа,Замша,Мокасины,439645959-9,,false,false,false,false,true,false,true,false,true,false,false,true,false,true,false
+Khaki,28,Зима,Женская обувь,Замша,Полимерный материал,Полимерный материал,Угги,655755228-7,10,true,true,true,true,false,true,true,true,true,false,false,true,false,true,true
+Turquoise,65,Зима,Мужская обувь,Полимерный материал,Полимерный материал,Кожа,Туфли,539375866-9,45,true,false,false,true,false,true,false,false,true,true,true,false,true,false,true
+Goldenrod,29,Весна/Осень,Женская обувь,Кожа,Замша,Полимерный материал,Босоножки,381525922-3,,true,false,true,false,false,true,false,false,true,true,false,false,true,true,true
+Fuscia,29,Зима,Женская обувь,Замша,Замша,Замша,Босоножки,545823174-0,,true,true,false,true,false,true,true,false,false,false,true,true,false,true,true
+Maroon,81,Весна/Осень,Женская обувь,Кожа,Кожа,Полимерный материал,Сандалии,008903471-6,15,false,true,false,true,true,true,false,false,true,false,true,true,true,false,true
+Green,78,Весна/Осень,Мужская обувь,Кожа,Полимерный материал,Замша,Кроссовки,926384084-9,,true,true,false,false,true,true,true,false,true,true,true,true,false,true,true
+Pink,96,Весна/Осень,Мужская обувь,Замша,Кожа,Кожа,Мокасины,633845232-5,,false,false,true,false,true,false,true,true,true,false,false,true,false,false,true
+Turquoise,13,Весна/Осень,Женская обувь,Замша,Полимерный материал,Полимерный материал,Ботинки,288856442-4,,true,false,true,true,true,false,false,true,false,true,true,true,false,false,true
+Maroon,98,Весна/Осень,Женская обувь,Замша,Замша,Замша,Мокасины,623161485-9,30,true,true,true,false,false,false,false,true,true,true,false,false,false,true,false
+Mauv,3,Весна/Осень,Мужская обувь,Кожа,Полимерный материал,Замша,Кроссовки,824744031-8,,true,true,true,true,true,true,true,true,true,false,true,false,true,true,false
+Puce,29,Зима,Женская обувь,Полимерный материал,Замша,Полимерный материал,Ботинки,950824991-9,,true,true,true,false,false,false,true,false,true,false,false,false,true,false,true
+Crimson,2,Лето,Женская обувь,Замша,Замша,Кожа,Угги,849784149-2,,false,true,false,true,true,false,true,false,true,true,true,true,false,false,false
+Goldenrod,34,Весна/Осень,Мужская обувь,Полимерный материал,Замша,Замша,Кроссовки,321397297-5,,false,false,false,false,false,false,false,true,true,true,false,false,false,true,false
+Aquamarine,52,Зима,Женская обувь,Кожа,Полимерный материал,Кожа,Слипоны,526622617-X,10,false,true,false,false,true,false,false,true,true,false,true,true,false,true,true
+Green,95,Весна/Осень,Мужская обувь,Замша,Замша,Кожа,Туфли,076006925-5,,true,false,true,true,false,false,true,true,true,false,false,true,true,false,true
+Yellow,34,Весна/Осень,Женская обувь,Кожа,Полимерный материал,Полимерный материал,Сандалии,946923756-0,,true,true,true,true,false,false,true,false,false,false,true,true,false,true,false
+Purple,10,Зима,Женская обувь,Кожа,Замша,Полимерный материал,Тапки,258388390-9,10,false,false,false,false,false,true,false,false,false,true,true,false,false,false,false
+Khaki,63,Весна/Осень,Мужская обувь,Замша,Кожа,Полимерный материал,Ботинки,644761556-X,15,true,true,false,true,true,true,false,true,false,true,false,true,true,false,false
+Pink,55,Лето,Мужская обувь,Замша,Замша,Кожа,Босоножки,115512960-1,,false,false,false,false,false,true,false,false,true,true,false,true,false,true,false
+Violet,72,Весна/Осень,Мужская обувь,Кожа,Замша,Кожа,Сабо,528760150-6,30,false,false,false,false,false,true,true,true,true,true,true,true,true,false,false
+Fuscia,39,Зима,Женская обувь,Кожа,Кожа,Кожа,Слипоны,042546510-1,,true,false,true,true,false,false,false,false,true,true,true,true,false,false,false
+Khaki,21,Зима,Женская обувь,Кожа,Замша,Кожа,Сабо,283944919-6,,true,false,false,true,true,false,false,false,true,false,true,true,true,false,false
+Violet,23,Зима,Мужская обувь,Полимерный материал,Полимерный материал,Кожа,Сапоги,690684243-9,,false,true,false,true,false,false,false,false,true,false,true,false,true,false,true
+Teal,57,Весна/Осень,Женская обувь,Полимерный материал,Полимерный материал,Замша,Босоножки,663831770-9,15,true,true,true,true,true,false,true,true,false,true,false,true,false,false,false
+Orange,33,Весна/Осень,Мужская обувь,Замша,Замша,Полимерный материал,Босоножки,185327265-5,45,true,false,true,true,true,false,false,true,false,true,true,true,true,false,false
+Teal,55,Лето,Женская обувь,Кожа,Кожа,Полимерный материал,Кеды,971319798-4,30,true,true,false,true,true,true,false,false,false,false,false,false,true,false,false
+Mauv,2,Зима,Женская обувь,Кожа,Кожа,Замша,Туфли,587570435-7,45,false,false,true,false,false,true,true,true,false,true,false,true,false,false,true
+Red,27,Весна/Осень,Женская обувь,Замша,Кожа,Полимерный материал,Сабо,660048981-2,,false,false,false,false,true,false,false,true,false,true,false,true,false,true,true
+Turquoise,1,Зима,Мужская обувь,Полимерный материал,Кожа,Кожа,Сабо,117101869-X,,true,true,false,false,true,true,true,true,true,true,false,true,false,true,true
+Purple,87,Лето,Мужская обувь,Замша,Замша,Полимерный материал,Кеды,653069127-8,15,true,false,true,true,false,false,false,true,true,true,true,true,true,true,false
+Aquamarine,35,Зима,Женская обувь,Кожа,Кожа,Замша,Угги,908308267-9,45,true,false,true,false,false,true,false,false,false,true,true,true,false,false,true
+Khaki,24,Зима,Мужская обувь,Полимерный материал,Замша,Замша,Сабо,820514541-5,30,true,true,true,true,true,true,true,false,true,false,false,true,true,true,false
+Goldenrod,56,Зима,Мужская обувь,Кожа,Полимерный материал,Замша,Ботинки,001443222-6,,false,false,true,true,true,false,true,false,false,true,false,true,true,false,true
+Maroon,6,Зима,Женская обувь,Замша,Замша,Кожа,Мокасины,323764857-4,,false,true,true,true,false,true,false,true,true,false,false,true,false,true,false
+Indigo,67,Зима,Мужская обувь,Замша,Кожа,Замша,Мокасины,388389482-6,,false,true,true,true,true,true,true,false,true,true,true,false,false,true,false

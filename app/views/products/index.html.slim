@@ -31,8 +31,6 @@ table class="table table-striped"
           td
             div class="btn-group" role="group" aria-label="..."
               button type="button" class="btn btn-default"
-                = link_to '', product, class: 'glyphicon glyphicon-resize-full'
-              button type="button" class="btn btn-default"
                 = link_to '', edit_product_path(product), class: 'glyphicon glyphicon-pencil'
               button type="button" class="btn btn-default"
                 = link_to '', product, data: { confirm: 'Are you sure?' }, method: :delete, class: 'glyphicon glyphicon-trash'
@@ -46,3 +44,5 @@ br
   br
   br
   = link_to 'Logout', destroy_user_session_path, method: :delete, class: 'btn btn-default pull-right'
+  center
+    = will_paginate @news, renderer: BootstrapPagination::Rails

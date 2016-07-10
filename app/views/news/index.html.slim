@@ -1,19 +1,42 @@
-.container-fluid
-  h1 Новости
-  - @news.each do |news|
-    .col-md-6
-      = news.title
-      .fr-view 
-        = simple_format(news.body)
-      = link_to 'Show', news
-      br
-      = link_to 'Edit', edit_news_path(news)
-      br
-      = link_to 'Destroy', news, data: { confirm: 'Are you sure?' }, method: :delete
-      br
+.container
+  h1 Список новостей
+  table class="table table-striped"
+      thead
+        tr
+          th заголовок
+          th Тип
+          th Новость
+          th Изображение
+          th
+
+      tbody
+        - @news.each do |news|
+          tr
+            td = link_to news.title, news
+            td = news.news_type
+            td = truncate(news.body, length: 20)
+            td = news.news_image
+            td
+              div class="btn-group" role="group" aria-label="..."
+                button type="button" class="btn btn-default"
+                  = link_to '', news, class: 'glyphicon glyphicon-resize-full'
+                button type="button" class="btn btn-default"
+                  = link_to '', edit_news_path(news), class: 'glyphicon glyphicon-pencil'
+                button type="button" class="btn btn-default"
+                  = link_to '', news, data: { confirm: 'Are you sure?' }, method: :delete, class: 'glyphicon glyphicon-trash'
+
 
   br
 
-  = link_to 'New News', new_news_path
+.container
+  .row
+    = link_to 'Создать новость', new_news_path, class: 'btn btn-primary btn-lg pull-right'
+    br
+    br
+    br
+    = link_to 'Выйти', destroy_user_session_path, method: :delete, class: 'btn btn-default pull-right'
+    br
+    br
+  center
+    = will_paginate @news, renderer: BootstrapPagination::Rails
 
-.fr-view = simple_format(@news.first.body)

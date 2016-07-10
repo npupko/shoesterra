@@ -4,6 +4,7 @@
   <title>Shoesterra</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -23,7 +24,12 @@
         <%= link_to "", new_carousel_path, class: "glyphicon glyphicon-plus" %>
       </button>
     </div>
-
+    <div class="btn-group">
+      <button type="button" class="btn btn-xs btn-info"><%= link_to "Изменить Новости", news_index_path %></button>
+      <button type="button" class="btn btn-xs btn-info">
+        <%= link_to "", new_news_path, class: "glyphicon glyphicon-plus" %>
+      </button>
+    </div>
 
     <div class="pull-right">
       Вы вошли как: <%= current_user.email %>
@@ -64,10 +70,10 @@
           </ul>
         <% end %>
         <%= content_tag :li, class: current_class?(about_path) do %>
-          <%= link_to "Клиенту", about_path %>
+          <%= link_to "Новости", about_path %>
           <ul class="hidden-xs">
-            <li><%= link_to "Новости", news_index_path %></li>
-            <li><%= link_to "Акции"%></li>
+            <li><%= link_to "Покупателю", about_path(:news_type => "Покупателю") %></li>
+            <li><%= link_to "Акции", about_path(:news_type => "Акции")%></li>
           </ul>
         <% end %>
         <%= content_tag :li, class: current_class?(contacts_path) do %>

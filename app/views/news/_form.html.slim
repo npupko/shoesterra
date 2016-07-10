@@ -9,13 +9,18 @@
   .field
     = f.label "Название"
     = f.text_field :title, class: "form-control"
+    br
+  .field
+    = f.label "Тип:", class: "form-group"
+    |  
+    = f.select :news_type, options_for_select(['Новость', 'Покупателю', 'Акции'])
   .field
     = f.label "Текст новости"
     br
     = f.text_area :body, id: "wysiwyg"
   .field
     = f.label "Изображение"
-    = f.file_field :fifth_image, class: "form-control"
+    = f.file_field :news_image, class: "form-control"
   br
   .actions = f.submit
 

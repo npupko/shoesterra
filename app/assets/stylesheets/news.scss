@@ -6,3 +6,30 @@
   -webkit-box-sizing: initial;
   -moz-box-sizing: initial;
   box-sizing: initial;
+}
+
+.panel-title {
+  color: #c21659;
+  .pull-right {
+    color: grey;
+  }
+}
+
+.gradient {
+  font-size: 40px !important;
+}
+
+.btn-group {
+  .btn-default a{
+    color: black;
+    &:hover {
+    text-decoration: none;
+    }
+  }
+  .btn-danger a{
+    color: white;
+    &:hover {
+    text-decoration: none;
+    }
+  }
+}

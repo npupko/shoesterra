@@ -67,6 +67,4 @@ div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="ca
           h3.price
             = number_to_currency(product.price, unit: "руб.", separator: ",", delimiter: "", format: "%n %u")
 
-            /    - if product.created_at < Time.now.to_s && product.id == 2
-              .new.hidden-xs NEW
-
+/= Product.column_names

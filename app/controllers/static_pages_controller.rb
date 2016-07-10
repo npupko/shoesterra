@@ -6,7 +6,7 @@ class StaticPagesController < ApplicationController
 
   def catalog
     @prod = Product.all
-    @arr = []
+    @arr = [] #Для списка брендов
     @prod.each do |p|
       @arr[@arr.size] = p.brand
     end
@@ -70,6 +70,12 @@ class StaticPagesController < ApplicationController
   end
 
   def about
+    @news_search = News.search do
+      #fulltext params[:search]
+      with(:news_type, params[:news_type]) if params[:news_type].present?
+      paginate(page: params[:page], per_page: 8)
+    end
+    @news = @news_search.results
   end
 
   def contacts

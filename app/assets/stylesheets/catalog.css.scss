@@ -10,25 +10,6 @@
     margin: 30px auto;
   }
 
-  .pagination > li > a, .pagination > li > span {
-    color: #c21659;
-  }
-
-  .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
-    z-index: 3;
-    color: #fff;
-    background-color: #c21659;
-    border-color: #c21659;
-    cursor: default;
-  }
-
-  .pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
-    color: #777777;
-    background-color: #fff;
-    border-color: #ddd;
-    cursor: not-allowed;
-  }
-
   #submit_button {
     margin-top: 10px;
     padding: 10px 15px;
