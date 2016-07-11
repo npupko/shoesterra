@@ -2,6 +2,8 @@ class StaticPagesController < ApplicationController
   def home
     @products = Product.all
     @carousels = Carousel.all
+    a = Date.parse("Jan 5 2012")
+    b = Date.parse("Jan 5 2012")
   end
 
   def catalog

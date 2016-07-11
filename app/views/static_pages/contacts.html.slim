@@ -1,33 +1,38 @@
-h1 TODO: Добавить контактную информацию
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-br
-
-
+.container-fluid
+  .row
+    .row
+      .col-xs-12
+        h1.gradient Контакты
+    .col-xs-12.col-md-4 
+      .alert[class="#{shop_1}"]
+        h4 
+          strong ТЦ Outleto, пр. Жукова , 44
+        h4
+          b Режим работы:
+          br 10:00-22:00 (пт, сб, вскр)
+          | 10:00-21:00 (пн-чт)
+        h4 
+          b Статус: 
+          = @shop1
+    .col-xs-12.col-md-4 
+      .alert[class="#{shop_2}"]
+        h4 
+          strong Ул. Кульман, 5б, ТЦ Атлантик , пав. 56
+        h4
+          b Режим работы:
+          br 10:00-19:00 
+          | пн - выходной
+        h4 
+          b Статус: 
+          = @shop2
+    .col-xs-12.col-md-4 
+      .alert[class="#{shop_2}"]
+        h4 
+          strong Ул. Кульман 5б, ТЦ Атлантик, пав. 197
+        h4
+          b Режим работы:
+          br 10:00-19:00 
+          | пн - выходной
+        h4 
+          b Статус: 
+          = @shop2

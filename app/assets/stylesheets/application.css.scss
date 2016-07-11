@@ -36,11 +36,23 @@
 @import "plugins/table.min.css";
 @import "plugins/video.min.css";
 @import "media";
+@import "social";
 
 @font-face {
   font-family: 'Neris-Light';
   src: url('Neris/Neris-Light.otf');
 }
+
+/*body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.main {
+  flex: 1;
+}*/
 
 .navbar-header {
   padding-bottom: 23px;
