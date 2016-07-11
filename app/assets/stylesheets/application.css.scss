@@ -11,10 +11,7 @@
  * file per style scope.
  * =require jquery-ui/slider
  */
-$screen-sm-min: 900px;
-$screen-md-min: 1060px;
-$screen-lg-min: 1200px;
-
+ 
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import 'lightbox';
@@ -38,107 +35,18 @@ $screen-lg-min: 1200px;
 @import "plugins/quick_insert.min.css";
 @import "plugins/table.min.css";
 @import "plugins/video.min.css";
-
+@import "media";
 
 @font-face {
   font-family: 'Neris-Light';
   src: url('Neris/Neris-Light.otf');
 }
 
-.navbar-brand {
-  img {
-    height: 100%;
-  }
+.navbar-header {
+  padding-bottom: 23px;
 }
 
-.preview-img {
-  width: 100%;
-  height: 100%;
-}
-
-h1.gradient {
-    font-size: 29px;
-}
-
-//========================================================================================================================
-/* Small devices (tablets, 900px and up) */
-@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-  .preview-img {
-    width: 360px;
-    height: 240px;
-  }
-  .navbar-brand {
-    img {
-      height: 140%;
-    }
-    padding-top: 0;
-  }
-  h2 {
-    margin-bottom: 20px;
-  }
-.navbar-default .navbar-nav > .active > a {
-  border-radius: 5px;
-  }
-}
-
-/* Medium devices (desktops, 1000px and up) */
-@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-  .preview-img {
-    width: 360px;
-    height: 240px;
-  }
-  .navbar-brand {
-    img {
-      height: 140%;
-    }
-    padding-top: 0;
-  }
-  h2 {
-    margin-bottom: 20px;
-  }
-  //Закругленные углы у меню
-  .navbar-default .navbar-nav > .active > a {
-  border-radius: 5px;
-  }
-  //Выравнивает надпись по левому краю
-  .carousel-caption {
-    left: 60px;
-    bottom: 10%;
-    right: auto;
-    text-align: left;
-    //Прямоугольник на всякий пожарный
-    /*padding: 20px;
-    background-color: rgba(0, 0, 0, 0.4);
-    right: 50%;*/
-  }
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: $screen-lg-min) {
-  .preview-img {
-    width: 360px;
-    height: 240px;
-  }
-  .navbar-brand {
-    img {
-      height: 140%;
-    }
-    padding-top: 0;
-  }
-  h2 {
-    margin-bottom: 20px;
-  }
-  //Королевские отступы на больших экранах
-  .container-fluid {
-  padding-left: 80px;
-  padding-right: 80px;
-  }
-  //Закругленные углы у меню
-  .navbar-default .navbar-nav > .active > a {
-  border-radius: 5px;
-  }
-  //Выравнивает надпись по левому краю
-  .carousel-caption {
+.carousel-caption {
     left: 80px;
     bottom: 10%;
     right: auto;
@@ -147,9 +55,11 @@ h1.gradient {
     /*padding: 20px;
     background-color: rgba(0, 0, 0, 0.4);
     right: 50%;*/
-  }
 }
-//========================================================================================================================
+
+h1.gradient {
+    font-size: 29px;
+}
 
 .form {
   width: 400px;
@@ -188,17 +98,17 @@ background: #ffb7b7; /* Firefox */
   border-radius: 0;
 }
 
+//Шаманство с выравниваниями
+.navbar-default .container-fluid {
+  padding-top: 23px;
+}
+
 .admin-panel {
   height: 26px;
   a {
     color: white;
     text-decoration: none;
   }
-}
-
-//Шаманство с выравниваниями
-.navbar-default .container-fluid {
-  padding-top: 23px;
 }
 
 //Размер текста в меню

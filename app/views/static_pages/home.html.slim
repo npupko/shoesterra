@@ -53,7 +53,7 @@ div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="ca
             .discount.hidden-xs %
           - else product.created_at < 1.month.ago
             .new.hidden-xs NEW
-          = link_to image_tag(product.main_image.url(:medium), :size => "250x160"), product
+          = link_to image_tag(product.main_image.url(:medium), :size => "250x160", class: "img-responsive"), product
         - if product.discount_status
           h3.price#new_price
             .old_price

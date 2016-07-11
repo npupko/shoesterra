@@ -10,7 +10,7 @@
         hr
   .row
     .col-md-6.col-sm-6.col-xs-12.popular
-      = link_to image_tag(@product.main_image.url(:general), class: "preview-img"), @product.main_image.url(:large), "data-lightbox":"image-1"
+      = link_to image_tag(@product.main_image.url(:general), class: "preview-img img-responsive"), @product.main_image.url(:large), "data-lightbox":"image-1"
     .col-md-6.col-sm-6
       table class="table table-striped"
         /tr
@@ -51,7 +51,7 @@
           th
             strong Тип обуви: 
             = @product.shoe_type
-        tr
+        tr.hidden-xs
           th
             strong Размеры: 
             span[class="label #{ @product.size_34 ? 'label label-success' : 'label-danger'}"] 34
@@ -102,11 +102,8 @@
       br
     .col-sm-2
       = link_to image_tag(@product.fourth_image.url(:thumb), :size => "150x90"), @product.fourth_image.url(:large), "data-lightbox":"image-1"
-  .row
-    .col-md-12.col-sm-12
-      hr
-      h1.gradient Похожая продукция
-      = render 'similar'
+
+  = render 'similar'
     /- @similar.each do |product|
       .popular.col-md-3.col-sm-3
         .popular_block
