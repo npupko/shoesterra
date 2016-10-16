@@ -50,7 +50,6 @@ namespace :puma do
 end
 
 namespace :deploy do
-
   before :updated, :setup_solr_data_dir do
     on roles(:app) do
       unless test "[ -d #{shared_path}/solr/data ]"
@@ -102,6 +101,10 @@ namespace :solr do
       end
     end
   end
+  
+end
+
+namespace :deploy do
 
   desc "Make sure local git is in sync with remote."
   task :check_revision do
