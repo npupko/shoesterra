@@ -135,7 +135,6 @@ GEM
       cocaine (~> 0.5.5)
       mime-types
       mimemagic (= 0.3.0)
-    pg (0.18.4)
     pkg-config (1.1.7)
     pr_geohash (1.0.0)
     progress_bar (1.0.5)
@@ -260,7 +259,6 @@ DEPENDENCIES
   lightbox2-rails
   localtunnel
   paperclip
-  pg
   progress_bar
   puma
   rails (= 4.2.6)
