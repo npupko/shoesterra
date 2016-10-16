@@ -37,6 +37,7 @@
 @import "plugins/video.min.css";
 @import "media";
 @import "social";
+@import "bootstrap-wysihtml5/bootstrap3-wysihtml5";
 
 @font-face {
   font-family: 'Neris-Light';
@@ -53,6 +54,11 @@
 .main {
   flex: 1;
 }*/
+
+.wysihtml5-sandbox {
+  width: 100% !important;
+  height: 400px !important;
+}
 
 .navbar-header {
   padding-bottom: 23px;

@@ -25,6 +25,7 @@ gem 'russian'
 gem "wysiwyg-rails"
 gem 'sqlite3'
 gem 'capistrano3-env'
+gem 'bootstrap-wysihtml5-rails', github: 'nerian/bootstrap-wysihtml5-rails'
 
 group :development do
     gem 'capistrano',         require: false

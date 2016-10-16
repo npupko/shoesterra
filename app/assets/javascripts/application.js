@@ -43,4 +43,5 @@
 //= require plugins/url.min.js
 //= require plugins/video.min.js
 //= require languages/ru.js
+//= require bootstrap-wysihtml5
 //= require_tree .
