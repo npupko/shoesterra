@@ -3,9 +3,9 @@ production:
     hostname: localhost
     port: 8983
     log_level: WARNING
-    path: /solr/production
-    # read_timeout: 2
-    # open_timeout: 0.5
+    path: /solr/shoesterra
+    read_timeout: 2
+    open_timeout: 0.5
 
 development:
   solr:
