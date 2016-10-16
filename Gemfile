@@ -24,6 +24,7 @@ gem 'active_link_to'
 gem 'russian'
 gem "wysiwyg-rails"
 gem 'sqlite3'
+gem 'capistrano3-env'
 
 group :development do
     gem 'capistrano',         require: false
@@ -32,7 +33,6 @@ group :development do
     gem 'capistrano-bundler', require: false
     gem 'capistrano3-puma',   require: false
     gem 'capistrano-secrets-yml', require: false
-    gem 'capistrano3-env',   require: false
 end
 
 gem 'puma'

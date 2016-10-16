@@ -6,9 +6,18 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+User.delete_all
+
 News.delete_all
 
 Product.delete_all
+
+user = User.new
+user.email = 'admin@shoesterra.by'
+user.password = ENV["SECRET_LOGIN_KEY"]
+user.password_confirmation = 'aaddmin123'
+user.save!
+
 
 image_path = "#{Rails.root}/MOCK_DATA.csv"
 
@@ -18,6 +27,11 @@ csv_text = File.read(image_path)
 csv = CSV.parse(csv_text, :headers => true)
 csv.each do |row|
   Product.create!(row.to_hash)
+end
+
+Product.take(8).each do |t|
+     t.popular_status = true
+     t.save!
 end
 
 
