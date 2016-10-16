@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'social';
-  src: url('Social/social.eot?31724825');
-  src: url('Social/social.eot?31724825#iefix') format('embedded-opentype'),
-       url('Social/social.woff2?31724825') format('woff2'),
-       url('Social/social.woff?31724825') format('woff'),
-       url('Social/social.ttf?31724825') format('truetype'),
-       url('Social/social.svg?31724825#social') format('svg');
+  src: asset_url('Social/social.eot?31724825');
+  src: asset_url('Social/social.eot?31724825#iefix') format('embedded-opentype'),
+       asset_url('Social/social.woff2?31724825') format('woff2'),
+       asset_url('Social/social.woff?31724825') format('woff'),
+       asset_url('Social/social.ttf?31724825') format('truetype'),
+       asset_url('Social/social.svg?31724825#social') format('svg');
   font-weight: normal;
   font-style: normal;
 }
