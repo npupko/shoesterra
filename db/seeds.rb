@@ -12,6 +12,12 @@ News.delete_all
 
 Product.delete_all
 
+user = User.new
+user.email = 'admin@shoesterra.by'
+user.password = ENV["SECRET_LOGIN_KEY"]
+user.password_confirmation = 'aaddmin123'
+user.save!
+
 
 image_path = "#{Rails.root}/MOCK_DATA.csv"
 
