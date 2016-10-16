@@ -96,7 +96,7 @@ namespace :solr do
       within current_path do
         with rails_env: fetch(:rails_env, 'production') do
           info "Reindexing Solr database"
-          execute :bundle, 'exec', :rake, 'sunspot:solr:reindex[,,true]'
+          execute :bundle, 'exec', :rake, 'sunspot:reindex[,,true]'
         end
       end
     end
