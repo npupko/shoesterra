@@ -23,6 +23,7 @@ gem 'lightbox2-rails'
 gem 'active_link_to'
 gem 'russian'
 gem "wysiwyg-rails"
+gem 'sqlite3'
 
 group :development do
     gem 'capistrano',         require: false
@@ -44,7 +45,6 @@ gem 'puma'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  gem 'sqlite3'
   gem 'byebug'
 end
 
