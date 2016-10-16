@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-
+gem 'sunspot_rails'
+gem 'sunspot_solr'
 gem 'rails', '4.2.6'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -13,7 +14,6 @@ gem 'bootstrap-sass'
 gem 'slim-rails'
 gem 'devise', '~> 4.1', '>= 4.1.1'
 gem 'paperclip'
-gem 'sunspot_rails'
 gem 'progress_bar'
 gem 'jquery-ui-rails'
 gem 'will_paginate'
@@ -23,6 +23,16 @@ gem 'lightbox2-rails'
 gem 'active_link_to'
 gem 'russian'
 gem "wysiwyg-rails"
+
+group :development do
+    gem 'capistrano',         require: false
+    gem 'capistrano-rvm',     require: false
+    gem 'capistrano-rails',   require: false
+    gem 'capistrano-bundler', require: false
+    gem 'capistrano3-puma',   require: false
+end
+
+gem 'puma'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -40,7 +50,6 @@ end
 
 group :development do
   gem 'localtunnel'
-  gem 'sunspot_solr'
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 

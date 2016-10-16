@@ -8,6 +8,19 @@
 
 News.delete_all
 
+Product.delete_all
+
+image_path = "#{Rails.root}/MOCK_DATA.csv"
+
+require 'csv'    
+
+csv_text = File.read(image_path)
+csv = CSV.parse(csv_text, :headers => true)
+csv.each do |row|
+  Product.create!(row.to_hash)
+end
+
+
 10.times do |n|
      News.create(   :id => n,
                     :title => "Новость #{rand(10000...99999)}",
