@@ -7,7 +7,7 @@ div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="ca
   div class="carousel-inner" role="listbox"
     - @carousels.each do |carousel|
       .item[class="#{ carousel.id == 1 ? 'active' : ''}"]
-        = link_to image_tag(carousel.carousel_image.url(:default), :size => "1280x400"), carousel.link
+        = link_to image_tag(carousel.carousel_image.url(:default), :class => "carousel_image"), carousel.link
         .carousel-caption
           h1 = link_to carousel.name, carousel.link
 

@@ -23,8 +23,10 @@ module ApplicationHelper
       end
     else
       if (10..21).include?(Time.now.hour)
+        @shop1 = "Работает"
         return "alert-success"
       else
+        @shop1 = "Не работает"
         return "alert-danger"
       end
     end

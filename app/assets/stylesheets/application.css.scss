@@ -240,6 +240,16 @@ background: #ffb7b7; /* Firefox */
       padding-left: 0;
     }
   }
+
+  .icon-facebook-rect, 
+  .icon-vkontakte-rect, 
+  .icon-odnoklassniki-rect, 
+  .icon-instagram-filled {
+    text-decoration: none !important;
+    &:hover {
+      color: #3e3e3e !important;
+    }
+  }
 }
 
 .fr-view {

@@ -11,11 +11,12 @@
       .fr-view 
         = @news.body.html_safe
       hr
-      .btn-group.pull-right
-        .button type="button" class="btn btn-xs btn-default"
-          = link_to "Изменить", edit_news_path(@news)
-        .button type="button" class="btn btn-xs btn-danger"
-          = link_to "", @news, data: { confirm: 'Are you sure?' }, method: :delete, class: "glyphicon glyphicon-trash"
+      - if user_signed_in?
+        .btn-group.pull-right
+          .button type="button" class="btn btn-xs btn-default"
+            = link_to "Изменить", edit_news_path(@news)
+          .button type="button" class="btn btn-xs btn-danger"
+            = link_to "", @news, data: { confirm: 'Are you sure?' }, method: :delete, class: "glyphicon glyphicon-trash"
   .row
     br
     br

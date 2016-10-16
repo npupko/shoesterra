@@ -14,10 +14,11 @@
               center 
                 = link_to image_tag(news.news_image.url(:news_front), size: "500x270", class: "img-responsive"), news
               br
-              .btn-group.pull-right
-                .button type="button" class="btn btn-xs btn-default"
-                  = link_to "Изменить", edit_news_path(news)
-                .button type="button" class="btn btn-xs btn-danger"
-                  = link_to "", news, data: { confirm: 'Are you sure?' }, method: :delete, class: "glyphicon glyphicon-trash"
+              - if user_signed_in?
+                .btn-group.pull-right
+                  .button type="button" class="btn btn-xs btn-default"
+                    = link_to "Изменить", edit_news_path(news)
+                  .button type="button" class="btn btn-xs btn-danger"
+                    = link_to "", news, data: { confirm: 'Are you sure?' }, method: :delete, class: "glyphicon glyphicon-trash"
   center
     = will_paginate @news, renderer: BootstrapPagination::Rails

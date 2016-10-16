@@ -2,6 +2,21 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.carousel-inner > .item > a > img {
+  width: 100% !important;
+  height: auto;
+  opacity: 0.7;
+}
+
+.carousel-inner > .item {
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  background-color: black;
+}
+
 h2 {
   text-align: center;
 }
