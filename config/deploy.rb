@@ -1,7 +1,7 @@
 # config valid only for current version of Capistrano
 lock '3.6.1'
 
-
+set :rvm_type, :system 
 # Change these
 server '188.120.228.7', port: 22, roles: [:web, :app, :db], primary: true
 
