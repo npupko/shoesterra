@@ -60,8 +60,6 @@ GEM
     capistrano-bundler (1.2.0)
       capistrano (~> 3.1)
       sshkit (~> 1.2)
-    capistrano-dotenv-tasks (0.1.3)
-      capistrano (~> 3.0)
     capistrano-harrow (0.5.3)
     capistrano-rails (1.1.8)
       capistrano (~> 3.1)
@@ -72,6 +70,8 @@ GEM
     capistrano-secrets-yml (1.0.0)
       capistrano (>= 3.1)
       sshkit (>= 1.2.0)
+    capistrano3-env (0.1.2)
+      capistrano (~> 3.1)
     capistrano3-puma (1.2.1)
       capistrano (~> 3.0)
       puma (>= 2.6)
@@ -253,10 +253,10 @@ DEPENDENCIES
   byebug
   capistrano
   capistrano-bundler
-  capistrano-dotenv-tasks
   capistrano-rails
   capistrano-rvm
   capistrano-secrets-yml
+  capistrano3-env
   capistrano3-puma
   coffee-rails (~> 4.1.0)
   devise (~> 4.1, >= 4.1.1)

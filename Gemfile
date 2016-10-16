@@ -32,7 +32,7 @@ group :development do
     gem 'capistrano-bundler', require: false
     gem 'capistrano3-puma',   require: false
     gem 'capistrano-secrets-yml'
-    gem 'capistrano-dotenv-tasks', require: false
+    gem 'capistrano3-env'
 end
 
 gem 'puma'
