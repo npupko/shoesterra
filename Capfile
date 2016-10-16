@@ -5,6 +5,7 @@ require 'capistrano/rails'
 require 'capistrano/bundler'
 require 'capistrano/rvm'
 require 'capistrano/puma'
+require 'capistrano/secrets_yml'
 # Include tasks from other gems included in your Gemfile
 #
 # For documentation on these, see for example:
