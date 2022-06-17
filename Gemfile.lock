@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/nerian/bootstrap-wysihtml5-rails.git
-  revision: 245d7a99250cf999cc7a0bd4ca9785f74af0357b
+  remote: https://github.com/nerian/bootstrap-wysihtml5-rails.git
+  revision: 3a91af3a0a5929fde564faf8fd679dcbf4d19f1e
   specs:
     bootstrap-wysihtml5-rails (0.3.3.8)
       railties (>= 3.0)
@@ -108,7 +108,8 @@ GEM
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     highline (1.7.8)
-    i18n (0.7.0)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     jbuilder (2.6.0)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
@@ -129,7 +130,9 @@ GEM
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
-    mimemagic (0.3.2)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_portile2 (2.1.0)
     minitest (5.9.1)
     multi_json (1.12.1)
